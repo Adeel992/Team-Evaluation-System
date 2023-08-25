@@ -662,7 +662,7 @@ function team_members_public_holiday(){
                             <h5 class="modal-title" id="successModalLabel">Success!</h5>
                         </div>
                         <div class="modal-body">
-                            <p>Holidays have been Deleted successfully.</p>
+                            <p>Selected Week Holidays have been Deleted successfully.</p>
                         </div>
                     </div>
                 </div>
