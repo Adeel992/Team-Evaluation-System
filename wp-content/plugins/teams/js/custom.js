@@ -684,7 +684,7 @@ jQuery('body').on('click', '.delete-holiday', function(e) {
        setTimeout(function() {
      
             window.location.reload();
-    }, 2000);
+    }, 4000);
         },
     });
   
