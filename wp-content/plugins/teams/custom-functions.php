@@ -34,7 +34,6 @@ function team_members_enqueue_scripts() {
 add_action( 'admin_enqueue_scripts', 'team_members_enqueue_scripts' );
 add_action( 'wp_enqueue_scripts', 'team_members_enqueue_scripts' );
 
-
 /* Shortcode for displaying team members table */ 
 function team_members_display_shortcode( $atts ) {
     ob_start();
@@ -75,10 +74,11 @@ add_filter( 'template_include', 'team_members_single_template' );
 
 function ajax_link() {
     echo "<script>
-    var ajax_url = " . esc_url(admin_url('admin-ajax.php')) . ";
+    var ajax_url = '" . esc_url(admin_url('admin-ajax.php')) . "';
     </script>";
-    return;
 }
+add_action( 'init', 'ajax_link' );
+
 
 function team_members_publish_user_creation(  $post_id, $post ) {
     // Check if the post is a team member and is being published

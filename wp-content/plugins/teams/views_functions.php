@@ -674,7 +674,7 @@ function team_members_public_holiday(){
                             <h5 class="modal-title" id="successModalLabel">Something went wrong!</h5>
                         </div>
                         <div class="modal-body">
-                            <p>Try Again.</p>
+                            <p>Please Try Again.</p>
                         </div>
                     </div>
                 </div>

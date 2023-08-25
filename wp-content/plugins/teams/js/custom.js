@@ -507,7 +507,7 @@ jQuery('#team-member-name-option').change(function() {
         
 
         jQuery.ajax({
-            url: '/teams/wp-admin/admin-ajax.php', 
+            url: ajax_url, 
             type: 'POST',
             data: {
                 action: 'fetch_webhr_api_data' 
@@ -569,7 +569,7 @@ jQuery('#team-member-name-option').change(function() {
   
   
     jQuery.ajax({
-        url: '/teams/wp-admin/admin-ajax.php', 
+        url: ajax_url, 
         type: 'POST',
         data: {
             action: 'fetch_webhr_api_leaves_data' 
@@ -616,7 +616,7 @@ jQuery('#team-member-name-option').change(function() {
 jQuery('body').on('click', '.jira_logs', function(e) {
     e.preventDefault();
     jQuery.ajax({
-        url: '/teams/wp-admin/admin-ajax.php', 
+        url: ajax_url, 
         type: 'POST',
         data: {
             action: 'update_new_jira' 
@@ -672,7 +672,7 @@ jQuery('body').on('click', '.delete-holiday', function(e) {
     var holiday_week = jQuery(this).attr("data-holiday-id");
     console.log(holiday_week);
     jQuery.ajax({
-        url: '/teams/wp-admin/admin-ajax.php', 
+        url: ajax_url, 
         type: 'POST',
         data: {
             action: 'delete_holiday_callback',
