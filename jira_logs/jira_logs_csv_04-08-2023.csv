@@ -1,0 +1,724 @@
+Email,Name,Jira Account ID,Issue Code,Title,timeSpentF,time_spent_hrs,Comment,log_time,Priority,status,complexity,Project Name,Jira Account
+amir.waqas@imarat.com.pk,Rana Amir Waqas,712020:e27000ac-cd34-4935-88b6-3eb5d3ce813f,WAPP-605,Generate PDF New Design,14400,4,,08/03/2023 15:00,Medium,To Do,,WORKSAPP..,PropSure
+amir.waqas@imarat.com.pk,Rana Amir Waqas,712020:e27000ac-cd34-4935-88b6-3eb5d3ce813f,WAPP-605,Generate PDF New Design,18000,5,,08/04/2023 14:30,Medium,To Do,,WORKSAPP..,PropSure
+sammia.javed@graana.com,sammia javed,712020:9396a975-7e92-4272-a553-00de6e606cd1,WAPP-603,"Diary icons (Birthday, follow up & rental follow up)",3600,1,,08/04/2023 14:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+sammia.javed@graana.com,sammia javed,712020:9396a975-7e92-4272-a553-00de6e606cd1,WAPP-602,Design for pipeline selection in add client popup.,10800,3,,07/31/2023 14:00:00,Medium,To Do,,WORKSAPP..,PropSure
+usman.tariq@propsure.com.pk,Muhammad Usman Tariq,63469566cba49e2909717ca0,WAPP-602,Design for pipeline selection in add client popup.,3600,1,,08/02/2023 14:30,Medium,To Do,,WORKSAPP..,PropSure
+sammia.javed@graana.com,sammia javed,712020:9396a975-7e92-4272-a553-00de6e606cd1,WAPP-601,Design icon for close lost,3600,1,,08/04/2023 15:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+usman.tariq@propsure.com.pk,Muhammad Usman Tariq,63469566cba49e2909717ca0,WAPP-599,Design for converting client to any other classification,9000,2.5,,08/04/2023 16:00,Medium,To Do,,WORKSAPP..,PropSure
+usman.tariq@propsure.com.pk,Muhammad Usman Tariq,63469566cba49e2909717ca0,WAPP-598,Design for edit option in conversion of lead to client.,5400,1.5,,08/04/2023 14:30,Medium,To Do,,WORKSAPP..,PropSure
+usman.tariq@propsure.com.pk,Muhammad Usman Tariq,63469566cba49e2909717ca0,WAPP-597,"Add birthday, follow up and rental follow up to the diary.",7200,2,,08/03/2023 16:00,Medium,To Do,,WORKSAPP..,PropSure
+usman.tariq@propsure.com.pk,Muhammad Usman Tariq,63469566cba49e2909717ca0,WAPP-597,"Add birthday, follow up and rental follow up to the diary.",1800,0.5,,08/03/2023 09:30,Medium,To Do,,WORKSAPP..,PropSure
+usman.tariq@propsure.com.pk,Muhammad Usman Tariq,63469566cba49e2909717ca0,WAPP-596,Icons design,5400,1.5,,08/03/2023 14:30,Medium,To Do,,WORKSAPP..,PropSure
+usman.tariq@propsure.com.pk,Muhammad Usman Tariq,63469566cba49e2909717ca0,WAPP-595,Booking form design pages (pdf form),3600,1,,08/02/2023 17:00,Medium,To Do,,WORKSAPP..,PropSure
+usman.tariq@propsure.com.pk,Muhammad Usman Tariq,63469566cba49e2909717ca0,WAPP-595,Booking form design pages (pdf form),1800,0.5,,08/02/2023 09:30,Medium,To Do,,WORKSAPP..,PropSure
+sammia.javed@graana.com,sammia javed,712020:9396a975-7e92-4272-a553-00de6e606cd1,WAPP-595,Booking form design pages (pdf form),10800,3,,08/03/2023 14:00,Medium,To Do,,WORKSAPP..,PropSure
+sammia.javed@graana.com,sammia javed,712020:9396a975-7e92-4272-a553-00de6e606cd1,WAPP-595,Booking form design pages (pdf form),3600,1,,08/04/2023 16:00,Medium,To Do,,WORKSAPP..,PropSure
+abdul.moiz@propsure.com.pk,Abdul Moiz,6206558c1fec260068c338ab,WAPP-594,Leads Assigning to Agents/Advisors (15 Per User),10800,3,,08/01/2023 09:21,Medium,Done,,WORKSAPP..,PropSure
+abdul.manan@propsure.com.pk,Abdul Manan,61715cab2097220071ca2c38,WAPP-593,style issue on booking form,600,0.17,,08/03/2023 11:24,Medium,To Do,,WORKSAPP..,PropSure
+abdul.manan@propsure.com.pk,Abdul Manan,61715cab2097220071ca2c38,WAPP-592,"In the booking form, the color of the print button should be gray",900,0.25,,08/03/2023 11:15,Medium,To Do,,WORKSAPP..,PropSure
+abdul.manan@propsure.com.pk,Abdul Manan,61715cab2097220071ca2c38,WAPP-591,"In the booking form, the model of the first customer should open by default",1200,0.33,,08/03/2023 11:08,Medium,To Do,,WORKSAPP..,PropSure
+abdul.manan@propsure.com.pk,Abdul Manan,61715cab2097220071ca2c38,WAPP-590,"In the KFI PDF, the product code should appear below the product type",1200,0.33,,08/03/2023 11:05,Medium,To Do,,WORKSAPP..,PropSure
+abdul.manan@propsure.com.pk,Abdul Manan,61715cab2097220071ca2c38,WAPP-589,"""Properly set the alerts in the WorksApp wherever they are appearing",1200,0.33,,08/03/2023 11:04,Medium,To Do,,WORKSAPP..,PropSure
+abdul.manan@propsure.com.pk,Abdul Manan,61715cab2097220071ca2c38,WAPP-588,Tex should be remove on product info page,600,0.17,,08/03/2023 11:12,Medium,To Do,,WORKSAPP..,PropSure
+abdul.manan@propsure.com.pk,Abdul Manan,61715cab2097220071ca2c38,WAPP-587,Sale tax applicable at the time of resale should be removed in the KFI PDF,1200,0.33,,08/03/2023 11:01,Medium,To Do,,WORKSAPP..,PropSure
+abdul.manan@propsure.com.pk,Abdul Manan,61715cab2097220071ca2c38,WAPP-586,Reduce the font size to small in the KFI PDF,600,0.17,,08/03/2023 11:09,Medium,To Do,,WORKSAPP..,PropSure
+abdul.manan@propsure.com.pk,Abdul Manan,61715cab2097220071ca2c38,WAPP-585,"By default, the model of the first product type should open in the installment section, and inside the cart, there should be a 'Submit to Generate KFI' button",1200,0.33,,08/03/2023 10:59,Medium,To Do,,WORKSAPP..,PropSure
+abdul.manan@propsure.com.pk,Abdul Manan,61715cab2097220071ca2c38,WAPP-584,"In the KFI, the unit type should also include the shop number.",1200,0.33,,08/03/2023 10:51,Medium,To Do,,WORKSAPP..,PropSure
+abdul.manan@propsure.com.pk,Abdul Manan,61715cab2097220071ca2c38,WAPP-583,Calculation issue and add percentage value in the KFI,600,0.17,,08/03/2023 11:00,Medium,To Do,,WORKSAPP..,PropSure
+abdul.manan@propsure.com.pk,Abdul Manan,61715cab2097220071ca2c38,WAPP-582,"In the KFI section, the main customer demand area and investment input should be visible and remove inventory info",1200,0.33,,08/03/2023 10:48,Medium,To Do,,WORKSAPP..,PropSure
+abdul.manan@propsure.com.pk,Abdul Manan,61715cab2097220071ca2c38,WAPP-581,"In the KFI section, the alignment of the Inventory Info model should be correct, and the color should be green for the entire model",1200,0.33,,08/03/2023 10:45,Medium,To Do,,WORKSAPP..,PropSure
+abdul.manan@propsure.com.pk,Abdul Manan,61715cab2097220071ca2c38,WAPP-580,"In the KFI section, there should be a loader on the 'Submit' button",1200,0.33,,08/03/2023 10:43,Medium,To Do,,WORKSAPP..,PropSure
+fatima.sultan@propsure.com.pk,Fatima Sultan,62f49abc5111209f4fe10d2b,WAPP-579,ui Issue fixes,28800,8,,07/31/2023 09:00:00,Medium,DEVELOPMENT INPROGRESS,,WORKSAPP..,PropSure
+fatima.sultan@propsure.com.pk,Fatima Sultan,62f49abc5111209f4fe10d2b,WAPP-579,ui Issue fixes,28800,8,,08/01/2023 09:00,Medium,DEVELOPMENT INPROGRESS,,WORKSAPP..,PropSure
+fatima.sultan@propsure.com.pk,Fatima Sultan,62f49abc5111209f4fe10d2b,WAPP-579,ui Issue fixes,28800,8,,08/02/2023 09:34,Medium,DEVELOPMENT INPROGRESS,,WORKSAPP..,PropSure
+muhammad.abdullah@graana.com,Muhammad Abdullah,625d324dab7a1800708a3420,WAPP-579,ui Issue fixes,18000,5,,08/01/2023 14:00,Medium,DEVELOPMENT INPROGRESS,,WORKSAPP..,PropSure
+muhammad.abdullah@graana.com,Muhammad Abdullah,625d324dab7a1800708a3420,WAPP-579,ui Issue fixes,19800,5.5,,08/03/2023 14:00,Medium,DEVELOPMENT INPROGRESS,,WORKSAPP..,PropSure
+fatima.sultan@propsure.com.pk,Fatima Sultan,62f49abc5111209f4fe10d2b,WAPP-579,ui Issue fixes,28800,8,,08/04/2023 09:30,Medium,DEVELOPMENT INPROGRESS,,WORKSAPP..,PropSure
+usman.tariq@propsure.com.pk,Muhammad Usman Tariq,63469566cba49e2909717ca0,WAPP-576,A document check list should ensure all required documents have been uploaded,10800,3,,08/01/2023 15:30,Medium,To Do,,WORKSAPP..,PropSure
+usman.tariq@propsure.com.pk,Muhammad Usman Tariq,63469566cba49e2909717ca0,WAPP-576,A document check list should ensure all required documents have been uploaded,1800,0.5,,08/01/2023 18:30,Medium,To Do,,WORKSAPP..,PropSure
+usman.tariq@propsure.com.pk,Muhammad Usman Tariq,63469566cba49e2909717ca0,WAPP-576,A document check list should ensure all required documents have been uploaded,1800,0.5,,08/03/2023 09:30,Medium,To Do,,WORKSAPP..,PropSure
+usman.tariq@propsure.com.pk,Muhammad Usman Tariq,63469566cba49e2909717ca0,WAPP-575,"Scroll bar width is too small, make it appropriate",3600,1,,08/01/2023 14:30,Medium,To Do,,WORKSAPP..,PropSure
+usman.tariq@propsure.com.pk,Muhammad Usman Tariq,63469566cba49e2909717ca0,WAPP-573,The booking form edit option will be removed. The advisor can edit the booking form in the same place and it should be saved and the save button should be displayed at the bottom of the page.,10800,3,,07/31/2023 14:30:00,Medium,To Do,,WORKSAPP..,PropSure
+usman.tariq@propsure.com.pk,Muhammad Usman Tariq,63469566cba49e2909717ca0,WAPP-566,Filters for KFI Installment,5400,1.5,,08/02/2023 15:30,Medium,To Do,,WORKSAPP..,PropSure
+amir.waqas@imarat.com.pk,Rana Amir Waqas,712020:e27000ac-cd34-4935-88b6-3eb5d3ce813f,WAPP-565,Booking Form Client Selection Details Editable and Printable,14400,4,,07/31/2023 14:30:00,Medium,DEVELOPMENT INPROGRESS,,WORKSAPP..,PropSure
+arslan.haroon@propsure.com.pk,Arslan Haroon,6346913848be855a65eccf9f,WAPP-556,KFI New Design Implementaion,7200,2,,08/03/2023 15:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+arslan.haroon@propsure.com.pk,Arslan Haroon,6346913848be855a65eccf9f,WAPP-556,KFI New Design Implementaion,7200,2,,08/02/2023 15:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+arslan.haroon@propsure.com.pk,Arslan Haroon,6346913848be855a65eccf9f,WAPP-556,KFI New Design Implementaion,7200,2,,08/01/2023 15:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+hassan.saeed@graana.com,Hassan Saeed,712020:dd246294-7f05-4eef-b25d-9bc830b9eb87,WAPP-556,KFI New Design Implementaion,10800,3,,07/31/2023 02:30:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+hassan.saeed@graana.com,Hassan Saeed,712020:dd246294-7f05-4eef-b25d-9bc830b9eb87,WAPP-556,KFI New Design Implementaion,10800,3,,08/01/2023 14:30,Medium,Daily Activites,,WORKSAPP..,PropSure
+hassan.saeed@graana.com,Hassan Saeed,712020:dd246294-7f05-4eef-b25d-9bc830b9eb87,WAPP-556,KFI New Design Implementaion,10800,3,,08/02/2023 14:30,Medium,Daily Activites,,WORKSAPP..,PropSure
+hassan.saeed@graana.com,Hassan Saeed,712020:dd246294-7f05-4eef-b25d-9bc830b9eb87,WAPP-556,KFI New Design Implementaion,10800,3,,08/03/2023 14:30,Medium,Daily Activites,,WORKSAPP..,PropSure
+hassan.saeed@graana.com,Hassan Saeed,712020:dd246294-7f05-4eef-b25d-9bc830b9eb87,WAPP-556,KFI New Design Implementaion,3600,1,,07/31/2023 18:00:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+hassan.saeed@graana.com,Hassan Saeed,712020:dd246294-7f05-4eef-b25d-9bc830b9eb87,WAPP-556,KFI New Design Implementaion,3600,1,,08/01/2023 18:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+hassan.saeed@graana.com,Hassan Saeed,712020:dd246294-7f05-4eef-b25d-9bc830b9eb87,WAPP-556,KFI New Design Implementaion,3600,1,,08/02/2023 18:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+hassan.saeed@graana.com,Hassan Saeed,712020:dd246294-7f05-4eef-b25d-9bc830b9eb87,WAPP-556,KFI New Design Implementaion,3600,1,,08/03/2023 18:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+shams.rehman@graana.com,Shams,712020:9903b319-6c50-4b68-b7ed-d8dbce020744,WAPP-554,Leads data optimization,14400,4,,08/03/2023 14:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+muhammad.abdullah@graana.com,Muhammad Abdullah,625d324dab7a1800708a3420,WAPP-546,kfi design changes,18420,5.12,,07/31/2023 14:00:27,Medium,QA REVIEW,,WORKSAPP..,PropSure
+fatima.sultan@propsure.com.pk,Fatima Sultan,62f49abc5111209f4fe10d2b,WAPP-546,kfi design changes,28800,8,,08/03/2023 09:30,Medium,QA REVIEW,,WORKSAPP..,PropSure
+muhammad.abdullah@graana.com,Muhammad Abdullah,625d324dab7a1800708a3420,WAPP-545,ui issues fixing,18000,5,,08/02/2023 14:00,Medium,DEVELOPMENT INPROGRESS,,WORKSAPP..,PropSure
+abdul.manan@propsure.com.pk,Abdul Manan,61715cab2097220071ca2c38,WAPP-541,Developing Test Scripts For WorksApp(Automate),10800,3,,08/03/2023 14:54,Medium,Daily Activites,,WORKSAPP..,PropSure
+abdul.manan@propsure.com.pk,Abdul Manan,61715cab2097220071ca2c38,WAPP-541,Developing Test Scripts For WorksApp(Automate),14400,4,,08/04/2023 13:52,Medium,Daily Activites,,WORKSAPP..,PropSure
+shams.rehman@graana.com,Shams,712020:9903b319-6c50-4b68-b7ed-d8dbce020744,WAPP-540,WorksApp Training for Sales department,18000,5,,08/02/2023 11:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+shams.rehman@graana.com,Shams,712020:9903b319-6c50-4b68-b7ed-d8dbce020744,WAPP-540,WorksApp Training for Sales department,14400,4,,08/04/2023 13:58,Medium,Daily Activites,,WORKSAPP..,PropSure
+usman.tariq@propsure.com.pk,Muhammad Usman Tariq,63469566cba49e2909717ca0,WAPP-508,Mandatory fields should be red in booking form,1800,0.5,,07/31/2023 18:00:00,Medium,To Do,,WORKSAPP..,PropSure
+usman.tariq@propsure.com.pk,Muhammad Usman Tariq,63469566cba49e2909717ca0,WAPP-507,The booking form edit option will be removed,1800,0.5,,07/31/2023 17:30:00,Medium,To Do,,WORKSAPP..,PropSure
+arslan.haroon@propsure.com.pk,Arslan Haroon,6346913848be855a65eccf9f,WAPP-169,Code Review,3600,1,,08/03/2023 17:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+arslan.haroon@propsure.com.pk,Arslan Haroon,6346913848be855a65eccf9f,WAPP-169,Code Review,3600,1,,08/02/2023 05:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+arslan.haroon@propsure.com.pk,Arslan Haroon,6346913848be855a65eccf9f,WAPP-169,Code Review,3600,1,,08/01/2023 17:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+arslan.haroon@propsure.com.pk,Arslan Haroon,6346913848be855a65eccf9f,WAPP-169,Code Review,3600,1,,07/31/2023 17:00:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+amir.waqas@imarat.com.pk,Rana Amir Waqas,712020:e27000ac-cd34-4935-88b6-3eb5d3ce813f,WAPP-140,Scrum session,1800,0.5,,07/31/2023 17:30:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+usman.tariq@propsure.com.pk,Muhammad Usman Tariq,63469566cba49e2909717ca0,WAPP-140,Scrum session,1800,0.5,,07/31/2023 18:30:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+usman.tariq@propsure.com.pk,Muhammad Usman Tariq,63469566cba49e2909717ca0,WAPP-140,Scrum session,1800,0.5,,08/01/2023 19:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+amir.waqas@imarat.com.pk,Rana Amir Waqas,712020:e27000ac-cd34-4935-88b6-3eb5d3ce813f,WAPP-140,Scrum session,1800,0.5,,08/01/2023 17:30,Medium,Daily Activites,,WORKSAPP..,PropSure
+amir.waqas@imarat.com.pk,Rana Amir Waqas,712020:e27000ac-cd34-4935-88b6-3eb5d3ce813f,WAPP-140,Scrum session,1800,0.5,,08/02/2023 17:30,Medium,Daily Activites,,WORKSAPP..,PropSure
+sammia.javed@graana.com,sammia javed,712020:9396a975-7e92-4272-a553-00de6e606cd1,WAPP-140,Scrum session,3600,1,,07/31/2023 17:00:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+sammia.javed@graana.com,sammia javed,712020:9396a975-7e92-4272-a553-00de6e606cd1,WAPP-140,Scrum session,3600,1,,08/02/2023 17:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+arslan.haroon@propsure.com.pk,Arslan Haroon,6346913848be855a65eccf9f,WAPP-140,Scrum session,3600,1,,08/03/2023 18:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+arslan.haroon@propsure.com.pk,Arslan Haroon,6346913848be855a65eccf9f,WAPP-140,Scrum session,3600,1,,08/02/2023 18:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+arslan.haroon@propsure.com.pk,Arslan Haroon,6346913848be855a65eccf9f,WAPP-140,Scrum session,3600,1,,07/31/2023 18:00:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+shams.rehman@graana.com,Shams,712020:9903b319-6c50-4b68-b7ed-d8dbce020744,WAPP-140,Scrum session,3600,1,,08/03/2023 12:30,Medium,Daily Activites,,WORKSAPP..,PropSure
+usman.tariq@propsure.com.pk,Muhammad Usman Tariq,63469566cba49e2909717ca0,WAPP-140,Scrum session,1800,0.5,,08/02/2023 18:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+usman.tariq@propsure.com.pk,Muhammad Usman Tariq,63469566cba49e2909717ca0,WAPP-140,Scrum session,1800,0.5,,08/03/2023 18:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+hassan.saeed@graana.com,Hassan Saeed,712020:dd246294-7f05-4eef-b25d-9bc830b9eb87,WAPP-140,Scrum session,1800,0.5,,07/31/2023 17:30:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+hassan.saeed@graana.com,Hassan Saeed,712020:dd246294-7f05-4eef-b25d-9bc830b9eb87,WAPP-140,Scrum session,1800,0.5,,08/01/2023 17:30,Medium,Daily Activites,,WORKSAPP..,PropSure
+hassan.saeed@graana.com,Hassan Saeed,712020:dd246294-7f05-4eef-b25d-9bc830b9eb87,WAPP-140,Scrum session,1800,0.5,,08/02/2023 17:30,Medium,Daily Activites,,WORKSAPP..,PropSure
+hassan.saeed@graana.com,Hassan Saeed,712020:dd246294-7f05-4eef-b25d-9bc830b9eb87,WAPP-140,Scrum session,1800,0.5,,08/03/2023 17:30,Medium,Daily Activites,,WORKSAPP..,PropSure
+amir.waqas@imarat.com.pk,Rana Amir Waqas,712020:e27000ac-cd34-4935-88b6-3eb5d3ce813f,WAPP-140,Scrum session,1800,0.5,,08/03/2023 17:30,Medium,Daily Activites,,WORKSAPP..,PropSure
+sammia.javed@graana.com,sammia javed,712020:9396a975-7e92-4272-a553-00de6e606cd1,WAPP-140,Scrum session,3600,1,,08/03/2023 17:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+sammia.javed@graana.com,sammia javed,712020:9396a975-7e92-4272-a553-00de6e606cd1,WAPP-140,Scrum session,3600,1,,08/04/2023 17:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+usman.tariq@propsure.com.pk,Muhammad Usman Tariq,63469566cba49e2909717ca0,WAPP-140,Scrum session,1800,0.5,,08/04/2023 18:30,Medium,Daily Activites,,WORKSAPP..,PropSure
+muhammad.abdullah@graana.com,Muhammad Abdullah,625d324dab7a1800708a3420,WAPP-139,Brainstorming session,9000,2.5,,07/31/2023 11:00:00,Medium,Daily Activites,3 - Medium complexity,WORKSAPP..,PropSure
+muhammad.abdullah@graana.com,Muhammad Abdullah,625d324dab7a1800708a3420,WAPP-139,Brainstorming session,9000,2.5,,07/31/2023 11:00:00,Medium,Daily Activites,3 - Medium complexity,WORKSAPP..,PropSure
+amir.waqas@imarat.com.pk,Rana Amir Waqas,712020:e27000ac-cd34-4935-88b6-3eb5d3ce813f,WAPP-139,Brainstorming session,9000,2.5,,07/31/2023 11:00:00,Medium,Daily Activites,3 - Medium complexity,WORKSAPP..,PropSure
+usman.tariq@propsure.com.pk,Muhammad Usman Tariq,63469566cba49e2909717ca0,WAPP-139,Brainstorming session,9000,2.5,,07/31/2023 11:00:00,Medium,Daily Activites,3 - Medium complexity,WORKSAPP..,PropSure
+usman.tariq@propsure.com.pk,Muhammad Usman Tariq,63469566cba49e2909717ca0,WAPP-139,Brainstorming session,9000,2.5,,08/01/2023 11:00,Medium,Daily Activites,3 - Medium complexity,WORKSAPP..,PropSure
+shams.rehman@graana.com,Shams,712020:9903b319-6c50-4b68-b7ed-d8dbce020744,WAPP-139,Brainstorming session,7200,2,,08/02/2023 16:00,Medium,Daily Activites,3 - Medium complexity,WORKSAPP..,PropSure
+muhammad.abdullah@graana.com,Muhammad Abdullah,625d324dab7a1800708a3420,WAPP-139,Brainstorming session,9000,2.5,,08/01/2023 11:00,Medium,Daily Activites,3 - Medium complexity,WORKSAPP..,PropSure
+muhammad.abdullah@graana.com,Muhammad Abdullah,625d324dab7a1800708a3420,WAPP-139,Brainstorming session,9000,2.5,,08/02/2023 11:00,Medium,Daily Activites,3 - Medium complexity,WORKSAPP..,PropSure
+amir.waqas@imarat.com.pk,Rana Amir Waqas,712020:e27000ac-cd34-4935-88b6-3eb5d3ce813f,WAPP-139,Brainstorming session,9000,2.5,,08/01/2023 11:00,Medium,Daily Activites,3 - Medium complexity,WORKSAPP..,PropSure
+amir.waqas@imarat.com.pk,Rana Amir Waqas,712020:e27000ac-cd34-4935-88b6-3eb5d3ce813f,WAPP-139,Brainstorming session,9000,2.5,,08/02/2023 11:00,Medium,Daily Activites,3 - Medium complexity,WORKSAPP..,PropSure
+sammia.javed@graana.com,sammia javed,712020:9396a975-7e92-4272-a553-00de6e606cd1,WAPP-139,Brainstorming session,7200,2,,07/31/2023 11:00:00,Medium,Daily Activites,3 - Medium complexity,WORKSAPP..,PropSure
+sammia.javed@graana.com,sammia javed,712020:9396a975-7e92-4272-a553-00de6e606cd1,WAPP-139,Brainstorming session,7200,2,,08/02/2023 11:00,Medium,Daily Activites,3 - Medium complexity,WORKSAPP..,PropSure
+sammia.javed@graana.com,sammia javed,712020:9396a975-7e92-4272-a553-00de6e606cd1,WAPP-139,Brainstorming session,7200,2,,08/03/2023 11:00,Medium,Daily Activites,3 - Medium complexity,WORKSAPP..,PropSure
+arslan.haroon@propsure.com.pk,Arslan Haroon,6346913848be855a65eccf9f,WAPP-139,Brainstorming session,14400,4,,08/02/2023 10:00,Medium,Daily Activites,3 - Medium complexity,WORKSAPP..,PropSure
+arslan.haroon@propsure.com.pk,Arslan Haroon,6346913848be855a65eccf9f,WAPP-139,Brainstorming session,14400,4,,08/01/2023 10:00,Medium,Daily Activites,3 - Medium complexity,WORKSAPP..,PropSure
+arslan.haroon@propsure.com.pk,Arslan Haroon,6346913848be855a65eccf9f,WAPP-139,Brainstorming session,14400,4,,07/31/2023 10:00:00,Medium,Daily Activites,3 - Medium complexity,WORKSAPP..,PropSure
+shams.rehman@graana.com,Shams,712020:9903b319-6c50-4b68-b7ed-d8dbce020744,WAPP-139,Brainstorming session,3600,1,,08/03/2023 11:30,Medium,Daily Activites,3 - Medium complexity,WORKSAPP..,PropSure
+usman.tariq@propsure.com.pk,Muhammad Usman Tariq,63469566cba49e2909717ca0,WAPP-139,Brainstorming session,9000,2.5,,08/02/2023 11:00,Medium,Daily Activites,3 - Medium complexity,WORKSAPP..,PropSure
+usman.tariq@propsure.com.pk,Muhammad Usman Tariq,63469566cba49e2909717ca0,WAPP-139,Brainstorming session,9000,2.5,,08/03/2023 11:00,Medium,Daily Activites,3 - Medium complexity,WORKSAPP..,PropSure
+muhammad.abdullah@graana.com,Muhammad Abdullah,625d324dab7a1800708a3420,WAPP-139,Brainstorming session,9000,2.5,,08/03/2023 11:00,Medium,Daily Activites,3 - Medium complexity,WORKSAPP..,PropSure
+muhammad.abdullah@graana.com,Muhammad Abdullah,625d324dab7a1800708a3420,WAPP-139,Brainstorming session,9000,2.5,,08/03/2023 11:00,Medium,Daily Activites,3 - Medium complexity,WORKSAPP..,PropSure
+hassan.saeed@graana.com,Hassan Saeed,712020:dd246294-7f05-4eef-b25d-9bc830b9eb87,WAPP-139,Brainstorming session,9000,2.5,,07/31/2023 11:00:00,Medium,Daily Activites,3 - Medium complexity,WORKSAPP..,PropSure
+hassan.saeed@graana.com,Hassan Saeed,712020:dd246294-7f05-4eef-b25d-9bc830b9eb87,WAPP-139,Brainstorming session,9000,2.5,,08/01/2023 11:00,Medium,Daily Activites,3 - Medium complexity,WORKSAPP..,PropSure
+hassan.saeed@graana.com,Hassan Saeed,712020:dd246294-7f05-4eef-b25d-9bc830b9eb87,WAPP-139,Brainstorming session,9000,2.5,,08/02/2023 11:00,Medium,Daily Activites,3 - Medium complexity,WORKSAPP..,PropSure
+hassan.saeed@graana.com,Hassan Saeed,712020:dd246294-7f05-4eef-b25d-9bc830b9eb87,WAPP-139,Brainstorming session,9000,2.5,,08/03/2023 11:00,Medium,Daily Activites,3 - Medium complexity,WORKSAPP..,PropSure
+amir.waqas@imarat.com.pk,Rana Amir Waqas,712020:e27000ac-cd34-4935-88b6-3eb5d3ce813f,WAPP-139,Brainstorming session,9000,2.5,,08/03/2023 11:00,Medium,Daily Activites,3 - Medium complexity,WORKSAPP..,PropSure
+sammia.javed@graana.com,sammia javed,712020:9396a975-7e92-4272-a553-00de6e606cd1,WAPP-139,Brainstorming session,7200,2,,08/04/2023 11:00,Medium,Daily Activites,3 - Medium complexity,WORKSAPP..,PropSure
+shams.rehman@graana.com,Shams,712020:9903b319-6c50-4b68-b7ed-d8dbce020744,WAPP-139,Brainstorming session,3600,1,,08/04/2023 10:30,Medium,Daily Activites,3 - Medium complexity,WORKSAPP..,PropSure
+shams.rehman@graana.com,Shams,712020:9903b319-6c50-4b68-b7ed-d8dbce020744,WAPP-139,Brainstorming session,10800,3,,08/04/2023 02:30,Medium,Daily Activites,3 - Medium complexity,WORKSAPP..,PropSure
+usman.tariq@propsure.com.pk,Muhammad Usman Tariq,63469566cba49e2909717ca0,WAPP-139,Brainstorming session,9000,2.5,,08/04/2023 11:00,Medium,Daily Activites,3 - Medium complexity,WORKSAPP..,PropSure
+muhammad.abdullah@graana.com,Muhammad Abdullah,625d324dab7a1800708a3420,WAPP-138,Morning meeting,3600,1,,07/31/2023 10:00:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+amir.waqas@imarat.com.pk,Rana Amir Waqas,712020:e27000ac-cd34-4935-88b6-3eb5d3ce813f,WAPP-138,Morning meeting,3600,1,,07/31/2023 10:00:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+usman.tariq@propsure.com.pk,Muhammad Usman Tariq,63469566cba49e2909717ca0,WAPP-138,Morning meeting,3600,1,,07/31/2023 10:00:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+usman.tariq@propsure.com.pk,Muhammad Usman Tariq,63469566cba49e2909717ca0,WAPP-138,Morning meeting,3600,1,,08/01/2023 10:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+shams.rehman@graana.com,Shams,712020:9903b319-6c50-4b68-b7ed-d8dbce020744,WAPP-138,Morning meeting,7200,2,,08/02/2023 09:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+muhammad.abdullah@graana.com,Muhammad Abdullah,625d324dab7a1800708a3420,WAPP-138,Morning meeting,3600,1,,08/01/2023 10:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+muhammad.abdullah@graana.com,Muhammad Abdullah,625d324dab7a1800708a3420,WAPP-138,Morning meeting,3600,1,,08/02/2023 10:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+amir.waqas@imarat.com.pk,Rana Amir Waqas,712020:e27000ac-cd34-4935-88b6-3eb5d3ce813f,WAPP-138,Morning meeting,3600,1,,08/02/2023 10:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+amir.waqas@imarat.com.pk,Rana Amir Waqas,712020:e27000ac-cd34-4935-88b6-3eb5d3ce813f,WAPP-138,Morning meeting,3600,1,,08/01/2023 10:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+saqib.zarish@propsure.com.pk,Syed Saqib Zarish,62fcc8a543e43992b9a2abad,WAPP-138,Morning meeting,3600,1,,07/31/2023 10:00:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+sammia.javed@graana.com,sammia javed,712020:9396a975-7e92-4272-a553-00de6e606cd1,WAPP-138,Morning meeting,3600,1,,07/31/2023 10:00:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+sammia.javed@graana.com,sammia javed,712020:9396a975-7e92-4272-a553-00de6e606cd1,WAPP-138,Morning meeting,3600,1,,08/02/2023 10:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+sammia.javed@graana.com,sammia javed,712020:9396a975-7e92-4272-a553-00de6e606cd1,WAPP-138,Morning meeting,3600,1,,08/03/2023 10:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+arslan.haroon@propsure.com.pk,Arslan Haroon,6346913848be855a65eccf9f,WAPP-138,Morning meeting,3600,1,,08/03/2023 09:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+arslan.haroon@propsure.com.pk,Arslan Haroon,6346913848be855a65eccf9f,WAPP-138,Morning meeting,3600,1,,08/02/2023 09:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+arslan.haroon@propsure.com.pk,Arslan Haroon,6346913848be855a65eccf9f,WAPP-138,Morning meeting,3600,1,,08/01/2023 09:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+arslan.haroon@propsure.com.pk,Arslan Haroon,6346913848be855a65eccf9f,WAPP-138,Morning meeting,3600,1,,07/31/2023 14:54:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+shams.rehman@graana.com,Shams,712020:9903b319-6c50-4b68-b7ed-d8dbce020744,WAPP-138,Morning meeting,7200,2,,08/03/2023 09:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+usman.tariq@propsure.com.pk,Muhammad Usman Tariq,63469566cba49e2909717ca0,WAPP-138,Morning meeting,3600,1,,08/02/2023 10:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+usman.tariq@propsure.com.pk,Muhammad Usman Tariq,63469566cba49e2909717ca0,WAPP-138,Morning meeting,3600,1,,08/03/2023 10:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+muhammad.abdullah@graana.com,Muhammad Abdullah,625d324dab7a1800708a3420,WAPP-138,Morning meeting,3600,1,,08/03/2023 10:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+hassan.saeed@graana.com,Hassan Saeed,712020:dd246294-7f05-4eef-b25d-9bc830b9eb87,WAPP-138,Morning meeting,3600,1,,07/31/2023 10:00:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+hassan.saeed@graana.com,Hassan Saeed,712020:dd246294-7f05-4eef-b25d-9bc830b9eb87,WAPP-138,Morning meeting,3600,1,,08/01/2023 10:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+hassan.saeed@graana.com,Hassan Saeed,712020:dd246294-7f05-4eef-b25d-9bc830b9eb87,WAPP-138,Morning meeting,3600,1,,08/02/2023 10:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+hassan.saeed@graana.com,Hassan Saeed,712020:dd246294-7f05-4eef-b25d-9bc830b9eb87,WAPP-138,Morning meeting,3600,1,,08/03/2023 10:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+amir.waqas@imarat.com.pk,Rana Amir Waqas,712020:e27000ac-cd34-4935-88b6-3eb5d3ce813f,WAPP-138,Morning meeting,3600,1,,08/03/2023 10:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+amir.waqas@imarat.com.pk,Rana Amir Waqas,712020:e27000ac-cd34-4935-88b6-3eb5d3ce813f,WAPP-138,Morning meeting,3600,1,,08/04/2023 10:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+sammia.javed@graana.com,sammia javed,712020:9396a975-7e92-4272-a553-00de6e606cd1,WAPP-138,Morning meeting,3600,1,,08/04/2023 10:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+shams.rehman@graana.com,Shams,712020:9903b319-6c50-4b68-b7ed-d8dbce020744,WAPP-138,Morning meeting,3600,1,,08/04/2023 09:30,Medium,Daily Activites,,WORKSAPP..,PropSure
+usman.tariq@propsure.com.pk,Muhammad Usman Tariq,63469566cba49e2909717ca0,WAPP-138,Morning meeting,3600,1,,08/04/2023 09:00,Medium,Daily Activites,,WORKSAPP..,PropSure
+faheem.raza@propsure.com.pk,Faheem Raza,712020:16c51723-5d51-4168-803f-cca627d8f57a,PBD-7,Dissolve vector layers of classes by using Arc GIS pro and merge then,14400,4,,07/31/2023 14:30:00,Medium,In Progress,,PropSure Basemap Dev,PropSure
+faheem.raza@propsure.com.pk,Faheem Raza,712020:16c51723-5d51-4168-803f-cca627d8f57a,PBD-7,Dissolve vector layers of classes by using Arc GIS pro and merge then,14400,4,,08/01/2023 09:30,Medium,In Progress,,PropSure Basemap Dev,PropSure
+muhammad.uzair@propsure.com.pk,Uzair Khan,64215c564b23217e558def0d,IMARAT-879,Kfi popup template,28800,8,,08/03/2023 10:34,Medium,In Progress,,CAPSTONE SYSTEM 2.0,PropSure
+muhammad.uzair@propsure.com.pk,Uzair Khan,64215c564b23217e558def0d,IMARAT-878,Kfi Updates,28800,8,,08/01/2023 10:33,Medium,In Progress,,CAPSTONE SYSTEM 2.0,PropSure
+muhammad.uzair@propsure.com.pk,Uzair Khan,64215c564b23217e558def0d,IMARAT-877,Apply filters to Inventories,28800,8,,07/31/2023 10:33:00,Medium,In Progress,,CAPSTONE SYSTEM 2.0,PropSure
+abdul.moiz@propsure.com.pk,Abdul Moiz,6206558c1fec260068c338ab,IMARAT-875,QA for Booking Financial reflect in WORKSAPP (Error),14400,4,,08/02/2023 09:00,Medium,Done,,CAPSTONE SYSTEM 2.0,PropSure
+abdul.moiz@propsure.com.pk,Abdul Moiz,6206558c1fec260068c338ab,IMARAT-873,KFI Document Download & Details Check (QA),3600,1,,08/03/2023 16:30,Medium,Done,,CAPSTONE SYSTEM 2.0,PropSure
+abdul.moiz@propsure.com.pk,Abdul Moiz,6206558c1fec260068c338ab,IMARAT-872,Booking Detail Customer Info (CI) Section,7200,2,,08/03/2023 14:00,Medium,In Progress,5 - Highest complexity,CAPSTONE SYSTEM 2.0,PropSure
+abdul.moiz@propsure.com.pk,Abdul Moiz,6206558c1fec260068c338ab,IMARAT-871,Capstone Complete Overflow (production Testing),14400,4,,08/03/2023 09:00,Medium,To Do,,CAPSTONE SYSTEM 2.0,PropSure
+saqib.zarish@propsure.com.pk,Syed Saqib Zarish,62fcc8a543e43992b9a2abad,IMARAT-870,Date Validation in Transactions,14400,4,,08/03/2023 09:00,Medium,Done,,CAPSTONE SYSTEM 2.0,PropSure
+saqib.zarish@propsure.com.pk,Syed Saqib Zarish,62fcc8a543e43992b9a2abad,IMARAT-869,Add Account Number ,7200,2,,08/03/2023 14:00,Medium,Done,,CAPSTONE SYSTEM 2.0,PropSure
+saqib.zarish@propsure.com.pk,Syed Saqib Zarish,62fcc8a543e43992b9a2abad,IMARAT-868,Team meeting ,3600,1,,07/31/2023 11:00:00,Medium,In Progress,,CAPSTONE SYSTEM 2.0,PropSure
+saqib.zarish@propsure.com.pk,Syed Saqib Zarish,62fcc8a543e43992b9a2abad,IMARAT-868,Team meeting ,3600,1,,08/01/2023 10:00,Medium,In Progress,,CAPSTONE SYSTEM 2.0,PropSure
+saqib.zarish@propsure.com.pk,Syed Saqib Zarish,62fcc8a543e43992b9a2abad,IMARAT-868,Team meeting ,5400,1.5,,08/02/2023 11:30,Medium,In Progress,,CAPSTONE SYSTEM 2.0,PropSure
+saqib.zarish@propsure.com.pk,Syed Saqib Zarish,62fcc8a543e43992b9a2abad,IMARAT-867,Inventory Filters ,7200,2,,07/31/2023 11:00:00,Medium,Done,,CAPSTONE SYSTEM 2.0,PropSure
+saqib.zarish@propsure.com.pk,Syed Saqib Zarish,62fcc8a543e43992b9a2abad,IMARAT-866,updateClientBooking API,7200,2,,07/31/2023 14:00:00,Medium,In Progress,,CAPSTONE SYSTEM 2.0,PropSure
+saqib.zarish@propsure.com.pk,Syed Saqib Zarish,62fcc8a543e43992b9a2abad,IMARAT-865,storeAgent API,7200,2,,08/01/2023 11:00,Medium,In Progress,,CAPSTONE SYSTEM 2.0,PropSure
+saqib.zarish@propsure.com.pk,Syed Saqib Zarish,62fcc8a543e43992b9a2abad,IMARAT-864,agentVerification API ,7200,2,,08/01/2023 13:00,Medium,In Progress,,CAPSTONE SYSTEM 2.0,PropSure
+hassan.abbasi@propsure.com.pk,Hassan Fayyaz Abbasi,617a4bc33e3753006f222149,IMARAT-863,fixing clearance date issue in capstone,3600,1,,08/01/2023 17:13,Medium,To Do,,CAPSTONE SYSTEM 2.0,PropSure
+hassan.abbasi@propsure.com.pk,Hassan Fayyaz Abbasi,617a4bc33e3753006f222149,IMARAT-862,fixing clearance date issue in capstone,7200,2,,08/02/2023 16:10,Medium,Done,,CAPSTONE SYSTEM 2.0,PropSure
+hassan.abbasi@propsure.com.pk,Hassan Fayyaz Abbasi,617a4bc33e3753006f222149,IMARAT-860,hosting api on live environment,21600,6,,08/02/2023 12:09,Medium,Done,,CAPSTONE SYSTEM 2.0,PropSure
+hassan.abbasi@propsure.com.pk,Hassan Fayyaz Abbasi,617a4bc33e3753006f222149,IMARAT-859,"integrating WhatsApp api’s (send message, send template, receive message, send file and send picture)",28800,8,,08/01/2023 10:12,Medium,Done,,CAPSTONE SYSTEM 2.0,PropSure
+hassan.abbasi@propsure.com.pk,Hassan Fayyaz Abbasi,617a4bc33e3753006f222149,IMARAT-859,"integrating WhatsApp api’s (send message, send template, receive message, send file and send picture)",10800,3,,07/31/2023 15:13:00,Medium,Done,,CAPSTONE SYSTEM 2.0,PropSure
+hassan.abbasi@propsure.com.pk,Hassan Fayyaz Abbasi,617a4bc33e3753006f222149,IMARAT-858,testing api’s in postman,7200,2,,07/31/2023 16:12:00,Medium,Done,,CAPSTONE SYSTEM 2.0,PropSure
+hassan.abbasi@propsure.com.pk,Hassan Fayyaz Abbasi,617a4bc33e3753006f222149,IMARAT-857,testing api’s on cloud environment,7200,2,,08/01/2023 16:12,Medium,Done,,CAPSTONE SYSTEM 2.0,PropSure
+hassan.abbasi@propsure.com.pk,Hassan Fayyaz Abbasi,617a4bc33e3753006f222149,IMARAT-856,setting cloud WhatsApp for testing,7200,2,,07/31/2023 16:11:00,Medium,Done,,CAPSTONE SYSTEM 2.0,PropSure
+hassan.abbasi@propsure.com.pk,Hassan Fayyaz Abbasi,617a4bc33e3753006f222149,IMARAT-856,setting cloud WhatsApp for testing,7200,2,,07/31/2023 16:12:00,Medium,Done,,CAPSTONE SYSTEM 2.0,PropSure
+hassan.abbasi@propsure.com.pk,Hassan Fayyaz Abbasi,617a4bc33e3753006f222149,IMARAT-854,Setting WhatsApp account on whats app business for imarat ,10800,3,,08/03/2023 15:09,Medium,Done,,CAPSTONE SYSTEM 2.0,PropSure
+talha.ali@propsure.com.pk,Talha Ali,61723efd2097220071d5108a,IMARAT-845,Worksapp new api for filters in inventory while booking the unit,7200,2,,08/02/2023 10:17,Medium,Done,,CAPSTONE SYSTEM 2.0,PropSure
+talha.ali@propsure.com.pk,Talha Ali,61723efd2097220071d5108a,IMARAT-844,Worksapp apis,3600,1,,08/02/2023 11:17,Medium,Done,,CAPSTONE SYSTEM 2.0,PropSure
+talha.ali@propsure.com.pk,Talha Ali,61723efd2097220071d5108a,IMARAT-843,Show log who have rejected the transaction in capstone,7200,2,,08/02/2023 10:17,Medium,Done,,CAPSTONE SYSTEM 2.0,PropSure
+talha.ali@propsure.com.pk,Talha Ali,61723efd2097220071d5108a,IMARAT-842,Status Log for rejected transaction,7200,2,,08/02/2023 10:16,Medium,Done,,CAPSTONE SYSTEM 2.0,PropSure
+talha.ali@propsure.com.pk,Talha Ali,61723efd2097220071d5108a,IMARAT-841,Worksapp release meeting,3600,1,,08/01/2023 11:15,Medium,Done,,CAPSTONE SYSTEM 2.0,PropSure
+talha.ali@propsure.com.pk,Talha Ali,61723efd2097220071d5108a,IMARAT-840,Workapp new requirements meeting,7200,2,,07/31/2023 10:14:00,Medium,Done,,CAPSTONE SYSTEM 2.0,PropSure
+talha.ali@propsure.com.pk,Talha Ali,61723efd2097220071d5108a,IMARAT-839,Meeting with Shams bhai,3600,1,,07/31/2023 11:14:00,Medium,Done,,CAPSTONE SYSTEM 2.0,PropSure
+talha.ali@propsure.com.pk,Talha Ali,61723efd2097220071d5108a,IMARAT-837,Meeting with saqib,7200,2,,07/31/2023 10:14:00,Medium,Done,,CAPSTONE SYSTEM 2.0,PropSure
+talha.ali@propsure.com.pk,Talha Ali,61723efd2097220071d5108a,IMARAT-836,Meeting with Uzair,7200,2,,07/31/2023 10:14:00,Medium,Done,,CAPSTONE SYSTEM 2.0,PropSure
+talha.ali@propsure.com.pk,Talha Ali,61723efd2097220071d5108a,IMARAT-834,Meeting with worksapp team,7200,2,,08/01/2023 10:15,Medium,Done,,CAPSTONE SYSTEM 2.0,PropSure
+talha.ali@propsure.com.pk,Talha Ali,61723efd2097220071d5108a,IMARAT-833,Add temporrary advisor,7200,2,,08/01/2023 10:15,Medium,Done,,CAPSTONE SYSTEM 2.0,PropSure
+talha.ali@propsure.com.pk,Talha Ali,61723efd2097220071d5108a,IMARAT-832,Morning Meeting,7200,2,,08/01/2023 10:15,Medium,Done,,CAPSTONE SYSTEM 2.0,PropSure
+talha.ali@propsure.com.pk,Talha Ali,61723efd2097220071d5108a,IMARAT-719,Create Migration for contract type,1800,0.5,,08/03/2023 11:49,Medium,Done,,CAPSTONE SYSTEM 2.0,PropSure
+talha.ali@propsure.com.pk,Talha Ali,61723efd2097220071d5108a,IMARAT-702,Capstone Code Merge ,3600,1,,08/03/2023 11:18,Medium,Done,,CAPSTONE SYSTEM 2.0,PropSure
+saqib.zarish@propsure.com.pk,Syed Saqib Zarish,62fcc8a543e43992b9a2abad,IMARAT-701,haball Transaction API,7200,2,,08/01/2023 16:00,Medium,Done,,CAPSTONE SYSTEM 2.0,PropSure
+saqib.zarish@propsure.com.pk,Syed Saqib Zarish,62fcc8a543e43992b9a2abad,IMARAT-700,transaction API,3600,1,,08/01/2023 14:00,Medium,Done,,CAPSTONE SYSTEM 2.0,PropSure
+talha.ali@propsure.com.pk,Talha Ali,61723efd2097220071d5108a,IMARAT-674,KFI Document Integration in WorksApp,1800,0.5,,08/03/2023 11:48,Medium,Done,,CAPSTONE SYSTEM 2.0,PropSure
+saqib.zarish@propsure.com.pk,Syed Saqib Zarish,62fcc8a543e43992b9a2abad,IMARAT-661,Booking Financials,7200,2,,07/31/2023 16:00:00,Medium,Done,,CAPSTONE SYSTEM 2.0,PropSure
+talha.ali@propsure.com.pk,Talha Ali,61723efd2097220071d5108a,IMARAT-635,"Pending Token, Payment, Completed Status Change ARMS CCMC API",3600,1,,08/03/2023 11:18,Medium,Done,,CAPSTONE SYSTEM 2.0,PropSure
+talha.ali@propsure.com.pk,Talha Ali,61723efd2097220071d5108a,IMARAT-631,Release Integration on lead Conversion,7200,2,,08/03/2023 10:18,Medium,Done,,CAPSTONE SYSTEM 2.0,PropSure
+talha.ali@propsure.com.pk,Talha Ali,61723efd2097220071d5108a,IMARAT-586,Add Contract Details in Bookings API for Client Portal,3600,1,,08/03/2023 11:18,Medium,Done,,CAPSTONE SYSTEM 2.0,PropSure
+talha.ali@propsure.com.pk,Talha Ali,61723efd2097220071d5108a,IMARAT-584,Booking ID filtering Issue ,3600,1,,08/03/2023 11:18,Medium,Done,,CAPSTONE SYSTEM 2.0,PropSure
+abdul.moiz@propsure.com.pk,Abdul Moiz,6206558c1fec260068c338ab,IMARAT-512,Add fields in financial tabs,3600,1,,08/03/2023 17:00,Medium,Done,,CAPSTONE SYSTEM 2.0,PropSure
+talha.ali@propsure.com.pk,Talha Ali,61723efd2097220071d5108a,IMARAT-319,S3 Bucket Implementation,1800,0.5,,08/03/2023 11:48,Medium,Done,,CAPSTONE SYSTEM 2.0,PropSure
+wilayat.shah@propsure.com.pk,Muhammad Wilayat Shah,61d2d09f9ee70a00684f8286,ICC-123,mismatched stats showing in Manager and advisors ARMS,2700,0.75,,08/01/2023 16:18,Medium,Done,,Imarat Contact Center (ARMS),PropSure
+wilayat.shah@propsure.com.pk,Muhammad Wilayat Shah,61d2d09f9ee70a00684f8286,ICC-103,incorrect stats in the inbound log and no data showing in the atif irfan account,10800,3,,08/04/2023 18:28,Medium,To Do,,Imarat Contact Center (ARMS),PropSure
+abdul.hameed@propsure.com.pk,Abdul Hameed,623bfb6aa9575800695ac1d3,GEOS-3,Creating SQL view for Graana dashboard in Geoserver,10800,3,,08/03/2023 16:48,Medium,In Progress,,GeoServer,PropSure
+faheem.raza@propsure.com.pk,Faheem Raza,712020:16c51723-5d51-4168-803f-cca627d8f57a,GEON-9,make a list of 4296 LOPs from Geonode,25200,7,,08/02/2023 09:30,Medium,In Progress,,GeoNode,PropSure
+faheem.raza@propsure.com.pk,Faheem Raza,712020:16c51723-5d51-4168-803f-cca627d8f57a,GEON-8,change permission of raster layers at GeoNode,18000,5,,07/31/2023 09:30:00,Medium,In Progress,,GeoNode,PropSure
+faheem.raza@propsure.com.pk,Faheem Raza,712020:16c51723-5d51-4168-803f-cca627d8f57a,GEON-8,change permission of raster layers at GeoNode,14400,4,,08/01/2023 14:30,Medium,In Progress,,GeoNode,PropSure
+hussain.wali@propsure.com.pk,Hussain Wali,63031d09569184518903de8b,CB-94,projects data embeddings and integration into chatbot,480,0.13,,08/03/2023 09:34,Medium,In Progress,,Live Chat & ChatBot,PropSure
+hussain.wali@propsure.com.pk,Hussain Wali,63031d09569184518903de8b,CB-94,projects data embeddings and integration into chatbot,28800,8,,08/03/2023 01:43,Medium,In Progress,,Live Chat & ChatBot,PropSure
+hussain.wali@propsure.com.pk,Hussain Wali,63031d09569184518903de8b,CB-89,widget status icon image update,7200,2,,08/02/2023 15:07,Medium,Ready for QA,,Live Chat & ChatBot,PropSure
+shamsa.fayyaz@propsure.com.pk,Shamsa Fayyaz,639ab31fb1082c30bb92276e,CB-87,adding sub categories,28800,8,,07/31/2023 09:00:00,Medium,To Do,,Live Chat & ChatBot,PropSure
+shamsa.fayyaz@propsure.com.pk,Shamsa Fayyaz,639ab31fb1082c30bb92276e,CB-87,adding sub categories,28800,8,,08/01/2023 09:00,Medium,To Do,,Live Chat & ChatBot,PropSure
+hussain.wali@propsure.com.pk,Hussain Wali,63031d09569184518903de8b,CB-86,Livechat instant replies integration with rest api,28800,8,,08/01/2023 05:42,Medium,Ready for QA,,Live Chat & ChatBot,PropSure
+hussain.wali@propsure.com.pk,Hussain Wali,63031d09569184518903de8b,CB-86,Livechat instant replies integration with rest api,18000,5,,08/02/2023 12:08,Medium,Ready for QA,,Live Chat & ChatBot,PropSure
+hussain.wali@propsure.com.pk,Hussain Wali,63031d09569184518903de8b,CB-78,DB memory and redis integration r&d,28800,8,,07/31/2023 05:41:00,Medium,In Progress,,Live Chat & ChatBot,PropSure
+abdul.hameed@propsure.com.pk,Abdul Hameed,623bfb6aa9575800695ac1d3,BCI-37,GeoServer Layers Publishing for Better cotton Initiative web mapping,10800,3,,08/03/2023 16:41,Medium,In Progress,,Better cotton Initiative,PropSure
+muhammad.akmal@graana.com,Muhammad Akmal,624ebd242e101c006a92d0bc,ARMS-372,ARMS Daily Queries- week 31,32400,9,,07/31/2023 10:00:00,Medium,Done,,Agent Realtor Management System,PropSure
+muhammad.akmal@graana.com,Muhammad Akmal,624ebd242e101c006a92d0bc,ARMS-372,ARMS Daily Queries- week 31,32400,9,,08/01/2023 10:00,Medium,Done,,Agent Realtor Management System,PropSure
+muhammad.akmal@graana.com,Muhammad Akmal,624ebd242e101c006a92d0bc,ARMS-372,ARMS Daily Queries- week 31,32400,9,,08/03/2023 11:00,Medium,Done,,Agent Realtor Management System,PropSure
+muhammad.akmal@graana.com,Muhammad Akmal,624ebd242e101c006a92d0bc,ARMS-372,ARMS Daily Queries- week 31,32400,9,,08/04/2023 10:30,Medium,Done,,Agent Realtor Management System,PropSure
+abdul.hannan@propsure.com.pk,Abdul Hannan,63899278213a315af34a56e0,ARMS-371,Mobile APP of ARMS giving error,14400,4,,08/02/2023 14:14,Highest,In Progress,,Agent Realtor Management System,PropSure
+muhammad.akmal@graana.com,Muhammad Akmal,624ebd242e101c006a92d0bc,ARMS-370,Asterisk Configuration Required,32400,9,,08/02/2023 11:30,Highest,QA Review,,Agent Realtor Management System,PropSure
+navid.ahmed@propsure.com.pk,Navid Ahmed,637e103900cb2fc3f9874d4d,ARMS-369,Import Project Lead- Issue at Bulk Upload ,3600,1,,07/31/2023 10:33:03,Medium,To Do,,Agent Realtor Management System,PropSure
+aqeel.mumtaz@graana.com,Aqeel Mumtaz,61273b02fc550900710e0530,ARMS-361,ARMS whatsapp queries,28800,8,,07/31/2023 03:42:00,Medium,In Progress,,Agent Realtor Management System,PropSure
+aqeel.mumtaz@graana.com,Aqeel Mumtaz,61273b02fc550900710e0530,ARMS-361,ARMS whatsapp queries,28800,8,,08/01/2023 03:42,Medium,In Progress,,Agent Realtor Management System,PropSure
+aqeel.mumtaz@graana.com,Aqeel Mumtaz,61273b02fc550900710e0530,ARMS-361,ARMS whatsapp queries,28800,8,,08/02/2023 01:38,Medium,In Progress,,Agent Realtor Management System,PropSure
+fahad.ali@graana.com,Fahad Ali,615700c799b4b8006a746a62,SITE-1104,Graana.com Logo Update,7200,2,,08/01/2023 11:38,High,QA Review,,Websites,Graana
+asif.javed@graana.com,Asif Javed,712020:f3f3e1c0-2566-41c5-a772-d8113f157b87,SITE-1101,"Islamabad Downtown Campaign Page - Imarat, Graana, Agency21 (project name and UAN update)",7200,2,,07/31/2023 10:53:58,Medium,Done,,Websites,Graana
+atika.faryal@graana.com,Atika Faryal,5ee8b6a8022ed00ab754e975,SITE-1101,"Islamabad Downtown Campaign Page - Imarat, Graana, Agency21 (project name and UAN update)",900,0.25,,08/02/2023 11:44,Medium,Done,,Websites,Graana
+atika.faryal@graana.com,Atika Faryal,5ee8b6a8022ed00ab754e975,SITE-1095,Euphoria Landing Page Development & Integration,1200,0.33,,07/31/2023 11:16:00,High,Done,,Websites,Graana
+asif.javed@graana.com,Asif Javed,712020:f3f3e1c0-2566-41c5-a772-d8113f157b87,SITE-1094,Islamabad Downtown Campaign Page - Imarat,1200,0.33,,07/31/2023 11:51:12,Medium,Done,,Websites,Graana
+atika.faryal@graana.com,Atika Faryal,5ee8b6a8022ed00ab754e975,SITE-1094,Islamabad Downtown Campaign Page - Imarat,900,0.25,,07/31/2023 12:24:00,Medium,Done,,Websites,Graana
+adeel.ahmed@graana.com,Adeel Ahmed,62302fa65b6d710070a0d8ae,SITE-1079,Portal to evaluate employees performance,25200,7,,08/01/2023 10:00,Medium,In Progress,,Websites,Graana
+adeel.ahmed@graana.com,Adeel Ahmed,62302fa65b6d710070a0d8ae,SITE-1079,Portal to evaluate employees performance,25200,7,,07/31/2023 10:00:00,Medium,In Progress,,Websites,Graana
+adeel.ahmed@graana.com,Adeel Ahmed,62302fa65b6d710070a0d8ae,SITE-1079,Portal to evaluate employees performance,25200,7,,08/02/2023 10:00,Medium,In Progress,,Websites,Graana
+adeel.ahmed@graana.com,Adeel Ahmed,62302fa65b6d710070a0d8ae,SITE-1079,Portal to evaluate employees performance,18000,5,,08/03/2023 13:30,Medium,In Progress,,Websites,Graana
+adeel.ahmed@graana.com,Adeel Ahmed,62302fa65b6d710070a0d8ae,SITE-1079,Portal to evaluate employees performance,21600,6,,08/04/2023 10:00,Medium,In Progress,,Websites,Graana
+aiman.nasir@imarat.com.pk,Aiman Nasir,712020:118690a1-c57e-4c23-a954-f50e1ecca6a4,QAUT-225,Creating Graana Web Test Script for "Add Property (Admin) - Properties For Review",7200,2,,07/31/2023 15:00:00,Medium,In Progress,,QA Automation,Graana
+aiman.nasir@imarat.com.pk,Aiman Nasir,712020:118690a1-c57e-4c23-a954-f50e1ecca6a4,QAUT-225,Creating Graana Web Test Script for "Add Property (Admin) - Properties For Review",10800,3,,08/01/2023 13:00,Medium,In Progress,,QA Automation,Graana
+aiman.nasir@imarat.com.pk,Aiman Nasir,712020:118690a1-c57e-4c23-a954-f50e1ecca6a4,QAUT-225,Creating Graana Web Test Script for "Add Property (Admin) - Properties For Review",3600,1,,08/02/2023 15:00,Medium,In Progress,,QA Automation,Graana
+aiman.nasir@imarat.com.pk,Aiman Nasir,712020:118690a1-c57e-4c23-a954-f50e1ecca6a4,QAUT-225,Creating Graana Web Test Script for "Add Property (Admin) - Properties For Review",10800,3,,08/03/2023 14:00,Medium,In Progress,,QA Automation,Graana
+aiman.nasir@imarat.com.pk,Aiman Nasir,712020:118690a1-c57e-4c23-a954-f50e1ecca6a4,QAUT-160,Creating Graana Web Test Script for Add Property - Submit Review,3600,1,,07/31/2023 13:00:00,Medium,Done,,QA Automation,Graana
+aiman.nasir@imarat.com.pk,Aiman Nasir,712020:118690a1-c57e-4c23-a954-f50e1ecca6a4,QAUT-160,Creating Graana Web Test Script for Add Property - Submit Review,3600,1,,08/01/2023 16:00,Medium,Done,,QA Automation,Graana
+aiman.nasir@imarat.com.pk,Aiman Nasir,712020:118690a1-c57e-4c23-a954-f50e1ecca6a4,QAUT-160,Creating Graana Web Test Script for Add Property - Submit Review,10800,3,,08/02/2023 10:00,Medium,Done,,QA Automation,Graana
+aiman.nasir@imarat.com.pk,Aiman Nasir,712020:118690a1-c57e-4c23-a954-f50e1ecca6a4,QAUT-137,"Page Object Scripts Updating, Reviewing and Refining",7200,2,,07/31/2023 09:30:00,Medium,In Progress,,QA Automation,Graana
+aiman.nasir@imarat.com.pk,Aiman Nasir,712020:118690a1-c57e-4c23-a954-f50e1ecca6a4,QAUT-137,"Page Object Scripts Updating, Reviewing and Refining",7200,2,,08/01/2023 11:00,Medium,In Progress,,QA Automation,Graana
+aiman.nasir@imarat.com.pk,Aiman Nasir,712020:118690a1-c57e-4c23-a954-f50e1ecca6a4,QAUT-137,"Page Object Scripts Updating, Reviewing and Refining",7200,2,,08/02/2023 14:00,Medium,In Progress,,QA Automation,Graana
+aiman.nasir@imarat.com.pk,Aiman Nasir,712020:118690a1-c57e-4c23-a954-f50e1ecca6a4,QAUT-137,"Page Object Scripts Updating, Reviewing and Refining",10800,3,,08/03/2023 09:30,Medium,In Progress,,QA Automation,Graana
+aiman.nasir@imarat.com.pk,Aiman Nasir,712020:118690a1-c57e-4c23-a954-f50e1ecca6a4,QAUT-2,Daily Automation Meetings,3600,1,,07/31/2023 12:00:00,Medium,In Progress,,QA Automation,Graana
+m.hamza@graana.com,Muhammad Hamza,62624de69e7c190069e8c5d9,PD-649,Interview for PM,3600,1,,08/04/2023 10:30,Medium,Backlog,,Product & Design,Graana
+shaheen.arif@graana.com,Shaheen Arif,70121:89df1f06-2355-4829-a661-b0b2f4e239c0,PD-648,Campaign Page for Mall One Wazirabad - Product and Design,3600,1,,08/04/2023 11:36,Medium,Backlog,,Product & Design,Graana
+muhammad.hassan@graana.com,Muhammad Hassan,6253fe230630bd007074be12,PD-647,Morning meeting and standup,3600,1,,08/04/2023 10:16,Medium,Backlog,,Product & Design,Graana
+muhammad.hassan@graana.com,Muhammad Hassan,6253fe230630bd007074be12,PD-646,Graana GPM Reports Design  ,16200,4.5,,08/02/2023 12:27,Medium,Backlog,,Product & Design,Graana
+shaheen.arif@graana.com,Shaheen Arif,70121:89df1f06-2355-4829-a661-b0b2f4e239c0,PD-645,IIPS Newsletter - July Updates,3600,1,,08/03/2023 11:08,Medium,Done,,Product & Design,Graana
+laiba.saleem@graana.com,Laiba Saleem,712020:f16cf53c-51a8-48fb-9aa9-dcf6912f9598,PD-644,Research on Graana advertisement packages page,14400,4,,08/02/2023 14:08,Medium,Backlog,,Product & Design,Graana
+laiba.saleem@graana.com,Laiba Saleem,712020:f16cf53c-51a8-48fb-9aa9-dcf6912f9598,PD-644,Research on Graana advertisement packages page,14400,4,,08/03/2023 16:06,Medium,Backlog,,Product & Design,Graana
+laiba.saleem@graana.com,Laiba Saleem,712020:f16cf53c-51a8-48fb-9aa9-dcf6912f9598,PD-644,Research on Graana advertisement packages page,7200,2,,08/04/2023 16:16,Medium,Backlog,,Product & Design,Graana
+altamash.shaban@graana.com,Altamash Shaban,6215c416ba649b006aac97da,PD-643,Project Standup and MM Product and design,3600,1,,08/02/2023 16:06,Medium,Done,,Product & Design,Graana
+altamash.shaban@graana.com,Altamash Shaban,6215c416ba649b006aac97da,PD-642,Chatbot UI UX Meeting,3600,1,,08/02/2023 16:05,Medium,Done,,Product & Design,Graana
+altamash.shaban@graana.com,Altamash Shaban,6215c416ba649b006aac97da,PD-642,Chatbot UI UX Meeting,3600,1,,08/01/2023 17:15,Medium,Done,,Product & Design,Graana
+shaheen.arif@graana.com,Shaheen Arif,70121:89df1f06-2355-4829-a661-b0b2f4e239c0,PD-641,Contact Center: 1 year roadmap ,3600,1,,08/02/2023 16:58,Medium,Product In Progress,,Product & Design,Graana
+muhammad.hassan@graana.com,Muhammad Hassan,6253fe230630bd007074be12,PD-640,Morning meeting and standup,4800,1.33,,08/02/2023 11:13,Medium,Backlog,,Product & Design,Graana
+shaheen.arif@graana.com,Shaheen Arif,70121:89df1f06-2355-4829-a661-b0b2f4e239c0,PD-639,CWV for Graana - SEO / Product,7200,2,,08/02/2023 12:27,Medium,Product In Progress,,Product & Design,Graana
+altamash.shaban@graana.com,Altamash Shaban,6215c416ba649b006aac97da,PD-638,Imarat website design ,18000,5,,08/02/2023 12:04,Medium,Done,,Product & Design,Graana
+altamash.shaban@graana.com,Altamash Shaban,6215c416ba649b006aac97da,PD-638,Imarat website design ,10800,3,,08/01/2023 17:16,Medium,Done,,Product & Design,Graana
+altamash.shaban@graana.com,Altamash Shaban,6215c416ba649b006aac97da,PD-637,Framer Practice,3600,1,,08/02/2023 16:04,Medium,Done,,Product & Design,Graana
+altamash.shaban@graana.com,Altamash Shaban,6215c416ba649b006aac97da,PD-637,Framer Practice,10800,3,,08/01/2023 17:15,Medium,Done,,Product & Design,Graana
+rohma.khan@graana.com,Rohma Khan,712020:a3f4709e-1524-41ba-a570-76df0074c6d8,PD-636,Capstone project overview screen design options,28800,8,,08/01/2023 09:30,Medium,Backlog,,Product & Design,Graana
+rohma.khan@graana.com,Rohma Khan,712020:a3f4709e-1524-41ba-a570-76df0074c6d8,PD-636,Capstone project overview screen design options,28800,8,,08/02/2023 09:30,Medium,Backlog,,Product & Design,Graana
+rohma.khan@graana.com,Rohma Khan,712020:a3f4709e-1524-41ba-a570-76df0074c6d8,PD-636,Capstone project overview screen design options,28800,8,,08/03/2023 09:30,Medium,Backlog,,Product & Design,Graana
+muhammad.hassan@graana.com,Muhammad Hassan,6253fe230630bd007074be12,PD-635,Graana GPM Reports Design  ,9000,2.5,,08/01/2023 15:14,Medium,Backlog,,Product & Design,Graana
+muhammad.hassan@graana.com,Muhammad Hassan,6253fe230630bd007074be12,PD-633,Graana blog design review session,3600,1,,08/01/2023 15:34,Medium,Backlog,,Product & Design,Graana
+muhammad.hassan@graana.com,Muhammad Hassan,6253fe230630bd007074be12,PD-632,Morning meeting and standup,3600,1,,08/01/2023 15:34,Medium,Backlog,,Product & Design,Graana
+muhammad.hassan@graana.com,Muhammad Hassan,6253fe230630bd007074be12,PD-631,Discussion with Hamza PM on Multiple things  ,120,0.03,,08/01/2023 02:30,Medium,Backlog,,Product & Design,Graana
+muhammad.hassan@graana.com,Muhammad Hassan,6253fe230630bd007074be12,PD-631,Discussion with Hamza PM on Multiple things  ,7200,2,,08/01/2023 15:42,Medium,Backlog,,Product & Design,Graana
+muhammad.hassan@graana.com,Muhammad Hassan,6253fe230630bd007074be12,PD-630,GPM -  My listing - Hot/ Super credits changing ,1800,0.5,,08/01/2023 15:58,Medium,Backlog,,Product & Design,Graana
+muhammad.hassan@graana.com,Muhammad Hassan,6253fe230630bd007074be12,PD-629,Graana search listing leading board ad placement,1800,0.5,,08/01/2023 15:57,Medium,Backlog,,Product & Design,Graana
+m.hamza@graana.com,Muhammad Hamza,62624de69e7c190069e8c5d9,PD-628,Xperience and Nexus Requirement Working,9000,2.5,,07/31/2023 15:00:00,Medium,Backlog,,Product & Design,Graana
+muhammad.hassan@graana.com,Muhammad Hassan,6253fe230630bd007074be12,PD-627,Graana GPM Reports Design  ,14400,4,,07/31/2023 14:00:00,Medium,Backlog,,Product & Design,Graana
+muhammad.hassan@graana.com,Muhammad Hassan,6253fe230630bd007074be12,PD-626,Session with different Developers ,5400,1.5,,07/31/2023 15:34:54,Medium,Backlog,,Product & Design,Graana
+shaheen.arif@graana.com,Shaheen Arif,70121:89df1f06-2355-4829-a661-b0b2f4e239c0,PD-625,Domain blocking for crawl/ index - all other than production (product review),3600,1,,07/31/2023 14:19:04,High,Product In Progress,,Product & Design,Graana
+shaheen.arif@graana.com,Shaheen Arif,70121:89df1f06-2355-4829-a661-b0b2f4e239c0,PD-625,Domain blocking for crawl/ index - all other than production (product review),1800,0.5,,07/31/2023 14:49:58,High,Product In Progress,,Product & Design,Graana
+muhammad.hassan@graana.com,Muhammad Hassan,6253fe230630bd007074be12,PD-624,Imarat website session with altamash and zahra and talha,3600,1,,07/31/2023 10:54:07,Medium,Backlog,,Product & Design,Graana
+muhammad.hassan@graana.com,Muhammad Hassan,6253fe230630bd007074be12,PD-623,Morning meeting and standup,3600,1,,07/31/2023 10:35:08,Medium,Backlog,,Product & Design,Graana
+rohma.khan@graana.com,Rohma Khan,712020:a3f4709e-1524-41ba-a570-76df0074c6d8,PD-620,Capstone style guide,28800,8,,07/31/2023 09:30:00,Medium,Backlog,,Product & Design,Graana
+altamash.shaban@graana.com,Altamash Shaban,6215c416ba649b006aac97da,PD-607,Euphoria Discussion with product ,3600,1,,08/01/2023 17:14,Medium,Done,,Product & Design,Graana
+shaheen.arif@graana.com,Shaheen Arif,70121:89df1f06-2355-4829-a661-b0b2f4e239c0,PD-606,Contact center progress review on JIRA,3600,1,,08/02/2023 15:59,Medium,Done,,Product & Design,Graana
+m.hamza@graana.com,Muhammad Hamza,62624de69e7c190069e8c5d9,PD-594,Story Writing for Nexus/Experience Plus,9000,2.5,,07/31/2023 11:00:00,Medium,Backlog,,Product & Design,Graana
+m.hamza@graana.com,Muhammad Hamza,62624de69e7c190069e8c5d9,PD-594,Story Writing for Nexus/Experience Plus,13500,3.75,,08/01/2023 16:00,Medium,Backlog,,Product & Design,Graana
+m.hamza@graana.com,Muhammad Hamza,62624de69e7c190069e8c5d9,PD-594,Story Writing for Nexus/Experience Plus,12000,3.33,,08/02/2023 16:30,Medium,Backlog,,Product & Design,Graana
+m.hamza@graana.com,Muhammad Hamza,62624de69e7c190069e8c5d9,PD-594,Story Writing for Nexus/Experience Plus,8100,2.25,,08/04/2023 17:30,Medium,Backlog,,Product & Design,Graana
+altamash.shaban@graana.com,Altamash Shaban,6215c416ba649b006aac97da,PD-590,Project standup,3600,1,,07/31/2023 10:55:00,Medium,Done,,Product & Design,Graana
+m.hamza@graana.com,Muhammad Hamza,62624de69e7c190069e8c5d9,PD-585,Nexus and Xperience Plus Plan Working,7200,2,,07/31/2023 05:30:00,Medium,Backlog,,Product & Design,Graana
+altamash.shaban@graana.com,Altamash Shaban,6215c416ba649b006aac97da,PD-572,Learning - Framer (for landing pages),10800,3,,07/31/2023 10:55:00,Medium,Done,,Product & Design,Graana
+m.hamza@graana.com,Muhammad Hamza,62624de69e7c190069e8c5d9,PD-568,Nexus Requirements Review,3600,1,,08/01/2023 13:30,Medium,Backlog,,Product & Design,Graana
+altamash.shaban@graana.com,Altamash Shaban,6215c416ba649b006aac97da,PD-561,IMARAT Website meeting on new pages,3600,1,,07/31/2023 10:54:00,Medium,Done,,Product & Design,Graana
+talha.iqbal@graana.com,Talha Iqbal,5f603ffcbdb0780070ff861f,PD-497,Nexus Backend Stories,3600,1,,08/04/2023 17:26,Medium,Backlog,,Product & Design,Graana
+talha.iqbal@graana.com,Talha Iqbal,5f603ffcbdb0780070ff861f,PD-497,Nexus Backend Stories,7200,2,,08/04/2023 16:27,Medium,Backlog,,Product & Design,Graana
+talha.iqbal@graana.com,Talha Iqbal,5f603ffcbdb0780070ff861f,PD-496,Morning Meeting ,3600,1,,08/03/2023 17:25,Medium,Backlog,,Product & Design,Graana
+talha.iqbal@graana.com,Talha Iqbal,5f603ffcbdb0780070ff861f,PD-495,Nexus Project Meetings,46800,13,,08/03/2023 05:14,Medium,Backlog,,Product & Design,Graana
+talha.iqbal@graana.com,Talha Iqbal,5f603ffcbdb0780070ff861f,PD-495,Nexus Project Meetings,21600,6,,08/04/2023 12:25,Medium,Backlog,,Product & Design,Graana
+laiba.saleem@graana.com,Laiba Saleem,712020:f16cf53c-51a8-48fb-9aa9-dcf6912f9598,PD-494,Graana blog review session with team,3600,1,,08/01/2023 09:53,Medium,Backlog,,Product & Design,Graana
+laiba.saleem@graana.com,Laiba Saleem,712020:f16cf53c-51a8-48fb-9aa9-dcf6912f9598,PD-445,Graana blog page improvements,7200,2,,08/01/2023 08:54,Medium,Backlog,,Product & Design,Graana
+laiba.saleem@graana.com,Laiba Saleem,712020:f16cf53c-51a8-48fb-9aa9-dcf6912f9598,PD-445,Graana blog page improvements,10800,3,,07/31/2023 07:56:00,Medium,Backlog,,Product & Design,Graana
+laiba.saleem@graana.com,Laiba Saleem,712020:f16cf53c-51a8-48fb-9aa9-dcf6912f9598,PD-445,Graana blog page improvements,3600,1,,08/02/2023 17:07,Medium,Backlog,,Product & Design,Graana
+laiba.saleem@graana.com,Laiba Saleem,712020:f16cf53c-51a8-48fb-9aa9-dcf6912f9598,PD-429,Learning - Build Wireframes and Low-Fidelity Prototypes course,14400,4,,08/01/2023 06:54,Medium,Backlog,,Product & Design,Graana
+laiba.saleem@graana.com,Laiba Saleem,712020:f16cf53c-51a8-48fb-9aa9-dcf6912f9598,PD-429,Learning - Build Wireframes and Low-Fidelity Prototypes course,14400,4,,07/31/2023 06:55:00,Medium,Backlog,,Product & Design,Graana
+laiba.saleem@graana.com,Laiba Saleem,712020:f16cf53c-51a8-48fb-9aa9-dcf6912f9598,PD-429,Learning - Build Wireframes and Low-Fidelity Prototypes course,10800,3,,08/02/2023 15:10,Medium,Backlog,,Product & Design,Graana
+laiba.saleem@graana.com,Laiba Saleem,712020:f16cf53c-51a8-48fb-9aa9-dcf6912f9598,PD-429,Learning - Build Wireframes and Low-Fidelity Prototypes course,12600,3.5,,08/03/2023 16:36,Medium,Backlog,,Product & Design,Graana
+laiba.saleem@graana.com,Laiba Saleem,712020:f16cf53c-51a8-48fb-9aa9-dcf6912f9598,PD-429,Learning - Build Wireframes and Low-Fidelity Prototypes course,12600,3.5,,08/04/2023 14:46,Medium,Backlog,,Product & Design,Graana
+m.hamza@graana.com,Muhammad Hamza,62624de69e7c190069e8c5d9,PD-408,CRM and Nexus Stand Up,5400,1.5,,07/31/2023 09:30:00,Medium,Backlog,,Product & Design,Graana
+m.hamza@graana.com,Muhammad Hamza,62624de69e7c190069e8c5d9,PD-408,CRM and Nexus Stand Up,2700,0.75,,08/02/2023 10:15,Medium,Backlog,,Product & Design,Graana
+m.hamza@graana.com,Muhammad Hamza,62624de69e7c190069e8c5d9,PD-408,CRM and Nexus Stand Up,1800,0.5,,08/04/2023 10:00,Medium,Backlog,,Product & Design,Graana
+shaheen.arif@graana.com,Shaheen Arif,70121:89df1f06-2355-4829-a661-b0b2f4e239c0,PD-384,Sitemap - SEO Review v3,3600,1,,07/31/2023 13:29:50,Highest,Product In Progress,,Product & Design,Graana
+shaheen.arif@graana.com,Shaheen Arif,70121:89df1f06-2355-4829-a661-b0b2f4e239c0,PD-384,Sitemap - SEO Review v3,3600,1,,07/31/2023 13:31:54,Highest,Product In Progress,,Product & Design,Graana
+shaheen.arif@graana.com,Shaheen Arif,70121:89df1f06-2355-4829-a661-b0b2f4e239c0,PD-384,Sitemap - SEO Review v3,1800,0.5,,07/31/2023 14:02:22,Highest,Product In Progress,,Product & Design,Graana
+shaheen.arif@graana.com,Shaheen Arif,70121:89df1f06-2355-4829-a661-b0b2f4e239c0,PD-384,Sitemap - SEO Review v3,1800,0.5,,07/31/2023 14:02:40,Highest,Product In Progress,,Product & Design,Graana
+shaheen.arif@graana.com,Shaheen Arif,70121:89df1f06-2355-4829-a661-b0b2f4e239c0,PD-384,Sitemap - SEO Review v3,1800,0.5,,07/31/2023 14:02:57,Highest,Product In Progress,,Product & Design,Graana
+shaheen.arif@graana.com,Shaheen Arif,70121:89df1f06-2355-4829-a661-b0b2f4e239c0,PD-384,Sitemap - SEO Review v3,3600,1,,07/31/2023 14:16:58,Highest,Product In Progress,,Product & Design,Graana
+shaheen.arif@graana.com,Shaheen Arif,70121:89df1f06-2355-4829-a661-b0b2f4e239c0,PD-384,Sitemap - SEO Review v3,3600,1,,07/31/2023 18:18:14,Highest,Product In Progress,,Product & Design,Graana
+shaheen.arif@graana.com,Shaheen Arif,70121:89df1f06-2355-4829-a661-b0b2f4e239c0,PD-384,Sitemap - SEO Review v3,7200,2,,08/02/2023 10:19,Highest,Product In Progress,,Product & Design,Graana
+shaheen.arif@graana.com,Shaheen Arif,70121:89df1f06-2355-4829-a661-b0b2f4e239c0,PD-384,Sitemap - SEO Review v3,7200,2,,08/01/2023 12:25,Highest,Product In Progress,,Product & Design,Graana
+shaheen.arif@graana.com,Shaheen Arif,70121:89df1f06-2355-4829-a661-b0b2f4e239c0,PD-384,Sitemap - SEO Review v3,7200,2,,08/01/2023 12:25,Highest,Product In Progress,,Product & Design,Graana
+shaheen.arif@graana.com,Shaheen Arif,70121:89df1f06-2355-4829-a661-b0b2f4e239c0,PD-373,Chatbot UX - product review,3600,1,R & D on chatbot fucntionality,07/31/2023 18:18:39,Medium,Product In Progress,,Product & Design,Graana
+shaheen.arif@graana.com,Shaheen Arif,70121:89df1f06-2355-4829-a661-b0b2f4e239c0,PD-373,Chatbot UX - product review,3600,1,Chatbot review and discussion,08/01/2023 12:25,Medium,Product In Progress,,Product & Design,Graana
+shaheen.arif@graana.com,Shaheen Arif,70121:89df1f06-2355-4829-a661-b0b2f4e239c0,PD-373,Chatbot UX - product review,3600,1,Chatbot testing,08/01/2023 12:25,Medium,Product In Progress,,Product & Design,Graana
+shaheen.arif@graana.com,Shaheen Arif,70121:89df1f06-2355-4829-a661-b0b2f4e239c0,PD-373,Chatbot UX - product review,5400,1.5,"User story documentation for chatbot data, testing, UX, UI and API integrations ",08/02/2023 14:36,Medium,Product In Progress,,Product & Design,Graana
+shaheen.arif@graana.com,Shaheen Arif,70121:89df1f06-2355-4829-a661-b0b2f4e239c0,PD-373,Chatbot UX - product review,1800,0.5,"Planning with Fahad, Areeb and Hussain Wali on chatbot integrations and effort estimation",08/02/2023 16:27,Medium,Product In Progress,,Product & Design,Graana
+shaheen.arif@graana.com,Shaheen Arif,70121:89df1f06-2355-4829-a661-b0b2f4e239c0,PD-367,CWV for blogs - SEO discussion,3600,1,,08/01/2023 12:26,Medium,Product In Progress,,Product & Design,Graana
+shaheen.arif@graana.com,Shaheen Arif,70121:89df1f06-2355-4829-a661-b0b2f4e239c0,PD-367,CWV for blogs - SEO discussion,3600,1,,08/01/2023 12:26,Medium,Product In Progress,,Product & Design,Graana
+altamash.shaban@graana.com,Altamash Shaban,6215c416ba649b006aac97da,PD-364,Imarat website design,10800,3,,07/31/2023 10:53:00,Medium,Done,,Product & Design,Graana
+m.hamza@graana.com,Muhammad Hamza,62624de69e7c190069e8c5d9,PD-330,OPS Team Working on Packages,3600,1,,07/31/2023 13:30:00,Medium,Backlog,,Product & Design,Graana
+m.hamza@graana.com,Muhammad Hamza,62624de69e7c190069e8c5d9,PD-330,OPS Team Working on Packages,3600,1,,08/01/2023 09:30,Medium,Backlog,,Product & Design,Graana
+m.hamza@graana.com,Muhammad Hamza,62624de69e7c190069e8c5d9,PD-330,OPS Team Working on Packages,7200,2,,08/02/2023 11:00,Medium,Backlog,,Product & Design,Graana
+m.hamza@graana.com,Muhammad Hamza,62624de69e7c190069e8c5d9,PD-300,OPS team Follow up on GD Task,1800,0.5,,08/01/2023 15:30,Medium,Backlog,,Product & Design,Graana
+m.hamza@graana.com,Muhammad Hamza,62624de69e7c190069e8c5d9,PD-278,OPS Team Discussion on Packages and Shop Adons,5400,1.5,,08/04/2023 11:30,Medium,Backlog,,Product & Design,Graana
+talha.iqbal@graana.com,Talha Iqbal,5f603ffcbdb0780070ff861f,PD-264,Website Projects,10800,3,,08/03/2023 15:24,Medium,Backlog,,Product & Design,Graana
+talha.iqbal@graana.com,Talha Iqbal,5f603ffcbdb0780070ff861f,PD-264,Website Projects,3600,1,,08/04/2023 17:26,Medium,Backlog,,Product & Design,Graana
+talha.iqbal@graana.com,Talha Iqbal,5f603ffcbdb0780070ff861f,PD-264,Website Projects,7200,2,,08/04/2023 16:30,Medium,Backlog,,Product & Design,Graana
+talha.iqbal@graana.com,Talha Iqbal,5f603ffcbdb0780070ff861f,PD-250,Prism Project ,3600,1,,08/03/2023 17:25,Medium,Backlog,,Product & Design,Graana
+talha.iqbal@graana.com,Talha Iqbal,5f603ffcbdb0780070ff861f,PD-250,Prism Project ,3600,1,,08/04/2023 17:32,Medium,Backlog,,Product & Design,Graana
+m.hamza@graana.com,Muhammad Hamza,62624de69e7c190069e8c5d9,PD-225,Nexus Front End Design Queries of Dev,3600,1,,08/01/2023 12:00,Medium,Backlog,,Product & Design,Graana
+m.hamza@graana.com,Muhammad Hamza,62624de69e7c190069e8c5d9,PD-225,Nexus Front End Design Queries of Dev,10800,3,,08/04/2023 14:30,Medium,Backlog,,Product & Design,Graana
+talha.iqbal@graana.com,Talha Iqbal,5f603ffcbdb0780070ff861f,PD-222,Project Planning,3600,1,,08/04/2023 17:31,Medium,Backlog,,Product & Design,Graana
+m.hamza@graana.com,Muhammad Hamza,62624de69e7c190069e8c5d9,PD-170,Steering Meeting for Classified,3600,1,,08/01/2023 10:30,Medium,Backlog,,Product & Design,Graana
+m.hamza@graana.com,Muhammad Hamza,62624de69e7c190069e8c5d9,PD-81,Design Planning Meeting and Task Alignment with Design Team,3600,1,,08/01/2023 14:30,Medium,Product In Progress,,Product & Design,Graana
+m.hamza@graana.com,Muhammad Hamza,62624de69e7c190069e8c5d9,PD-81,Design Planning Meeting and Task Alignment with Design Team,9000,2.5,,08/02/2023 14:00,Medium,Product In Progress,,Product & Design,Graana
+talha.iqbal@graana.com,Talha Iqbal,5f603ffcbdb0780070ff861f,PD-62,Documentation of CCRM (Nexus Backend) ,7200,2,,08/04/2023 16:34,Medium,Backlog,,Product & Design,Graana
+muhammad.azhar@graana.com,muhammad.azhar,61a8b1e59615eb006f49907d,NGP-2272,misc-add-contract changes and add new migrations for contract changes,21600,6,,08/04/2023 10:30,Medium,2.1 In Progress,,New Graana Portal,Graana
+saif.rehman@graana.com,Saif Ur Rehman,63a05c71d3aeefa40540105a,NGP-2271,Implement currency/area unit on all filters on Graana.com,10800,3,,08/04/2023 16:30,Medium,2.1 In Progress,,New Graana Portal,Graana
+zawar.khattak@imarat.com.pk,Zawar Khattak,712020:dc794cc4-06aa-494c-ab00-7976ca2763fb,NGP-2266,Web/Responsive : Invest Project Detail Page : In Location section the map should be portrait wrt design.,1200,0.33,,08/04/2023 17:27,Medium,1.0 To Do,,New Graana Portal,Graana
+zawar.khattak@imarat.com.pk,Zawar Khattak,712020:dc794cc4-06aa-494c-ab00-7976ca2763fb,NGP-2265,Web/Responsive : Invest Project Detail Page : Time Format / Add Padding in Construction Update section.,1200,0.33,,08/04/2023 17:20,Medium,1.0 To Do,,New Graana Portal,Graana
+azeem.tahir@graana.com,Muhammad Azeem Tahir,6180d1baf485cd00681839b3,NGP-2264,Knowledge Transfer Session of Agency Contract and Package ,18000,5,,08/04/2023 12:38,Medium,1.0 To Do,,New Graana Portal,Graana
+azeem.tahir@graana.com,Muhammad Azeem Tahir,6180d1baf485cd00681839b3,NGP-2261,Web - Agency Search Page: Sorting of Agency is not accurate,1200,0.33,,08/04/2023 10:40,Medium,1.0 To Do,,New Graana Portal,Graana
+atika.faryal@graana.com,Atika Faryal,5ee8b6a8022ed00ab754e975,NGP-2260,Test Case Creation,7200,2,,08/04/2023 10:56,Medium,2.1 In Progress,,New Graana Portal,Graana
+saif.rehman@graana.com,Saif Ur Rehman,63a05c71d3aeefa40540105a,NGP-2259,Change Agent Quota manipulation according to backend changes,21600,6,,08/03/2023 11:39,Medium,7.0 Done,,New Graana Portal,Graana
+saif.rehman@graana.com,Saif Ur Rehman,63a05c71d3aeefa40540105a,NGP-2259,Change Agent Quota manipulation according to backend changes,3600,1,,08/04/2023 10:00,Medium,7.0 Done,,New Graana Portal,Graana
+saif.rehman@graana.com,Saif Ur Rehman,63a05c71d3aeefa40540105a,NGP-2259,Change Agent Quota manipulation according to backend changes,3600,1,,08/04/2023 17:17,Medium,7.0 Done,,New Graana Portal,Graana
+azeem.tahir@graana.com,Muhammad Azeem Tahir,6180d1baf485cd00681839b3,NGP-2258,Web - My Listing: UI issues in More Filters,1200,0.33,,08/03/2023 16:28,Medium,4.0 Pending-QA Lead,,New Graana Portal,Graana
+taimoor.ali@graana.com,Taimoor ali khan,615700c7c5388b006944b570,NGP-2258,Web - My Listing: UI issues in More Filters,10800,3,,08/04/2023 09:00,Medium,4.0 Pending-QA Lead,,New Graana Portal,Graana
+atika.faryal@graana.com,Atika Faryal,5ee8b6a8022ed00ab754e975,NGP-2256,Test Case Creation,9000,2.5,,08/03/2023 14:35,Medium,2.1 In Progress,,New Graana Portal,Graana
+akash.arshad@graana.com,Akash Arshad,6130b4776e5e1e0071de0e15,NGP-2254,Property Details Page:Showing  Broken Image in Responsive when there is no image,7200,2,,08/03/2023 12:18,High,7.0 Done,,New Graana Portal,Graana
+azeem.tahir@graana.com,Muhammad Azeem Tahir,6180d1baf485cd00681839b3,NGP-2253,Web/App: Enquiry: On Enquiry submitting Email should send to Property Owner,1800,0.5,,08/03/2023 11:39,Medium,1.0 To Do,,New Graana Portal,Graana
+azeem.tahir@graana.com,Muhammad Azeem Tahir,6180d1baf485cd00681839b3,NGP-2252,Web - Agency Search Page: UI issue in Enquiry Popup,1200,0.33,,08/03/2023 14:23,Medium,4.0 Pending-QA Lead,,New Graana Portal,Graana
+taimoor.ali@graana.com,Taimoor ali khan,615700c7c5388b006944b570,NGP-2252,Web - Agency Search Page: UI issue in Enquiry Popup,3600,1,,08/04/2023 11:59,Medium,4.0 Pending-QA Lead,,New Graana Portal,Graana
+muhammad.azhar@graana.com,muhammad.azhar,61a8b1e59615eb006f49907d,NGP-2251,backend- update -agent quota details + migrations,21600,6,,08/01/2023 10:00,Medium,2.1 In Progress,,New Graana Portal,Graana
+muhammad.azhar@graana.com,muhammad.azhar,61a8b1e59615eb006f49907d,NGP-2251,backend- update -agent quota details + migrations,25200,7,,08/02/2023 11:00,Medium,2.1 In Progress,,New Graana Portal,Graana
+muhammad.azhar@graana.com,muhammad.azhar,61a8b1e59615eb006f49907d,NGP-2251,backend- update -agent quota details + migrations,18000,5,,08/03/2023 10:00,Medium,2.1 In Progress,,New Graana Portal,Graana
+muhammad.azhar@graana.com,muhammad.azhar,61a8b1e59615eb006f49907d,NGP-2250,backend-Refector api for get Agent quota details ,25200,7,,07/31/2023 10:00:00,Medium,2.5 Pending-Staging Deployment,,New Graana Portal,Graana
+muhammad.azhar@graana.com,muhammad.azhar,61a8b1e59615eb006f49907d,NGP-2250,backend-Refector api for get Agent quota details ,10800,3,,08/03/2023 14:16,Medium,2.5 Pending-Staging Deployment,,New Graana Portal,Graana
+muhammad.azhar@graana.com,muhammad.azhar,61a8b1e59615eb006f49907d,NGP-2250,backend-Refector api for get Agent quota details ,10800,3,,08/04/2023 19:28,Medium,2.5 Pending-Staging Deployment,,New Graana Portal,Graana
+atika.faryal@graana.com,Atika Faryal,5ee8b6a8022ed00ab754e975,NGP-2249,Test Case Creation,3600,1,,08/03/2023 11:18,Medium,2.1 In Progress,,New Graana Portal,Graana
+anas.attas@propsure.com.pk,anas.attas,6346947448be855a65ecd045,NGP-2248,Have placeholder images for assets in image component,39600,11,,08/02/2023 14:30,Medium,2.1 In Progress,,New Graana Portal,Graana
+atika.faryal@graana.com,Atika Faryal,5ee8b6a8022ed00ab754e975,NGP-2247,Test Case Creation,3600,1,,08/02/2023 22:41,Medium,2.1 In Progress,,New Graana Portal,Graana
+azeem.tahir@graana.com,Muhammad Azeem Tahir,6180d1baf485cd00681839b3,NGP-2244,App - Add All option in Type filter in Agency Search Page and Saved Items,1200,0.33,,08/02/2023 17:40,Medium,2.4 Dev (Unit Testing),,New Graana Portal,Graana
+taimour.ahmed@graana.com,Taimour Ahmed,611619a73fd57300701ee9d8,NGP-2244,App - Add All option in Type filter in Agency Search Page and Saved Items,3600,1,,08/02/2023 17:14,Medium,2.4 Dev (Unit Testing),,New Graana Portal,Graana
+taimour.ahmed@graana.com,Taimour Ahmed,611619a73fd57300701ee9d8,NGP-2244,App - Add All option in Type filter in Agency Search Page and Saved Items,1800,0.5,,08/03/2023 15:52,Medium,2.4 Dev (Unit Testing),,New Graana Portal,Graana
+taimour.ahmed@graana.com,Taimour Ahmed,611619a73fd57300701ee9d8,NGP-2244,App - Add All option in Type filter in Agency Search Page and Saved Items,3600,1,,08/04/2023 16:22,Medium,2.4 Dev (Unit Testing),,New Graana Portal,Graana
+azeem.tahir@graana.com,Muhammad Azeem Tahir,6180d1baf485cd00681839b3,NGP-2243,Web - My Listing: When open more filters already applied filter data should show,1200,0.33,,08/02/2023 16:31,Medium,4.0 Pending-QA Lead,,New Graana Portal,Graana
+taimoor.ali@graana.com,Taimoor ali khan,615700c7c5388b006944b570,NGP-2243,Web - My Listing: When open more filters already applied filter data should show,21600,6,,08/02/2023 11:30,Medium,4.0 Pending-QA Lead,,New Graana Portal,Graana
+taimoor.ali@graana.com,Taimoor ali khan,615700c7c5388b006944b570,NGP-2243,Web - My Listing: When open more filters already applied filter data should show,25200,7,,08/03/2023 09:30,Medium,4.0 Pending-QA Lead,,New Graana Portal,Graana
+zawar.khattak@imarat.com.pk,Zawar Khattak,712020:dc794cc4-06aa-494c-ab00-7976ca2763fb,NGP-2242,Web/Responsive : Country Code repeating on clicking Call Button.,900,0.25,,08/02/2023 16:33,Medium,6.0 Ready Production,,New Graana Portal,Graana
+ahmer.khan@graana.com,Ahmer Khan,712020:fa186ff8-73f8-4ce3-84ef-77a7177df60e,NGP-2242,Web/Responsive : Country Code repeating on clicking Call Button.,1800,0.5,,08/02/2023 16:44,Medium,6.0 Ready Production,,New Graana Portal,Graana
+ahmer.khan@graana.com,Ahmer Khan,712020:fa186ff8-73f8-4ce3-84ef-77a7177df60e,NGP-2242,Web/Responsive : Country Code repeating on clicking Call Button.,3600,1,,08/03/2023 09:30,Medium,6.0 Ready Production,,New Graana Portal,Graana
+zawar.khattak@imarat.com.pk,Zawar Khattak,712020:dc794cc4-06aa-494c-ab00-7976ca2763fb,NGP-2242,Web/Responsive : Country Code repeating on clicking Call Button.,900,0.25,,08/03/2023 11:43,Medium,6.0 Ready Production,,New Graana Portal,Graana
+azeem.tahir@graana.com,Muhammad Azeem Tahir,6180d1baf485cd00681839b3,NGP-2241,Web: My Listing: Same filter is automatically applied in all tabs but result is not according to filter,1800,0.5,,08/02/2023 16:14,Medium,4.0 Pending-QA Lead,,New Graana Portal,Graana
+taimoor.ali@graana.com,Taimoor ali khan,615700c7c5388b006944b570,NGP-2241,Web: My Listing: Same filter is automatically applied in all tabs but result is not according to filter,10800,3,,08/03/2023 04:30,Medium,4.0 Pending-QA Lead,,New Graana Portal,Graana
+taimoor.ali@graana.com,Taimoor ali khan,615700c7c5388b006944b570,NGP-2241,Web: My Listing: Same filter is automatically applied in all tabs but result is not according to filter,21600,6,,08/04/2023 02:30,Medium,4.0 Pending-QA Lead,,New Graana Portal,Graana
+azeem.tahir@graana.com,Muhammad Azeem Tahir,6180d1baf485cd00681839b3,NGP-2240,Web/Responsive: My Properties/Inquiries: Hot and Super Hot is not working,1200,0.33,,08/02/2023 16:10,Medium,2.1 In Progress,,New Graana Portal,Graana
+areeb.siddiqui@graana.com,Areeb Siddiqui,5ff6b0e544065f013fb650e6,NGP-2240,Web/Responsive: My Properties/Inquiries: Hot and Super Hot is not working,28800,8,,08/03/2023 12:02,Medium,2.1 In Progress,,New Graana Portal,Graana
+taimour.ahmed@graana.com,Taimour Ahmed,611619a73fd57300701ee9d8,NGP-2239,App :  Android APK and iOS IPA,3600,1,,08/02/2023 15:18,Medium,1.0 To Do,,New Graana Portal,Graana
+taimour.ahmed@graana.com,Taimour Ahmed,611619a73fd57300701ee9d8,NGP-2239,App :  Android APK and iOS IPA,3600,1,,08/01/2023 15:43,Medium,1.0 To Do,,New Graana Portal,Graana
+taimour.ahmed@graana.com,Taimour Ahmed,611619a73fd57300701ee9d8,NGP-2239,App :  Android APK and iOS IPA,900,0.25,,08/02/2023 16:35,Medium,1.0 To Do,,New Graana Portal,Graana
+ali.sher@graana.com,Ali Sher Khan,62ea1c5196eb272011a805bb,NGP-2239,App :  Android APK and iOS IPA,3600,1,,08/02/2023 22:47,Medium,1.0 To Do,,New Graana Portal,Graana
+taimour.ahmed@graana.com,Taimour Ahmed,611619a73fd57300701ee9d8,NGP-2239,App :  Android APK and iOS IPA,7200,2,,08/03/2023 14:22,Medium,1.0 To Do,,New Graana Portal,Graana
+hamza.mehmood@graana.com,Hamza Mehmood,622aed67302c6b006af6cbb1,NGP-2239,App :  Android APK and iOS IPA,10800,3,,08/02/2023 13:19,Medium,1.0 To Do,,New Graana Portal,Graana
+hamza.mehmood@graana.com,Hamza Mehmood,622aed67302c6b006af6cbb1,NGP-2239,App :  Android APK and iOS IPA,10800,3,,08/04/2023 13:20,Medium,1.0 To Do,,New Graana Portal,Graana
+taimour.ahmed@graana.com,Taimour Ahmed,611619a73fd57300701ee9d8,NGP-2239,App :  Android APK and iOS IPA,7200,2,,08/04/2023 15:21,Medium,1.0 To Do,,New Graana Portal,Graana
+taimour.ahmed@graana.com,Taimour Ahmed,611619a73fd57300701ee9d8,NGP-2238,App : Meeting and Discussions,1800,0.5,,08/02/2023 15:48,Medium,1.0 To Do,,New Graana Portal,Graana
+taimour.ahmed@graana.com,Taimour Ahmed,611619a73fd57300701ee9d8,NGP-2238,App : Meeting and Discussions,1800,0.5,,08/01/2023 16:13,Medium,1.0 To Do,,New Graana Portal,Graana
+taimour.ahmed@graana.com,Taimour Ahmed,611619a73fd57300701ee9d8,NGP-2238,App : Meeting and Discussions,1800,0.5,,08/01/2023 16:14,Medium,1.0 To Do,,New Graana Portal,Graana
+ali.sher@graana.com,Ali Sher Khan,62ea1c5196eb272011a805bb,NGP-2238,App : Meeting and Discussions,7200,2,,08/02/2023 21:47,Medium,1.0 To Do,,New Graana Portal,Graana
+taimour.ahmed@graana.com,Taimour Ahmed,611619a73fd57300701ee9d8,NGP-2238,App : Meeting and Discussions,7200,2,,08/03/2023 14:22,Medium,1.0 To Do,,New Graana Portal,Graana
+hamza.mehmood@graana.com,Hamza Mehmood,622aed67302c6b006af6cbb1,NGP-2238,App : Meeting and Discussions,10800,3,,08/02/2023 13:20,Medium,1.0 To Do,,New Graana Portal,Graana
+hamza.mehmood@graana.com,Hamza Mehmood,622aed67302c6b006af6cbb1,NGP-2238,App : Meeting and Discussions,10800,3,,08/04/2023 13:20,Medium,1.0 To Do,,New Graana Portal,Graana
+taimour.ahmed@graana.com,Taimour Ahmed,611619a73fd57300701ee9d8,NGP-2238,App : Meeting and Discussions,3600,1,,08/04/2023 16:21,Medium,1.0 To Do,,New Graana Portal,Graana
+atika.faryal@graana.com,Atika Faryal,5ee8b6a8022ed00ab754e975,NGP-2237,Test Case Creation,7200,2,,08/02/2023 15:47,Medium,1.0 To Do,,New Graana Portal,Graana
+akash.arshad@graana.com,Akash Arshad,6130b4776e5e1e0071de0e15,NGP-2236,Property card UI for Live Chat,14400,4,,08/02/2023 07:42,Medium,7.0 Done,,New Graana Portal,Graana
+akash.arshad@graana.com,Akash Arshad,6130b4776e5e1e0071de0e15,NGP-2236,Property card UI for Live Chat,7200,2,,08/02/2023 16:15,Medium,7.0 Done,,New Graana Portal,Graana
+ali.sher@graana.com,Ali Sher Khan,62ea1c5196eb272011a805bb,NGP-2235,Mobile : Quota Utilisation,7200,2,,08/04/2023 21:07,Medium,2.1 In Progress,,New Graana Portal,Graana
+ali.sheharyar@graana.com,Ali Sheharyar Sheikh,624ebd24f4079800705aee5d,NGP-2234,Web and Responsive : Quota Utilisation,14400,4,,08/03/2023 17:45,Medium,2.1 In Progress,,New Graana Portal,Graana
+areeb.siddiqui@graana.com,Areeb Siddiqui,5ff6b0e544065f013fb650e6,NGP-2234,Web and Responsive : Quota Utilisation,7200,2,,08/01/2023 18:03,Medium,2.1 In Progress,,New Graana Portal,Graana
+areeb.siddiqui@graana.com,Areeb Siddiqui,5ff6b0e544065f013fb650e6,NGP-2234,Web and Responsive : Quota Utilisation,7200,2,,08/01/2023 18:03,Medium,2.1 In Progress,,New Graana Portal,Graana
+ali.sheharyar@graana.com,Ali Sheharyar Sheikh,624ebd24f4079800705aee5d,NGP-2234,Web and Responsive : Quota Utilisation,10800,3,,08/04/2023 23:12,Medium,2.1 In Progress,,New Graana Portal,Graana
+ahmer.khan@graana.com,Ahmer Khan,712020:fa186ff8-73f8-4ce3-84ef-77a7177df60e,NGP-2233,Web: Home Page Search Widget,10800,3,,08/02/2023 16:00,Medium,2.1 In Progress,,New Graana Portal,Graana
+ahmer.khan@graana.com,Ahmer Khan,712020:fa186ff8-73f8-4ce3-84ef-77a7177df60e,NGP-2233,Web: Home Page Search Widget,21600,6,,08/03/2023 10:30,Medium,2.1 In Progress,,New Graana Portal,Graana
+ahmer.khan@graana.com,Ahmer Khan,712020:fa186ff8-73f8-4ce3-84ef-77a7177df60e,NGP-2233,Web: Home Page Search Widget,7200,2,,08/03/2023 17:00,Medium,2.1 In Progress,,New Graana Portal,Graana
+ahmer.khan@graana.com,Ahmer Khan,712020:fa186ff8-73f8-4ce3-84ef-77a7177df60e,NGP-2233,Web: Home Page Search Widget,28800,8,,08/04/2023 09:26,Medium,2.1 In Progress,,New Graana Portal,Graana
+saif.rehman@graana.com,Saif Ur Rehman,63a05c71d3aeefa40540105a,NGP-2233,Web: Home Page Search Widget,10800,3,,08/04/2023 14:43,Medium,2.1 In Progress,,New Graana Portal,Graana
+ahmer.khan@graana.com,Ahmer Khan,712020:fa186ff8-73f8-4ce3-84ef-77a7177df60e,NGP-2233,Web: Home Page Search Widget,3600,1,,08/04/2023 18:14,Medium,2.1 In Progress,,New Graana Portal,Graana
+areeb.siddiqui@graana.com,Areeb Siddiqui,5ff6b0e544065f013fb650e6,NGP-2233,Web: Home Page Search Widget,14400,4,,08/04/2023 16:01,Medium,2.1 In Progress,,New Graana Portal,Graana
+atika.faryal@graana.com,Atika Faryal,5ee8b6a8022ed00ab754e975,NGP-2232,Test Cases Creation,6300,1.75,,08/01/2023 15:36,Medium,2.1 In Progress,,New Graana Portal,Graana
+hamza.munir@graana.com,Hamza Munir,616d022a209722007190da9c,NGP-2231,Admin : Projects : -1 is showing in api on selecting studio from bed dropdown.,1800,0.5,,08/04/2023 11:46,High,7.0 Done,,New Graana Portal,Graana
+akash.arshad@graana.com,Akash Arshad,6130b4776e5e1e0071de0e15,NGP-2230,Home-Page UI Alignments,28800,8,,08/01/2023 08:33,Medium,2.5 Pending-Staging Deployment,,New Graana Portal,Graana
+atika.faryal@graana.com,Atika Faryal,5ee8b6a8022ed00ab754e975,NGP-2229,Test Cases Creation,9000,2.5,,08/01/2023 14:09,Medium,2.1 In Progress,,New Graana Portal,Graana
+usman.waheed@imarat.com.pk,Syed Usman Waheed,712020:77904845-a0be-4340-8dc0-d76a1fcb6017,NGP-2227,Migrations and Trigger,21600,6,,07/31/2023 12:24:56,Medium,2.1 In Progress,,New Graana Portal,Graana
+usman.waheed@imarat.com.pk,Syed Usman Waheed,712020:77904845-a0be-4340-8dc0-d76a1fcb6017,NGP-2227,Migrations and Trigger,14400,4,,08/01/2023 14:55,Medium,2.1 In Progress,,New Graana Portal,Graana
+usman.waheed@imarat.com.pk,Syed Usman Waheed,712020:77904845-a0be-4340-8dc0-d76a1fcb6017,NGP-2227,Migrations and Trigger,14400,4,,08/02/2023 12:15,Medium,2.1 In Progress,,New Graana Portal,Graana
+usman.waheed@imarat.com.pk,Syed Usman Waheed,712020:77904845-a0be-4340-8dc0-d76a1fcb6017,NGP-2227,Migrations and Trigger,1800,0.5,,08/03/2023 18:51,Medium,2.1 In Progress,,New Graana Portal,Graana
+usman.waheed@imarat.com.pk,Syed Usman Waheed,712020:77904845-a0be-4340-8dc0-d76a1fcb6017,NGP-2227,Migrations and Trigger,7200,2,,08/04/2023 17:51,Medium,2.1 In Progress,,New Graana Portal,Graana
+atika.faryal@graana.com,Atika Faryal,5ee8b6a8022ed00ab754e975,NGP-2226,Test Case Creation,10800,3,,07/31/2023 15:14:11,Medium,2.1 In Progress,,New Graana Portal,Graana
+akash.arshad@graana.com,Akash Arshad,6130b4776e5e1e0071de0e15,NGP-2225,Nav bar Changes,28800,8,,07/31/2023 08:13:46,Medium,2.5 Pending-Staging Deployment,,New Graana Portal,Graana
+uzair.saeed@graana.com,Uzair Saeed Khan,712020:0ba3640f-2021-4610-91ed-a99ae0d039e2,NGP-2224,Web : Property not submiting for review.,6300,1.75,,07/31/2023 16:21:17,High,7.0 Done,,New Graana Portal,Graana
+ammar.khalid@graana.com,Ammar Khalid Farooq,70121:eadef2dc-c815-4b04-9fcd-130397cfc7b8,NGP-2223,Frontend: Design issue fixes,28800,8,,07/31/2023 11:04:17,Medium,2.5 Pending-Staging Deployment,,New Graana Portal,Graana
+ammar.khalid@graana.com,Ammar Khalid Farooq,70121:eadef2dc-c815-4b04-9fcd-130397cfc7b8,NGP-2223,Frontend: Design issue fixes,28800,8,,08/01/2023 10:27,Medium,2.5 Pending-Staging Deployment,,New Graana Portal,Graana
+ammar.khalid@graana.com,Ammar Khalid Farooq,70121:eadef2dc-c815-4b04-9fcd-130397cfc7b8,NGP-2223,Frontend: Design issue fixes,28800,8,,08/02/2023 10:41,Medium,2.5 Pending-Staging Deployment,,New Graana Portal,Graana
+ammar.khalid@graana.com,Ammar Khalid Farooq,70121:eadef2dc-c815-4b04-9fcd-130397cfc7b8,NGP-2223,Frontend: Design issue fixes,21600,6,,08/03/2023 12:27,Medium,2.5 Pending-Staging Deployment,,New Graana Portal,Graana
+ahmer.khan@graana.com,Ahmer Khan,712020:fa186ff8-73f8-4ce3-84ef-77a7177df60e,NGP-2212,Web - Agent/Save Items:In Call button country code is not showing ,7200,2,,07/31/2023 16:56:39,Medium,6.0 Ready Production,,New Graana Portal,Graana
+ahmer.khan@graana.com,Ahmer Khan,712020:fa186ff8-73f8-4ce3-84ef-77a7177df60e,NGP-2212,Web - Agent/Save Items:In Call button country code is not showing ,7200,2,,08/01/2023 09:00,Medium,6.0 Ready Production,,New Graana Portal,Graana
+ahmer.khan@graana.com,Ahmer Khan,712020:fa186ff8-73f8-4ce3-84ef-77a7177df60e,NGP-2212,Web - Agent/Save Items:In Call button country code is not showing ,3600,1,,08/02/2023 10:39,Medium,6.0 Ready Production,,New Graana Portal,Graana
+azeem.tahir@graana.com,Muhammad Azeem Tahir,6180d1baf485cd00681839b3,NGP-2212,Web - Agent/Save Items:In Call button country code is not showing ,1200,0.33,,08/02/2023 15:24,Medium,6.0 Ready Production,,New Graana Portal,Graana
+taimour.ahmed@graana.com,Taimour Ahmed,611619a73fd57300701ee9d8,NGP-2206,Mobile: Save Search,10800,3,,07/31/2023 12:49:29,Medium,3.2 Done-Design QA,,New Graana Portal,Graana
+taimour.ahmed@graana.com,Taimour Ahmed,611619a73fd57300701ee9d8,NGP-2206,Mobile: Save Search,7200,2,,07/31/2023 15:01:31,Medium,3.2 Done-Design QA,,New Graana Portal,Graana
+taimour.ahmed@graana.com,Taimour Ahmed,611619a73fd57300701ee9d8,NGP-2206,Mobile: Save Search,14400,4,,08/01/2023 09:12,Medium,3.2 Done-Design QA,,New Graana Portal,Graana
+taimour.ahmed@graana.com,Taimour Ahmed,611619a73fd57300701ee9d8,NGP-2206,Mobile: Save Search,10800,3,,08/01/2023 15:56,Medium,3.2 Done-Design QA,,New Graana Portal,Graana
+taimour.ahmed@graana.com,Taimour Ahmed,611619a73fd57300701ee9d8,NGP-2206,Mobile: Save Search,7200,2,,08/02/2023 09:32,Medium,3.2 Done-Design QA,,New Graana Portal,Graana
+taimour.ahmed@graana.com,Taimour Ahmed,611619a73fd57300701ee9d8,NGP-2206,Mobile: Save Search,7200,2,,08/02/2023 10:33,Medium,3.2 Done-Design QA,,New Graana Portal,Graana
+taimour.ahmed@graana.com,Taimour Ahmed,611619a73fd57300701ee9d8,NGP-2206,Mobile: Save Search,7200,2,,08/02/2023 14:30,Medium,3.2 Done-Design QA,,New Graana Portal,Graana
+taimour.ahmed@graana.com,Taimour Ahmed,611619a73fd57300701ee9d8,NGP-2206,Mobile: Save Search,10800,3,,08/03/2023 13:22,Medium,3.2 Done-Design QA,,New Graana Portal,Graana
+muhammad.hassan@graana.com,Muhammad Hassan,6253fe230630bd007074be12,NGP-2206,Mobile: Save Search,1800,0.5,,08/03/2023 16:13,Medium,3.2 Done-Design QA,,New Graana Portal,Graana
+taimour.ahmed@graana.com,Taimour Ahmed,611619a73fd57300701ee9d8,NGP-2206,Mobile: Save Search,10800,3,,08/04/2023 08:41,Medium,3.2 Done-Design QA,,New Graana Portal,Graana
+hamza.mehmood@graana.com,Hamza Mehmood,622aed67302c6b006af6cbb1,NGP-2206,Mobile: Save Search,7200,2,,08/04/2023 14:22,Medium,3.2 Done-Design QA,,New Graana Portal,Graana
+muhammad.hassan@graana.com,Muhammad Hassan,6253fe230630bd007074be12,NGP-2206,Mobile: Save Search,1800,0.5,,08/04/2023 16:44,Medium,3.2 Done-Design QA,,New Graana Portal,Graana
+taimour.ahmed@graana.com,Taimour Ahmed,611619a73fd57300701ee9d8,NGP-2206,Mobile: Save Search,3600,1,,08/04/2023 16:21,Medium,3.2 Done-Design QA,,New Graana Portal,Graana
+abdullah.moqeet@graana.com,Abdullah Siddiqui,624297977a3f9e006ab0f6d6,NGP-2205,Mobile : Search Page Experience Plus,21600,6,,08/02/2023 15:03,Medium,1.0 To Do,,New Graana Portal,Graana
+usman.waheed@imarat.com.pk,Syed Usman Waheed,712020:77904845-a0be-4340-8dc0-d76a1fcb6017,NGP-2204,Backend: Inquiry Modifications,10800,3,,08/02/2023 14:41,Medium,2.1 In Progress,,New Graana Portal,Graana
+usman.waheed@imarat.com.pk,Syed Usman Waheed,712020:77904845-a0be-4340-8dc0-d76a1fcb6017,NGP-2204,Backend: Inquiry Modifications,25200,7,,08/03/2023 11:41,Medium,2.1 In Progress,,New Graana Portal,Graana
+usman.waheed@imarat.com.pk,Syed Usman Waheed,712020:77904845-a0be-4340-8dc0-d76a1fcb6017,NGP-2204,Backend: Inquiry Modifications,14400,4,,08/04/2023 15:51,Medium,2.1 In Progress,,New Graana Portal,Graana
+ali.sheharyar@graana.com,Ali Sheharyar Sheikh,624ebd24f4079800705aee5d,NGP-2203,Backend Services: Graana classified changes,28800,8,,08/01/2023 06:57,Medium,2.1 In Progress,3 - Medium complexity,New Graana Portal,Graana
+ali.sheharyar@graana.com,Ali Sheharyar Sheikh,624ebd24f4079800705aee5d,NGP-2203,Backend Services: Graana classified changes,10800,3,,08/03/2023 18:44,Medium,2.1 In Progress,3 - Medium complexity,New Graana Portal,Graana
+ali.sheharyar@graana.com,Ali Sheharyar Sheikh,624ebd24f4079800705aee5d,NGP-2203,Backend Services: Graana classified changes,21600,6,,07/31/2023 15:52:00,Medium,2.1 In Progress,3 - Medium complexity,New Graana Portal,Graana
+ali.sheharyar@graana.com,Ali Sheharyar Sheikh,624ebd24f4079800705aee5d,NGP-2203,Backend Services: Graana classified changes,21600,6,,08/02/2023 15:52,Medium,2.1 In Progress,3 - Medium complexity,New Graana Portal,Graana
+ali.sheharyar@graana.com,Ali Sheharyar Sheikh,624ebd24f4079800705aee5d,NGP-2203,Backend Services: Graana classified changes,10800,3,,08/04/2023 23:12,Medium,2.1 In Progress,3 - Medium complexity,New Graana Portal,Graana
+saif.rehman@graana.com,Saif Ur Rehman,63a05c71d3aeefa40540105a,NGP-2190,Web and Responsive : Search Page Experience Plus,3600,1,,07/31/2023 16:33:49,Medium,3.2 Done-Design QA,,New Graana Portal,Graana
+saif.rehman@graana.com,Saif Ur Rehman,63a05c71d3aeefa40540105a,NGP-2190,Web and Responsive : Search Page Experience Plus,7200,2,,08/01/2023 14:00,Medium,3.2 Done-Design QA,,New Graana Portal,Graana
+saif.rehman@graana.com,Saif Ur Rehman,63a05c71d3aeefa40540105a,NGP-2190,Web and Responsive : Search Page Experience Plus,10800,3,,08/02/2023 13:36,Medium,3.2 Done-Design QA,,New Graana Portal,Graana
+saif.rehman@graana.com,Saif Ur Rehman,63a05c71d3aeefa40540105a,NGP-2190,Web and Responsive : Search Page Experience Plus,7200,2,,08/03/2023 10:00,Medium,3.2 Done-Design QA,,New Graana Portal,Graana
+jamal.khan@graana.com,Muhammad Jamal Khan,712020:22ef6f45-9c7e-474a-94c5-247628d1adc7,NGP-2190,Web and Responsive : Search Page Experience Plus,1800,0.5,,08/03/2023 05:30,Medium,3.2 Done-Design QA,,New Graana Portal,Graana
+laiba.saleem@graana.com,Laiba Saleem,712020:f16cf53c-51a8-48fb-9aa9-dcf6912f9598,NGP-2190,Web and Responsive : Search Page Experience Plus,1800,0.5,,08/04/2023 15:52,Medium,3.2 Done-Design QA,,New Graana Portal,Graana
+taimoor.ali@graana.com,Taimoor ali khan,615700c7c5388b006944b570,NGP-2185,Web - Agency Search Page: In Enquiry From validation should available if enters wrong email ,10800,3,,08/02/2023 09:04,Medium,6.0 Ready Production,,New Graana Portal,Graana
+azeem.tahir@graana.com,Muhammad Azeem Tahir,6180d1baf485cd00681839b3,NGP-2185,Web - Agency Search Page: In Enquiry From validation should available if enters wrong email ,1200,0.33,,08/02/2023 15:23,Medium,6.0 Ready Production,,New Graana Portal,Graana
+saif.rehman@graana.com,Saif Ur Rehman,63a05c71d3aeefa40540105a,NGP-2182,"Implementation of checks on My Graana based on 3 roles (Web User, Agency Owner & Agent)",1800,0.5,,08/02/2023 15:51,Medium,2.1 In Progress,,New Graana Portal,Graana
+saif.rehman@graana.com,Saif Ur Rehman,63a05c71d3aeefa40540105a,NGP-2182,"Implementation of checks on My Graana based on 3 roles (Web User, Agency Owner & Agent)",1800,0.5,,08/03/2023 10:18,Medium,2.1 In Progress,,New Graana Portal,Graana
+ahmer.khan@graana.com,Ahmer Khan,712020:fa186ff8-73f8-4ce3-84ef-77a7177df60e,NGP-2173,Web & Responsive Homepage Search Filter Design,21600,6,,07/31/2023 09:30:00,High,7.0 Done,4 - High complexity,New Graana Portal,Graana
+ahmer.khan@graana.com,Ahmer Khan,712020:fa186ff8-73f8-4ce3-84ef-77a7177df60e,NGP-2173,Web & Responsive Homepage Search Filter Design,21600,6,,08/01/2023 14:00,High,7.0 Done,4 - High complexity,New Graana Portal,Graana
+ahmer.khan@graana.com,Ahmer Khan,712020:fa186ff8-73f8-4ce3-84ef-77a7177df60e,NGP-2173,Web & Responsive Homepage Search Filter Design,10800,3,,08/02/2023 09:30,High,7.0 Done,4 - High complexity,New Graana Portal,Graana
+uzair.saeed@graana.com,Uzair Saeed Khan,712020:0ba3640f-2021-4610-91ed-a99ae0d039e2,NGP-2172,CRM Integration Support,14400,4,,07/31/2023 14:08:13,Medium,2.1 In Progress,,New Graana Portal,Graana
+uzair.saeed@graana.com,Uzair Saeed Khan,712020:0ba3640f-2021-4610-91ed-a99ae0d039e2,NGP-2172,CRM Integration Support,21600,6,,08/01/2023 17:10,Medium,2.1 In Progress,,New Graana Portal,Graana
+uzair.saeed@graana.com,Uzair Saeed Khan,712020:0ba3640f-2021-4610-91ed-a99ae0d039e2,NGP-2172,CRM Integration Support,24300,6.75,,08/02/2023 10:55,Medium,2.1 In Progress,,New Graana Portal,Graana
+uzair.saeed@graana.com,Uzair Saeed Khan,712020:0ba3640f-2021-4610-91ed-a99ae0d039e2,NGP-2172,CRM Integration Support,18000,5,,08/03/2023 13:45,Medium,2.1 In Progress,,New Graana Portal,Graana
+uzair.saeed@graana.com,Uzair Saeed Khan,712020:0ba3640f-2021-4610-91ed-a99ae0d039e2,NGP-2172,CRM Integration Support,8100,2.25,,08/03/2023 16:32,Medium,2.1 In Progress,,New Graana Portal,Graana
+uzair.saeed@graana.com,Uzair Saeed Khan,712020:0ba3640f-2021-4610-91ed-a99ae0d039e2,NGP-2172,CRM Integration Support,900,0.25,,08/03/2023 19:09,Medium,2.1 In Progress,,New Graana Portal,Graana
+uzair.saeed@graana.com,Uzair Saeed Khan,712020:0ba3640f-2021-4610-91ed-a99ae0d039e2,NGP-2172,CRM Integration Support,25200,7,,08/04/2023 12:52,Medium,2.1 In Progress,,New Graana Portal,Graana
+zawar.khattak@imarat.com.pk,Zawar Khattak,712020:dc794cc4-06aa-494c-ab00-7976ca2763fb,NGP-2163,Responsive : Project Listings Page : Profile image not showing in header.,900,0.25,,07/31/2023 15:35:24,Medium,6.0 Ready Production,,New Graana Portal,Graana
+uzair.saeed@graana.com,Uzair Saeed Khan,712020:0ba3640f-2021-4610-91ed-a99ae0d039e2,NGP-2148,Discussion/Meeting,9000,2.5,,07/31/2023 15:37:33,Medium,2.1 In Progress,,New Graana Portal,Graana
+uzair.saeed@graana.com,Uzair Saeed Khan,712020:0ba3640f-2021-4610-91ed-a99ae0d039e2,NGP-2148,Discussion/Meeting,7200,2,,08/01/2023 21:10,Medium,2.1 In Progress,,New Graana Portal,Graana
+uzair.saeed@graana.com,Uzair Saeed Khan,712020:0ba3640f-2021-4610-91ed-a99ae0d039e2,NGP-2148,Discussion/Meeting,8100,2.25,,08/02/2023 15:25,Medium,2.1 In Progress,,New Graana Portal,Graana
+uzair.saeed@graana.com,Uzair Saeed Khan,712020:0ba3640f-2021-4610-91ed-a99ae0d039e2,NGP-2148,Discussion/Meeting,7200,2,,08/03/2023 16:44,Medium,2.1 In Progress,,New Graana Portal,Graana
+uzair.saeed@graana.com,Uzair Saeed Khan,712020:0ba3640f-2021-4610-91ed-a99ae0d039e2,NGP-2148,Discussion/Meeting,7200,2,,08/04/2023 17:52,Medium,2.1 In Progress,,New Graana Portal,Graana
+usman.waheed@imarat.com.pk,Syed Usman Waheed,712020:77904845-a0be-4340-8dc0-d76a1fcb6017,NGP-2147,Meetings and Discussions,7200,2,,07/31/2023 16:23:36,Medium,2.1 In Progress,,New Graana Portal,Graana
+usman.waheed@imarat.com.pk,Syed Usman Waheed,712020:77904845-a0be-4340-8dc0-d76a1fcb6017,NGP-2147,Meetings and Discussions,7200,2,,08/01/2023 16:55,Medium,2.1 In Progress,,New Graana Portal,Graana
+usman.waheed@imarat.com.pk,Syed Usman Waheed,712020:77904845-a0be-4340-8dc0-d76a1fcb6017,NGP-2147,Meetings and Discussions,7200,2,,08/02/2023 14:15,Medium,2.1 In Progress,,New Graana Portal,Graana
+usman.waheed@imarat.com.pk,Syed Usman Waheed,712020:77904845-a0be-4340-8dc0-d76a1fcb6017,NGP-2147,Meetings and Discussions,7200,2,,08/03/2023 16:41,Medium,2.1 In Progress,,New Graana Portal,Graana
+usman.waheed@imarat.com.pk,Syed Usman Waheed,712020:77904845-a0be-4340-8dc0-d76a1fcb6017,NGP-2147,Meetings and Discussions,7200,2,,08/04/2023 17:51,Medium,2.1 In Progress,,New Graana Portal,Graana
+areeb.siddiqui@graana.com,Areeb Siddiqui,5ff6b0e544065f013fb650e6,NGP-2146,Web and Responsive : Home Page Property Listing Card ,7200,2,,08/04/2023 18:01,Medium,4.0 Pending-QA Lead,,New Graana Portal,Graana
+saif.rehman@graana.com,Saif Ur Rehman,63a05c71d3aeefa40540105a,NGP-2135,Web : Home Page Experience Plus,10800,3,,07/31/2023 14:31:41,Medium,2.2 Pending-PR,,New Graana Portal,Graana
+saif.rehman@graana.com,Saif Ur Rehman,63a05c71d3aeefa40540105a,NGP-2135,Web : Home Page Experience Plus,7200,2,,08/01/2023 16:10,Medium,2.2 Pending-PR,,New Graana Portal,Graana
+areeb.siddiqui@graana.com,Areeb Siddiqui,5ff6b0e544065f013fb650e6,NGP-2135,Web : Home Page Experience Plus,14400,4,,07/31/2023 07:38:00,Medium,2.2 Pending-PR,,New Graana Portal,Graana
+areeb.siddiqui@graana.com,Areeb Siddiqui,5ff6b0e544065f013fb650e6,NGP-2135,Web : Home Page Experience Plus,14400,4,,08/01/2023 07:38,Medium,2.2 Pending-PR,,New Graana Portal,Graana
+akash.arshad@graana.com,Akash Arshad,6130b4776e5e1e0071de0e15,NGP-2135,Web : Home Page Experience Plus,7200,2,,08/02/2023 15:26,Medium,2.2 Pending-PR,,New Graana Portal,Graana
+akash.arshad@graana.com,Akash Arshad,6130b4776e5e1e0071de0e15,NGP-2135,Web : Home Page Experience Plus,18000,5,,08/03/2023 13:28,Medium,2.2 Pending-PR,,New Graana Portal,Graana
+akash.arshad@graana.com,Akash Arshad,6130b4776e5e1e0071de0e15,NGP-2135,Web : Home Page Experience Plus,5400,1.5,,08/03/2023 17:10,Medium,2.2 Pending-PR,,New Graana Portal,Graana
+muhammad.hassan@graana.com,Muhammad Hassan,6253fe230630bd007074be12,NGP-2135,Web : Home Page Experience Plus,1800,0.5,,08/04/2023 10:47,Medium,2.2 Pending-PR,,New Graana Portal,Graana
+laiba.saleem@graana.com,Laiba Saleem,712020:f16cf53c-51a8-48fb-9aa9-dcf6912f9598,NGP-2135,Web : Home Page Experience Plus,7200,2,,08/04/2023 09:49,Medium,2.2 Pending-PR,,New Graana Portal,Graana
+akash.arshad@graana.com,Akash Arshad,6130b4776e5e1e0071de0e15,NGP-2135,Web : Home Page Experience Plus,21600,6,,08/04/2023 11:32,Medium,2.2 Pending-PR,,New Graana Portal,Graana
+akash.arshad@graana.com,Akash Arshad,6130b4776e5e1e0071de0e15,NGP-2135,Web : Home Page Experience Plus,12600,3.5,,08/04/2023 15:33,Medium,2.2 Pending-PR,,New Graana Portal,Graana
+areeb.siddiqui@graana.com,Areeb Siddiqui,5ff6b0e544065f013fb650e6,NGP-2135,Web : Home Page Experience Plus,14400,4,,08/04/2023 16:01,Medium,2.2 Pending-PR,,New Graana Portal,Graana
+abdul.hannan@propsure.com.pk,Abdul Hannan,63899278213a315af34a56e0,NGP-2133,Mobile: Home Page- Experience Plus,28800,8,,07/31/2023 10:26:07,Medium,3.0 Pending-Design QA,,New Graana Portal,Graana
+abdul.hannan@propsure.com.pk,Abdul Hannan,63899278213a315af34a56e0,NGP-2133,Mobile: Home Page- Experience Plus,28800,8,,08/01/2023 10:09,Medium,3.0 Pending-Design QA,,New Graana Portal,Graana
+muhammad.hassan@graana.com,Muhammad Hassan,6253fe230630bd007074be12,NGP-2133,Mobile: Home Page- Experience Plus,3600,1,,08/03/2023 15:39,Medium,3.0 Pending-Design QA,,New Graana Portal,Graana
+abdul.hannan@propsure.com.pk,Abdul Hannan,63899278213a315af34a56e0,NGP-2133,Mobile: Home Page- Experience Plus,21600,6,,08/03/2023 12:59,Medium,3.0 Pending-Design QA,,New Graana Portal,Graana
+abdul.hannan@propsure.com.pk,Abdul Hannan,63899278213a315af34a56e0,NGP-2133,Mobile: Home Page- Experience Plus,3600,1,,08/04/2023 00:22,Medium,3.0 Pending-Design QA,,New Graana Portal,Graana
+hamza.mehmood@graana.com,Hamza Mehmood,622aed67302c6b006af6cbb1,NGP-2133,Mobile: Home Page- Experience Plus,7200,2,,08/03/2023 14:22,Medium,3.0 Pending-Design QA,,New Graana Portal,Graana
+abdul.hannan@propsure.com.pk,Abdul Hannan,63899278213a315af34a56e0,NGP-2133,Mobile: Home Page- Experience Plus,10800,3,,08/04/2023 15:29,Medium,3.0 Pending-Design QA,,New Graana Portal,Graana
+muhammad.hassan@graana.com,Muhammad Hassan,6253fe230630bd007074be12,NGP-2072,Mobile: Project Product Listings Page,1800,0.5,,07/31/2023 10:25:30,Medium,2.2 Pending-PR,,New Graana Portal,Graana
+muhammad.umer@graana.com,Muhammad Umer,6156edfdd9820f00707adc0a,NGP-2072,Mobile: Project Product Listings Page,6000,1.67,,08/01/2023 14:53,Medium,2.2 Pending-PR,,New Graana Portal,Graana
+abdul.hannan@propsure.com.pk,Abdul Hannan,63899278213a315af34a56e0,NGP-2072,Mobile: Project Product Listings Page,10800,3,,08/03/2023 15:59,Medium,2.2 Pending-PR,,New Graana Portal,Graana
+abdul.hannan@propsure.com.pk,Abdul Hannan,63899278213a315af34a56e0,NGP-2072,Mobile: Project Product Listings Page,7200,2,,08/04/2023 16:29,Medium,2.2 Pending-PR,,New Graana Portal,Graana
+hamza.mehmood@graana.com,Hamza Mehmood,622aed67302c6b006af6cbb1,NGP-2042,App : PR Review and Meeting,360,0.1,,08/03/2023 16:14,Medium,1.0 To Do,,New Graana Portal,Graana
+hamza.mehmood@graana.com,Hamza Mehmood,622aed67302c6b006af6cbb1,NGP-2042,App : PR Review and Meeting,21600,6,,08/03/2023 10:20,Medium,1.0 To Do,,New Graana Portal,Graana
+muhammad.hassan@graana.com,Muhammad Hassan,6253fe230630bd007074be12,NGP-2007,Mobile: Purchase History,1800,0.5,,08/03/2023 14:45,Medium,3.2 Done-Design QA,3 - Medium complexity,New Graana Portal,Graana
+ali.sher@graana.com,Ali Sher Khan,62ea1c5196eb272011a805bb,NGP-2006,Mobile: Shop Ad Ons,3600,1,,08/02/2023 09:00,Medium,3.2 Done-Design QA,4 - High complexity,New Graana Portal,Graana
+muhammad.hassan@graana.com,Muhammad Hassan,6253fe230630bd007074be12,NGP-2006,Mobile: Shop Ad Ons,1800,0.5,,08/03/2023 14:43,Medium,3.2 Done-Design QA,4 - High complexity,New Graana Portal,Graana
+muhammad.umer@graana.com,Muhammad Umer,6156edfdd9820f00707adc0a,NGP-2000,Mobile: Invest. Project Detail Page,7200,2,,08/01/2023 15:40,Medium,2.1 In Progress,3 - Medium complexity,New Graana Portal,Graana
+abdul.hannan@propsure.com.pk,Abdul Hannan,63899278213a315af34a56e0,NGP-2000,Mobile: Invest. Project Detail Page,16200,4.5,,08/02/2023 13:45,Medium,2.1 In Progress,3 - Medium complexity,New Graana Portal,Graana
+abdul.hannan@propsure.com.pk,Abdul Hannan,63899278213a315af34a56e0,NGP-2000,Mobile: Invest. Project Detail Page,10800,3,"Carousal changes, Image ordering and liking.
+Gradle Issues",08/04/2023 15:32,Medium,2.1 In Progress,3 - Medium complexity,New Graana Portal,Graana
+awais.ibrahim@graana.com,Awais Ibrahim,712020:de3c0cd7-5529-40af-8071-4e5c8b5eba8a,NGP-1999,Mobile: Invest Project List Page,14400,4,,07/31/2023 13:25:53,Medium,2.5 Pending-Staging Deployment,2 - Low complexity,New Graana Portal,Graana
+awais.ibrahim@graana.com,Awais Ibrahim,712020:de3c0cd7-5529-40af-8071-4e5c8b5eba8a,NGP-1999,Mobile: Invest Project List Page,10800,3,,08/01/2023 09:30,Medium,2.5 Pending-Staging Deployment,2 - Low complexity,New Graana Portal,Graana
+awais.ibrahim@graana.com,Awais Ibrahim,712020:de3c0cd7-5529-40af-8071-4e5c8b5eba8a,NGP-1999,Mobile: Invest Project List Page,18000,5,,08/02/2023 11:21,Medium,2.5 Pending-Staging Deployment,2 - Low complexity,New Graana Portal,Graana
+zawar.khattak@imarat.com.pk,Zawar Khattak,712020:dc794cc4-06aa-494c-ab00-7976ca2763fb,NGP-1999,Mobile: Invest Project List Page,3600,1,,08/02/2023 17:35,Medium,2.5 Pending-Staging Deployment,2 - Low complexity,New Graana Portal,Graana
+zawar.khattak@imarat.com.pk,Zawar Khattak,712020:dc794cc4-06aa-494c-ab00-7976ca2763fb,NGP-1999,Mobile: Invest Project List Page,3600,1,,08/03/2023 09:31,Medium,2.5 Pending-Staging Deployment,2 - Low complexity,New Graana Portal,Graana
+awais.ibrahim@graana.com,Awais Ibrahim,712020:de3c0cd7-5529-40af-8071-4e5c8b5eba8a,NGP-1999,Mobile: Invest Project List Page,10800,3,,08/03/2023 10:00,Medium,2.5 Pending-Staging Deployment,2 - Low complexity,New Graana Portal,Graana
+awais.ibrahim@graana.com,Awais Ibrahim,712020:de3c0cd7-5529-40af-8071-4e5c8b5eba8a,NGP-1999,Mobile: Invest Project List Page,10800,3,,08/04/2023 10:00,Medium,2.5 Pending-Staging Deployment,2 - Low complexity,New Graana Portal,Graana
+hamza.mehmood@graana.com,Hamza Mehmood,622aed67302c6b006af6cbb1,NGP-1999,Mobile: Invest Project List Page,7200,2,,08/02/2023 14:22,Medium,2.5 Pending-Staging Deployment,2 - Low complexity,New Graana Portal,Graana
+awais.ibrahim@graana.com,Awais Ibrahim,712020:de3c0cd7-5529-40af-8071-4e5c8b5eba8a,NGP-1998,Mobile: Invest Landing Page,3600,1,minor bug fixes,07/31/2023 10:00:00,Medium,2.0 On Hold,3 - Medium complexity,New Graana Portal,Graana
+zawar.khattak@imarat.com.pk,Zawar Khattak,712020:dc794cc4-06aa-494c-ab00-7976ca2763fb,NGP-1998,Mobile: Invest Landing Page,3600,1,,08/01/2023 14:09,Medium,2.0 On Hold,3 - Medium complexity,New Graana Portal,Graana
+awais.ibrahim@graana.com,Awais Ibrahim,712020:de3c0cd7-5529-40af-8071-4e5c8b5eba8a,NGP-1998,Mobile: Invest Landing Page,7200,2,QA issues resolved.,08/02/2023 10:23,Medium,2.0 On Hold,3 - Medium complexity,New Graana Portal,Graana
+zawar.khattak@imarat.com.pk,Zawar Khattak,712020:dc794cc4-06aa-494c-ab00-7976ca2763fb,NGP-1998,Mobile: Invest Landing Page,3600,1,,08/02/2023 16:57,Medium,2.0 On Hold,3 - Medium complexity,New Graana Portal,Graana
+taimour.ahmed@graana.com,Taimour Ahmed,611619a73fd57300701ee9d8,NGP-1966,Mobile: Agency Search Page,7200,2,,07/31/2023 09:46:53,Medium,5.0 Business Review,3 - Medium complexity,New Graana Portal,Graana
+azeem.tahir@graana.com,Muhammad Azeem Tahir,6180d1baf485cd00681839b3,NGP-1966,Mobile: Agency Search Page,7200,2,,08/03/2023 13:30,Medium,5.0 Business Review,3 - Medium complexity,New Graana Portal,Graana
+zawar.khattak@imarat.com.pk,Zawar Khattak,712020:dc794cc4-06aa-494c-ab00-7976ca2763fb,NGP-1961,Web and Responsive : Agency Profile,5400,1.5,,07/31/2023 15:22:50,Medium,4.0 Pending-QA Lead,,New Graana Portal,Graana
+zawar.khattak@imarat.com.pk,Zawar Khattak,712020:dc794cc4-06aa-494c-ab00-7976ca2763fb,NGP-1961,Web and Responsive : Agency Profile,3600,1,,08/01/2023 09:21,Medium,4.0 Pending-QA Lead,,New Graana Portal,Graana
+zawar.khattak@imarat.com.pk,Zawar Khattak,712020:dc794cc4-06aa-494c-ab00-7976ca2763fb,NGP-1961,Web and Responsive : Agency Profile,5400,1.5,,08/03/2023 10:43,Medium,4.0 Pending-QA Lead,,New Graana Portal,Graana
+taimoor.ali@graana.com,Taimoor ali khan,615700c7c5388b006944b570,NGP-1961,Web and Responsive : Agency Profile,7200,2,,08/04/2023 03:30,Medium,4.0 Pending-QA Lead,,New Graana Portal,Graana
+zawar.khattak@imarat.com.pk,Zawar Khattak,712020:dc794cc4-06aa-494c-ab00-7976ca2763fb,NGP-1959,Web and Responsive : Agency Search Page,3600,1,,08/01/2023 11:14,Medium,5.0 Business Review,,New Graana Portal,Graana
+ahmer.khan@graana.com,Ahmer Khan,712020:fa186ff8-73f8-4ce3-84ef-77a7177df60e,NGP-1959,Web and Responsive : Agency Search Page,3600,1,,08/01/2023 20:00,Medium,5.0 Business Review,,New Graana Portal,Graana
+usman.waheed@imarat.com.pk,Syed Usman Waheed,712020:77904845-a0be-4340-8dc0-d76a1fcb6017,NGP-1959,Web and Responsive : Agency Search Page,7200,2,,08/01/2023 16:55,Medium,5.0 Business Review,,New Graana Portal,Graana
+ahmer.khan@graana.com,Ahmer Khan,712020:fa186ff8-73f8-4ce3-84ef-77a7177df60e,NGP-1959,Web and Responsive : Agency Search Page,7200,2,,08/02/2023 14:00,Medium,5.0 Business Review,,New Graana Portal,Graana
+zawar.khattak@imarat.com.pk,Zawar Khattak,712020:dc794cc4-06aa-494c-ab00-7976ca2763fb,NGP-1959,Web and Responsive : Agency Search Page,3600,1,,08/03/2023 11:13,Medium,5.0 Business Review,,New Graana Portal,Graana
+azeem.tahir@graana.com,Muhammad Azeem Tahir,6180d1baf485cd00681839b3,NGP-1959,Web and Responsive : Agency Search Page,7200,2,,08/03/2023 13:30,Medium,5.0 Business Review,,New Graana Portal,Graana
+azeem.tahir@graana.com,Muhammad Azeem Tahir,6180d1baf485cd00681839b3,NGP-1958,Web and Responsive : Agency Home Page,1800,0.5,,08/02/2023 10:00,Medium,5.0 Business Review,,New Graana Portal,Graana
+anas.attas@propsure.com.pk,anas.attas,6346947448be855a65ecd045,NGP-1956,Performance improvement ,1200,0.33,,08/04/2023 17:36,Medium,2.1 In Progress,,New Graana Portal,Graana
+anas.attas@propsure.com.pk,anas.attas,6346947448be855a65ecd045,NGP-1956,Performance improvement ,75600,21,,08/03/2023 21:00,Medium,2.1 In Progress,,New Graana Portal,Graana
+laiba.saleem@graana.com,Laiba Saleem,712020:f16cf53c-51a8-48fb-9aa9-dcf6912f9598,NGP-1935,Graana Invest Project Detail Page,3600,1,,08/01/2023 09:53,Medium,5.0 Business Review,,New Graana Portal,Graana
+muhammad.hassan@graana.com,Muhammad Hassan,6253fe230630bd007074be12,NGP-1935,Graana Invest Project Detail Page,1800,0.5,,08/02/2023 12:01,Medium,5.0 Business Review,,New Graana Portal,Graana
+jamal.khan@graana.com,Muhammad Jamal Khan,712020:22ef6f45-9c7e-474a-94c5-247628d1adc7,NGP-1935,Graana Invest Project Detail Page,7200,2,,08/02/2023 11:00,Medium,5.0 Business Review,,New Graana Portal,Graana
+laiba.saleem@graana.com,Laiba Saleem,712020:f16cf53c-51a8-48fb-9aa9-dcf6912f9598,NGP-1935,Graana Invest Project Detail Page,1800,0.5,,08/03/2023 16:28,Medium,5.0 Business Review,,New Graana Portal,Graana
+azeem.tahir@graana.com,Muhammad Azeem Tahir,6180d1baf485cd00681839b3,NGP-1935,Graana Invest Project Detail Page,3600,1,,08/04/2023 16:36,Medium,5.0 Business Review,,New Graana Portal,Graana
+jamal.khan@graana.com,Muhammad Jamal Khan,712020:22ef6f45-9c7e-474a-94c5-247628d1adc7,NGP-1935,Graana Invest Project Detail Page,7200,2,,08/04/2023 10:00,Medium,5.0 Business Review,,New Graana Portal,Graana
+zawar.khattak@imarat.com.pk,Zawar Khattak,712020:dc794cc4-06aa-494c-ab00-7976ca2763fb,NGP-1935,Graana Invest Project Detail Page,10800,3,,08/04/2023 15:15,Medium,5.0 Business Review,,New Graana Portal,Graana
+ali.sher@graana.com,Ali Sher Khan,62ea1c5196eb272011a805bb,NGP-1797,Mobile : Create and Manage Agents,7200,2,,07/31/2023 20:56:26,Medium,3.0 Pending-Design QA,,New Graana Portal,Graana
+ali.sher@graana.com,Ali Sher Khan,62ea1c5196eb272011a805bb,NGP-1797,Mobile : Create and Manage Agents,3600,1,,08/02/2023 09:00,Medium,3.0 Pending-Design QA,,New Graana Portal,Graana
+muhammad.hassan@graana.com,Muhammad Hassan,6253fe230630bd007074be12,NGP-1797,Mobile : Create and Manage Agents,3600,1,,08/03/2023 14:07,Medium,3.0 Pending-Design QA,,New Graana Portal,Graana
+ali.sher@graana.com,Ali Sher Khan,62ea1c5196eb272011a805bb,NGP-1797,Mobile : Create and Manage Agents,3600,1,,08/03/2023 18:21,Medium,3.0 Pending-Design QA,,New Graana Portal,Graana
+ali.sher@graana.com,Ali Sher Khan,62ea1c5196eb272011a805bb,NGP-1797,Mobile : Create and Manage Agents,21600,6,,08/04/2023 09:53,Medium,3.0 Pending-Design QA,,New Graana Portal,Graana
+azeem.tahir@graana.com,Muhammad Azeem Tahir,6180d1baf485cd00681839b3,NGP-1795,Web and Responsive : Shop for Buying Add-ons,10800,3,,08/02/2023 15:30,Medium,2.3 Failed-PR/QA,,New Graana Portal,Graana
+areeb.siddiqui@graana.com,Areeb Siddiqui,5ff6b0e544065f013fb650e6,NGP-1795,Web and Responsive : Shop for Buying Add-ons,14400,4,,08/02/2023 16:02,Medium,2.3 Failed-PR/QA,,New Graana Portal,Graana
+zawar.khattak@imarat.com.pk,Zawar Khattak,712020:dc794cc4-06aa-494c-ab00-7976ca2763fb,NGP-1794,Web and Responsive: Create and Manage Agents,5400,1.5,,07/31/2023 15:23:52,Medium,2.5 Pending-Staging Deployment,,New Graana Portal,Graana
+saif.rehman@graana.com,Saif Ur Rehman,63a05c71d3aeefa40540105a,NGP-1794,Web and Responsive: Create and Manage Agents,1800,0.5,,07/31/2023 10:00:00,Medium,2.5 Pending-Staging Deployment,,New Graana Portal,Graana
+zawar.khattak@imarat.com.pk,Zawar Khattak,712020:dc794cc4-06aa-494c-ab00-7976ca2763fb,NGP-1794,Web and Responsive: Create and Manage Agents,3600,1,,08/01/2023 09:46,Medium,2.5 Pending-Staging Deployment,,New Graana Portal,Graana
+jamal.khan@graana.com,Muhammad Jamal Khan,712020:22ef6f45-9c7e-474a-94c5-247628d1adc7,NGP-1782,Graana Invest Projects List Page,5400,1.5,,08/03/2023 10:00,Medium,5.0 Business Review,,New Graana Portal,Graana
+awais.ibrahim@graana.com,Awais Ibrahim,712020:de3c0cd7-5529-40af-8071-4e5c8b5eba8a,NGP-1756,App code improvements,12600,3.5,,08/01/2023 12:48,Medium,7.0 Done,,New Graana Portal,Graana
+awais.ibrahim@graana.com,Awais Ibrahim,712020:de3c0cd7-5529-40af-8071-4e5c8b5eba8a,NGP-1756,App code improvements,10800,3,,08/03/2023 13:00,Medium,7.0 Done,,New Graana Portal,Graana
+awais.ibrahim@graana.com,Awais Ibrahim,712020:de3c0cd7-5529-40af-8071-4e5c8b5eba8a,NGP-1756,App code improvements,10800,3,,08/04/2023 15:20,Medium,7.0 Done,,New Graana Portal,Graana
+fahad.ali@graana.com,Fahad Ali,615700c799b4b8006a746a62,NGP-1738,Management tasks,18000,5,,07/31/2023 14:00:00,Medium,2.1 In Progress,,New Graana Portal,Graana
+fahad.ali@graana.com,Fahad Ali,615700c799b4b8006a746a62,NGP-1738,Management tasks,16200,4.5,,08/01/2023 14:40,Medium,2.1 In Progress,,New Graana Portal,Graana
+fahad.ali@graana.com,Fahad Ali,615700c799b4b8006a746a62,NGP-1738,Management tasks,14400,4,,08/02/2023 14:58,Medium,2.1 In Progress,,New Graana Portal,Graana
+fahad.ali@graana.com,Fahad Ali,615700c799b4b8006a746a62,NGP-1738,Management tasks,16200,4.5,,08/03/2023 14:52,Medium,2.1 In Progress,,New Graana Portal,Graana
+fahad.ali@graana.com,Fahad Ali,615700c799b4b8006a746a62,NGP-1738,Management tasks,16020,4.45,,08/04/2023 15:08,Medium,2.1 In Progress,,New Graana Portal,Graana
+fahad.ali@graana.com,Fahad Ali,615700c799b4b8006a746a62,NGP-1737,Code review,14400,4,,07/31/2023 10:30:00,Medium,2.1 In Progress,,New Graana Portal,Graana
+fahad.ali@graana.com,Fahad Ali,615700c799b4b8006a746a62,NGP-1737,Code review,16200,4.5,,08/01/2023 14:40,Medium,2.1 In Progress,,New Graana Portal,Graana
+fahad.ali@graana.com,Fahad Ali,615700c799b4b8006a746a62,NGP-1737,Code review,14400,4,,08/02/2023 14:57,Medium,2.1 In Progress,,New Graana Portal,Graana
+fahad.ali@graana.com,Fahad Ali,615700c799b4b8006a746a62,NGP-1737,Code review,14400,4,,08/03/2023 15:22,Medium,2.1 In Progress,,New Graana Portal,Graana
+fahad.ali@graana.com,Fahad Ali,615700c799b4b8006a746a62,NGP-1737,Code review,14400,4,,08/04/2023 15:34,Medium,2.1 In Progress,,New Graana Portal,Graana
+ali.sheharyar@graana.com,Ali Sheharyar Sheikh,624ebd24f4079800705aee5d,NGP-1725,"Rapid Response: Team meetings, Expert time, Miscellaneous activities",7200,2,"Team meetings, Expert time",08/03/2023 19:45,Medium,2.1 In Progress,,New Graana Portal,Graana
+ali.sheharyar@graana.com,Ali Sheharyar Sheikh,624ebd24f4079800705aee5d,NGP-1725,"Rapid Response: Team meetings, Expert time, Miscellaneous activities",7200,2,"Team meetings, Expert time",07/31/2023 19:53:00,Medium,2.1 In Progress,,New Graana Portal,Graana
+ali.sheharyar@graana.com,Ali Sheharyar Sheikh,624ebd24f4079800705aee5d,NGP-1725,"Rapid Response: Team meetings, Expert time, Miscellaneous activities",7200,2,"Team meetings, Expert time",08/02/2023 19:53,Medium,2.1 In Progress,,New Graana Portal,Graana
+ali.sheharyar@graana.com,Ali Sheharyar Sheikh,624ebd24f4079800705aee5d,NGP-1725,"Rapid Response: Team meetings, Expert time, Miscellaneous activities",7200,2,Team meetings,08/04/2023 00:13,Medium,2.1 In Progress,,New Graana Portal,Graana
+zawar.khattak@imarat.com.pk,Zawar Khattak,712020:dc794cc4-06aa-494c-ab00-7976ca2763fb,NGP-1646,Discussion and Meeting,10800,3,,08/04/2023 14:52,Medium,1.0 To Do,,New Graana Portal,Graana
+ali.sher@graana.com,Ali Sher Khan,62ea1c5196eb272011a805bb,NGP-1635,Mobile: Implement Filters in My listings under My graana section,7200,2,,07/31/2023 21:21:15,Medium,2.3 Failed-PR/QA,,New Graana Portal,Graana
+ali.sher@graana.com,Ali Sher Khan,62ea1c5196eb272011a805bb,NGP-1635,Mobile: Implement Filters in My listings under My graana section,14400,4,,08/01/2023 17:31,Medium,2.3 Failed-PR/QA,,New Graana Portal,Graana
+ali.sher@graana.com,Ali Sher Khan,62ea1c5196eb272011a805bb,NGP-1635,Mobile: Implement Filters in My listings under My graana section,7200,2,,08/02/2023 09:00,Medium,2.3 Failed-PR/QA,,New Graana Portal,Graana
+muhammad.hassan@graana.com,Muhammad Hassan,6253fe230630bd007074be12,NGP-1635,Mobile: Implement Filters in My listings under My graana section,1800,0.5,,08/03/2023 14:20,Medium,2.3 Failed-PR/QA,,New Graana Portal,Graana
+muhammad.hassan@graana.com,Muhammad Hassan,6253fe230630bd007074be12,NGP-1634,Mobile: Update Signup & Profile settings section.,1800,0.5,,08/02/2023 11:13,Medium,3.2 Done-Design QA,,New Graana Portal,Graana
+muhammad.hassan@graana.com,Muhammad Hassan,6253fe230630bd007074be12,NGP-1634,Mobile: Update Signup & Profile settings section.,1800,0.5,,08/02/2023 11:31,Medium,3.2 Done-Design QA,,New Graana Portal,Graana
+muhammad.hassan@graana.com,Muhammad Hassan,6253fe230630bd007074be12,NGP-1634,Mobile: Update Signup & Profile settings section.,3600,1,,08/02/2023 11:32,Medium,3.2 Done-Design QA,,New Graana Portal,Graana
+abdullah.moqeet@graana.com,Abdullah Siddiqui,624297977a3f9e006ab0f6d6,NGP-1634,Mobile: Update Signup & Profile settings section.,10800,3,,08/02/2023 13:28,Medium,3.2 Done-Design QA,,New Graana Portal,Graana
+abdullah.moqeet@graana.com,Abdullah Siddiqui,624297977a3f9e006ab0f6d6,NGP-1634,Mobile: Update Signup & Profile settings section.,14400,4,,08/03/2023 12:33,Medium,3.2 Done-Design QA,,New Graana Portal,Graana
+abdullah.moqeet@graana.com,Abdullah Siddiqui,624297977a3f9e006ab0f6d6,NGP-1634,Mobile: Update Signup & Profile settings section.,21600,6,,08/04/2023 11:44,Medium,3.2 Done-Design QA,,New Graana Portal,Graana
+zawar.khattak@imarat.com.pk,Zawar Khattak,712020:dc794cc4-06aa-494c-ab00-7976ca2763fb,NGP-1633,Mobile: Redesign Saved items under My Graana,3600,1,,08/01/2023 15:22,Medium,2.0 On Hold,,New Graana Portal,Graana
+taimour.ahmed@graana.com,Taimour Ahmed,611619a73fd57300701ee9d8,NGP-1633,Mobile: Redesign Saved items under My Graana,3600,1,,08/02/2023 10:31,Medium,2.0 On Hold,,New Graana Portal,Graana
+zawar.khattak@imarat.com.pk,Zawar Khattak,712020:dc794cc4-06aa-494c-ab00-7976ca2763fb,NGP-1633,Mobile: Redesign Saved items under My Graana,3600,1,,08/02/2023 18:07,Medium,2.0 On Hold,,New Graana Portal,Graana
+azeem.tahir@graana.com,Muhammad Azeem Tahir,6180d1baf485cd00681839b3,NGP-1633,Mobile: Redesign Saved items under My Graana,1200,0.33,,08/03/2023 15:11,Medium,2.0 On Hold,,New Graana Portal,Graana
+abdullah.moqeet@graana.com,Abdullah Siddiqui,624297977a3f9e006ab0f6d6,NGP-1632,Mobile: Enhancements required in My listings under my Graana,7200,2,,07/31/2023 16:15:06,Medium,2.3 Failed-PR/QA,,New Graana Portal,Graana
+ali.sher@graana.com,Ali Sher Khan,62ea1c5196eb272011a805bb,NGP-1632,Mobile: Enhancements required in My listings under my Graana,3600,1,,07/31/2023 22:20:44,Medium,2.3 Failed-PR/QA,,New Graana Portal,Graana
+muhammad.umer@graana.com,Muhammad Umer,6156edfdd9820f00707adc0a,NGP-1632,Mobile: Enhancements required in My listings under my Graana,3600,1,,08/01/2023 16:04,Medium,2.3 Failed-PR/QA,,New Graana Portal,Graana
+ali.sher@graana.com,Ali Sher Khan,62ea1c5196eb272011a805bb,NGP-1632,Mobile: Enhancements required in My listings under my Graana,3600,1,,08/02/2023 09:00,Medium,2.3 Failed-PR/QA,,New Graana Portal,Graana
+muhammad.hassan@graana.com,Muhammad Hassan,6253fe230630bd007074be12,NGP-1632,Mobile: Enhancements required in My listings under my Graana,3600,1,,08/03/2023 13:48,Medium,2.3 Failed-PR/QA,,New Graana Portal,Graana
+ali.sher@graana.com,Ali Sher Khan,62ea1c5196eb272011a805bb,NGP-1632,Mobile: Enhancements required in My listings under my Graana,7200,2,,08/03/2023 17:21,Medium,2.3 Failed-PR/QA,,New Graana Portal,Graana
+zawar.khattak@imarat.com.pk,Zawar Khattak,712020:dc794cc4-06aa-494c-ab00-7976ca2763fb,NGP-1631,Mobile: Design Inquiry Detail page,7200,2,,07/31/2023 14:18:20,Medium,5.0 Business Review,,New Graana Portal,Graana
+zawar.khattak@imarat.com.pk,Zawar Khattak,712020:dc794cc4-06aa-494c-ab00-7976ca2763fb,NGP-1630,Mobile: Design new Inquiries page under My Graana,3600,1,,08/03/2023 11:54,Medium,4.0 Pending-QA Lead,,New Graana Portal,Graana
+ali.sher@graana.com,Ali Sher Khan,62ea1c5196eb272011a805bb,NGP-1630,Mobile: Design new Inquiries page under My Graana,3600,1,,08/03/2023 18:22,Medium,4.0 Pending-QA Lead,,New Graana Portal,Graana
+ali.sher@graana.com,Ali Sher Khan,62ea1c5196eb272011a805bb,NGP-1630,Mobile: Design new Inquiries page under My Graana,1800,0.5,,08/04/2023 17:51,Medium,4.0 Pending-QA Lead,,New Graana Portal,Graana
+taimoor.ali@graana.com,Taimoor ali khan,615700c7c5388b006944b570,NGP-1621,Web & Responsive: Implement Filters in My listings under My graana section,28800,8,,07/31/2023 10:06:41,Medium,5.0 Business Review,,New Graana Portal,Graana
+laiba.saleem@graana.com,Laiba Saleem,712020:f16cf53c-51a8-48fb-9aa9-dcf6912f9598,NGP-1621,Web & Responsive: Implement Filters in My listings under My graana section,3600,1,,07/31/2023 15:15:01,Medium,5.0 Business Review,,New Graana Portal,Graana
+muhammad.hassan@graana.com,Muhammad Hassan,6253fe230630bd007074be12,NGP-1621,Web & Responsive: Implement Filters in My listings under My graana section,1800,0.5,HAd discussion  on the t hings that laiba mentioned in design QA,08/01/2023 16:03,Medium,5.0 Business Review,,New Graana Portal,Graana
+taimoor.ali@graana.com,Taimoor ali khan,615700c7c5388b006944b570,NGP-1621,Web & Responsive: Implement Filters in My listings under My graana section,32400,9,,08/01/2023 19:34,Medium,5.0 Business Review,,New Graana Portal,Graana
+zawar.khattak@imarat.com.pk,Zawar Khattak,712020:dc794cc4-06aa-494c-ab00-7976ca2763fb,NGP-1616,Web & Responsive: Design Inquiry Detail page,5400,1.5,,08/02/2023 15:21,Medium,5.0 Business Review,,New Graana Portal,Graana
+areeb.siddiqui@graana.com,Areeb Siddiqui,5ff6b0e544065f013fb650e6,NGP-1601,Web & Responsive: Design and Implement basic layout of Graana Property Management (My Graana),14400,4,,07/31/2023 07:39:00,Medium,2.3 Failed-PR/QA,,New Graana Portal,Graana
+areeb.siddiqui@graana.com,Areeb Siddiqui,5ff6b0e544065f013fb650e6,NGP-1601,Web & Responsive: Design and Implement basic layout of Graana Property Management (My Graana),14400,4,,08/02/2023 16:02,Medium,2.3 Failed-PR/QA,,New Graana Portal,Graana
+ahmer.faiz@propsure.com.pk,Ahmer Faiz,6409757e4307e46ad147e99c,MM-140,"Morning Meeting, R & D",28800,8,,07/31/2023 09:00:00,Medium,In Progress,,Morning Meeting,Graana
+asif.javed@graana.com,Asif Javed,712020:f3f3e1c0-2566-41c5-a772-d8113f157b87,MM-140,"Morning Meeting, R & D",7200,2,,07/31/2023 16:42:56,Medium,In Progress,,Morning Meeting,Graana
+ahmer.faiz@propsure.com.pk,Ahmer Faiz,6409757e4307e46ad147e99c,MM-140,"Morning Meeting, R & D",28800,8,,08/01/2023 09:00,Medium,In Progress,,Morning Meeting,Graana
+asif.javed@graana.com,Asif Javed,712020:f3f3e1c0-2566-41c5-a772-d8113f157b87,MM-140,"Morning Meeting, R & D",14400,4,,08/01/2023 06:08,Medium,In Progress,,Morning Meeting,Graana
+asif.javed@graana.com,Asif Javed,712020:f3f3e1c0-2566-41c5-a772-d8113f157b87,MM-140,"Morning Meeting, R & D",14400,4,,08/02/2023 13:53,Medium,In Progress,,Morning Meeting,Graana
+asif.javed@graana.com,Asif Javed,712020:f3f3e1c0-2566-41c5-a772-d8113f157b87,MM-140,"Morning Meeting, R & D",14400,4,,08/03/2023 13:53,Medium,In Progress,,Morning Meeting,Graana
+asif.javed@graana.com,Asif Javed,712020:f3f3e1c0-2566-41c5-a772-d8113f157b87,MM-140,"Morning Meeting, R & D",28800,8,,08/04/2023 10:31,Medium,In Progress,,Morning Meeting,Graana
+ahmer.faiz@propsure.com.pk,Ahmer Faiz,6409757e4307e46ad147e99c,MM-140,"Morning Meeting, R & D",28800,8,,08/04/2023 09:30,Medium,In Progress,,Morning Meeting,Graana
+asif.javed@graana.com,Asif Javed,712020:f3f3e1c0-2566-41c5-a772-d8113f157b87,MM-134,"Morning Meeting : Pending Request issue for team lead , Addition and deletion ",10800,3,,08/03/2023 14:54,Medium,QA Review,,Morning Meeting,Graana
+asif.javed@graana.com,Asif Javed,712020:f3f3e1c0-2566-41c5-a772-d8113f157b87,MM-127,"Morning Meeting, Multiple improvements",9000,2.5,,07/31/2023 16:15:40,Medium,1.0 To Do,,Morning Meeting,Graana
+asif.javed@graana.com,Asif Javed,712020:f3f3e1c0-2566-41c5-a772-d8113f157b87,MM-127,"Morning Meeting, Multiple improvements",10800,3,,08/02/2023 14:53,Medium,1.0 To Do,,Morning Meeting,Graana
+asif.javed@graana.com,Asif Javed,712020:f3f3e1c0-2566-41c5-a772-d8113f157b87,MM-126,"Morning Meeting, Testing of inactive members ",14400,4,,08/01/2023 06:09,Medium,In Progress,,Morning Meeting,Graana
+asif.javed@graana.com,Asif Javed,712020:f3f3e1c0-2566-41c5-a772-d8113f157b87,MM-125,"Morning Meeting, Discussion on inactive team members in the team",1800,0.5,,07/31/2023 18:12:14,Medium,In Progress,,Morning Meeting,Graana
+hamza.munir@graana.com,Hamza Munir,616d022a209722007190da9c,GSEO-257,"Update Sitemaps to v2 for Graana and handle soft 404s, and Date Information",28800,8,,07/31/2023 13:39:48,Medium,QA Failed,,Graana SEO,Graana
+waqas.yousaf@propsure.com.pk,Waqas Yousaf,62e0c668f6dd8b8b0eabae2a,DEVOPS-1063,DevOps Tasks,136800,38,,07/31/2023 09:00:00,Medium,Done,,DevOps,Graana
+noman.shahid@graana.com,Noman Shahid,616d289025f3130070314aed,DEVOPS-1062,Dev Database migration to Old RDS,14400,4,,08/03/2023 11:33,Medium,In Progress,,DevOps,Graana
+noman.shahid@graana.com,Noman Shahid,616d289025f3130070314aed,DEVOPS-1062,Dev Database migration to Old RDS,21600,6,,08/04/2023 09:33,Medium,In Progress,,DevOps,Graana
+noman.shahid@graana.com,Noman Shahid,616d289025f3130070314aed,DEVOPS-1061,Xperience dev issue,14400,4,,08/02/2023 11:30,Medium,In Progress,,DevOps,Graana
+noman.shahid@graana.com,Noman Shahid,616d289025f3130070314aed,DEVOPS-1060,Sentry issue for production,7200,2,,08/03/2023 13:29,Medium,In Progress,,DevOps,Graana
+noman.shahid@graana.com,Noman Shahid,616d289025f3130070314aed,DEVOPS-1059,Graana prod issue,18000,5,,08/03/2023 10:28,Medium,In Progress,,DevOps,Graana
+noman.shahid@graana.com,Noman Shahid,616d289025f3130070314aed,DEVOPS-1059,Graana prod issue,10800,3,,08/02/2023 13:35,Medium,In Progress,,DevOps,Graana
+noman.shahid@graana.com,Noman Shahid,616d289025f3130070314aed,DEVOPS-1059,Graana prod issue,10800,3,,08/03/2023 12:36,Medium,In Progress,,DevOps,Graana
+noman.shahid@graana.com,Noman Shahid,616d289025f3130070314aed,DEVOPS-1058,"Migration On Dev, Stage and Prod",3600,1,,07/31/2023 14:26:00,Medium,In Progress,,DevOps,Graana
+noman.shahid@graana.com,Noman Shahid,616d289025f3130070314aed,DEVOPS-1058,"Migration On Dev, Stage and Prod",3600,1,,08/01/2023 14:26,Medium,In Progress,,DevOps,Graana
+noman.shahid@graana.com,Noman Shahid,616d289025f3130070314aed,DEVOPS-1058,"Migration On Dev, Stage and Prod",3600,1,,08/04/2023 14:26,Medium,In Progress,,DevOps,Graana
+noman.shahid@graana.com,Noman Shahid,616d289025f3130070314aed,DEVOPS-1058,"Migration On Dev, Stage and Prod",3600,1,,08/02/2023 14:27,Medium,In Progress,,DevOps,Graana
+noman.shahid@graana.com,Noman Shahid,616d289025f3130070314aed,DEVOPS-1058,"Migration On Dev, Stage and Prod",3600,1,,08/03/2023 14:27,Medium,In Progress,,DevOps,Graana
+noman.shahid@graana.com,Noman Shahid,616d289025f3130070314aed,DEVOPS-1055,Graana production performance issue. (Data service and User service) ,10800,3,,07/31/2023 08:23:00,Medium,In Progress,,DevOps,Graana
+noman.shahid@graana.com,Noman Shahid,616d289025f3130070314aed,DEVOPS-1055,Graana production performance issue. (Data service and User service) ,14400,4,,08/01/2023 11:24,Medium,In Progress,,DevOps,Graana
+noman.shahid@graana.com,Noman Shahid,616d289025f3130070314aed,DEVOPS-1054,"CI/CD issue on Graana dev, staging and production. Multiple Pipelines.",3600,1,,07/31/2023 14:36:00,Medium,In Progress,,DevOps,Graana
+noman.shahid@graana.com,Noman Shahid,616d289025f3130070314aed,DEVOPS-1054,"CI/CD issue on Graana dev, staging and production. Multiple Pipelines.",3600,1,,08/01/2023 14:37,Medium,In Progress,,DevOps,Graana
+noman.shahid@graana.com,Noman Shahid,616d289025f3130070314aed,DEVOPS-1054,"CI/CD issue on Graana dev, staging and production. Multiple Pipelines.",7200,2,,08/02/2023 13:37,Medium,In Progress,,DevOps,Graana
+noman.shahid@graana.com,Noman Shahid,616d289025f3130070314aed,DEVOPS-1054,"CI/CD issue on Graana dev, staging and production. Multiple Pipelines.",7200,2,,08/03/2023 13:37,Medium,In Progress,,DevOps,Graana
+noman.shahid@graana.com,Noman Shahid,616d289025f3130070314aed,DEVOPS-1054,"CI/CD issue on Graana dev, staging and production. Multiple Pipelines.",7200,2,,08/04/2023 13:37,Medium,In Progress,,DevOps,Graana
+bilawal.khan@imarat.com.pk,Bilawalkhan,712020:d1cfbb8c-2eef-45de-bd30-d66d7fac8892,CCRM-509,meeting,14400,4,,08/04/2023 14:50,Medium,1.0 To Do,,Classified CRM,Graana
+rehmooz.butt@graana.com,Muhammad Rehmooz Butt,712020:af7d032d-8c4e-4e35-864c-2addf48b84b4,CCRM-502,Manage Payment- Values are incorrect in Edit Payment,7200,2,,08/04/2023 10:00,Medium,2.3 Failed-PR/QA,,Classified CRM,Graana
+mudasir.hamid@graana.com,Mudasir Hamid,606c33ba3e6ea000684bf02d,CCRM-502,Manage Payment- Values are incorrect in Edit Payment,14400,4,,08/04/2023 15:29,Medium,2.3 Failed-PR/QA,,Classified CRM,Graana
+rehmooz.butt@graana.com,Muhammad Rehmooz Butt,712020:af7d032d-8c4e-4e35-864c-2addf48b84b4,CCRM-500,Manage Agency- Remove Owner Profile Phone Number.,600,0.17,,08/04/2023 12:34,Medium,6.0 Ready Production,,Classified CRM,Graana
+bilawal.khan@imarat.com.pk,Bilawalkhan,712020:d1cfbb8c-2eef-45de-bd30-d66d7fac8892,CCRM-496,vide0 interview,1800,0.5,,08/01/2023 12:20,Medium,1.0 To Do,,Classified CRM,Graana
+rehmooz.butt@graana.com,Muhammad Rehmooz Butt,712020:af7d032d-8c4e-4e35-864c-2addf48b84b4,CCRM-493,Test Case Execution,2700,0.75,,07/31/2023 17:04:17,Medium,1.0 To Do,,Classified CRM,Graana
+rehmooz.butt@graana.com,Muhammad Rehmooz Butt,712020:af7d032d-8c4e-4e35-864c-2addf48b84b4,CCRM-491,Story Review and Discussion,5400,1.5,,07/31/2023 16:17:58,Medium,1.0 To Do,,Classified CRM,Graana
+navid.ahmed@propsure.com.pk,Navid Ahmed,637e103900cb2fc3f9874d4d,CCRM-481,Manage Agency -Agency Status Issue ,7200,2,,07/31/2023 09:33:44,Medium,6.0 Ready Production,,Classified CRM,Graana
+navid.ahmed@propsure.com.pk,Navid Ahmed,637e103900cb2fc3f9874d4d,CCRM-480,Agency Approval - Agency status issue in  Manage Logs,7200,2,,07/31/2023 09:34:12,Medium,6.0 Ready Production,,Classified CRM,Graana
+rehmooz.butt@graana.com,Muhammad Rehmooz Butt,712020:af7d032d-8c4e-4e35-864c-2addf48b84b4,CCRM-479,Edit Agencies- An Error Occurred When User Edit Agencies ,60,0.02,,08/01/2023 16:22,Medium,6.0 Ready Production,,Classified CRM,Graana
+rehmooz.butt@graana.com,Muhammad Rehmooz Butt,712020:af7d032d-8c4e-4e35-864c-2addf48b84b4,CCRM-473,Story Review And Discussion,3600,1,,07/31/2023 16:45:54,Medium,1.0 To Do,,Classified CRM,Graana
+rehmooz.butt@graana.com,Muhammad Rehmooz Butt,712020:af7d032d-8c4e-4e35-864c-2addf48b84b4,CCRM-469,Test Execution,10800,3,,08/01/2023 11:00,Medium,1.0 To Do,,Classified CRM,Graana
+rehmooz.butt@graana.com,Muhammad Rehmooz Butt,712020:af7d032d-8c4e-4e35-864c-2addf48b84b4,CCRM-469,Test Execution,10800,3,,08/02/2023 15:00,Medium,1.0 To Do,,Classified CRM,Graana
+rehmooz.butt@graana.com,Muhammad Rehmooz Butt,712020:af7d032d-8c4e-4e35-864c-2addf48b84b4,CCRM-469,Test Execution,14400,4,,08/03/2023 10:00,Medium,1.0 To Do,,Classified CRM,Graana
+rehmooz.butt@graana.com,Muhammad Rehmooz Butt,712020:af7d032d-8c4e-4e35-864c-2addf48b84b4,CCRM-469,Test Execution,10800,3,,08/04/2023 16:09,Medium,1.0 To Do,,Classified CRM,Graana
+rehmooz.butt@graana.com,Muhammad Rehmooz Butt,712020:af7d032d-8c4e-4e35-864c-2addf48b84b4,CCRM-467,Meeting and Discussion,12600,3.5,,07/31/2023 10:00:00,Medium,1.0 To Do,,Classified CRM,Graana
+rehmooz.butt@graana.com,Muhammad Rehmooz Butt,712020:af7d032d-8c4e-4e35-864c-2addf48b84b4,CCRM-467,Meeting and Discussion,3600,1,,08/01/2023 10:00,Medium,1.0 To Do,,Classified CRM,Graana
+rehmooz.butt@graana.com,Muhammad Rehmooz Butt,712020:af7d032d-8c4e-4e35-864c-2addf48b84b4,CCRM-467,Meeting and Discussion,10800,3,,08/01/2023 15:01,Medium,1.0 To Do,,Classified CRM,Graana
+rehmooz.butt@graana.com,Muhammad Rehmooz Butt,712020:af7d032d-8c4e-4e35-864c-2addf48b84b4,CCRM-467,Meeting and Discussion,10800,3,,08/02/2023 15:03,Medium,1.0 To Do,,Classified CRM,Graana
+rehmooz.butt@graana.com,Muhammad Rehmooz Butt,712020:af7d032d-8c4e-4e35-864c-2addf48b84b4,CCRM-467,Meeting and Discussion,10800,3,,08/03/2023 12:00,Medium,1.0 To Do,,Classified CRM,Graana
+rehmooz.butt@graana.com,Muhammad Rehmooz Butt,712020:af7d032d-8c4e-4e35-864c-2addf48b84b4,CCRM-467,Meeting and Discussion,10800,3,,08/04/2023 16:10,Medium,1.0 To Do,,Classified CRM,Graana
+ahsan.ali@graana.com,Ahsan Ali Khan,603888add3fc7c00681e3f27,CCRM-425,CRM Reports - Packages Report,36000,10,,08/04/2023 10:00,Medium,2.0 On Hold,5 - Highest complexity,Classified CRM,Graana
+ahsan.ali@graana.com,Ahsan Ali Khan,603888add3fc7c00681e3f27,CCRM-424,CRM Reports - Penetration Report,32400,9,,08/03/2023 10:00,Medium,4.2 In Progress-QA,5 - Highest complexity,Classified CRM,Graana
+ahsan.ali@graana.com,Ahsan Ali Khan,603888add3fc7c00681e3f27,CCRM-424,CRM Reports - Penetration Report,3600,1,,08/03/2023 19:00,Medium,4.2 In Progress-QA,5 - Highest complexity,Classified CRM,Graana
+ahsan.ali@graana.com,Ahsan Ali Khan,603888add3fc7c00681e3f27,CCRM-422,CRM Reports - Payment History Report,25200,7,,07/31/2023 12:26:00,Medium,4.0 Pending-QA Lead,3 - Medium complexity,Classified CRM,Graana
+ahsan.ali@graana.com,Ahsan Ali Khan,603888add3fc7c00681e3f27,CCRM-422,CRM Reports - Payment History Report,25200,7,,08/01/2023 12:26,Medium,4.0 Pending-QA Lead,3 - Medium complexity,Classified CRM,Graana
+ahsan.ali@graana.com,Ahsan Ali Khan,603888add3fc7c00681e3f27,CCRM-422,CRM Reports - Payment History Report,25200,7,,08/02/2023 10:00,Medium,4.0 Pending-QA Lead,3 - Medium complexity,Classified CRM,Graana
+wilayat.shah@propsure.com.pk,Muhammad Wilayat Shah,61d2d09f9ee70a00684f8286,CCRM-411,Need Logs of all actions on NBE,18000,5,,08/03/2023 13:57,Medium,4.1 Pending-QA Staging,,Classified CRM,Graana
+usama.hadi@graana.com,Usama Hadi,712020:ef76f3cb-e434-4c6c-957b-e355fed97e3f,CCRM-239,Create agency api for GPM,14400,4,,08/02/2023 10:00,Medium,4.0 Pending-QA Lead,,Classified CRM,Graana
+usama.hadi@graana.com,Usama Hadi,712020:ef76f3cb-e434-4c6c-957b-e355fed97e3f,CCRM-230,Listing Agencies ,7200,2,,08/03/2023 15:54,Medium,1.0 To Do,,Classified CRM,Graana
+wilayat.shah@propsure.com.pk,Muhammad Wilayat Shah,61d2d09f9ee70a00684f8286,CCRM-230,Listing Agencies ,18000,5,,08/04/2023 18:26,Medium,1.0 To Do,,Classified CRM,Graana
+usama.hadi@graana.com,Usama Hadi,712020:ef76f3cb-e434-4c6c-957b-e355fed97e3f,CCRM-230,Listing Agencies ,3600,1,,08/04/2023 17:53,Medium,1.0 To Do,,Classified CRM,Graana
+wilayat.shah@propsure.com.pk,Muhammad Wilayat Shah,61d2d09f9ee70a00684f8286,CCRM-153,Review Listing,25200,7,,07/31/2023 09:58:09,Medium,2.1 In Progress,,Classified CRM,Graana
+mudasir.hamid@graana.com,Mudasir Hamid,606c33ba3e6ea000684bf02d,CCRM-153,Review Listing,10800,3,,07/31/2023 05:02:00,Medium,2.1 In Progress,,Classified CRM,Graana
+wilayat.shah@propsure.com.pk,Muhammad Wilayat Shah,61d2d09f9ee70a00684f8286,CCRM-153,Review Listing,7200,2,,08/01/2023 16:08,Medium,2.1 In Progress,,Classified CRM,Graana
+mudasir.hamid@graana.com,Mudasir Hamid,606c33ba3e6ea000684bf02d,CCRM-153,Review Listing,25200,7,,08/01/2023 11:47,Medium,2.1 In Progress,,Classified CRM,Graana
+mudasir.hamid@graana.com,Mudasir Hamid,606c33ba3e6ea000684bf02d,CCRM-153,Review Listing,10800,3,,08/04/2023 16:30,Medium,2.1 In Progress,,Classified CRM,Graana
+abdullah.jahangir@imarat.com.pk,Abdullah Jadoon,712020:00e62484-1ca8-4d01-a613-7a1522782eda,CCRM-149,Create Listing by Data entry team,14400,4,,07/31/2023 18:36:58,Medium,2.1 In Progress,,Classified CRM,Graana
+abdullah.jahangir@imarat.com.pk,Abdullah Jadoon,712020:00e62484-1ca8-4d01-a613-7a1522782eda,CCRM-149,Create Listing by Data entry team,14400,4,,08/01/2023 07:34,Medium,2.1 In Progress,,Classified CRM,Graana
+abdullah.jahangir@imarat.com.pk,Abdullah Jadoon,712020:00e62484-1ca8-4d01-a613-7a1522782eda,CCRM-149,Create Listing by Data entry team,28800,8,,08/03/2023 10:04,Medium,2.1 In Progress,,Classified CRM,Graana
+wilayat.shah@propsure.com.pk,Muhammad Wilayat Shah,61d2d09f9ee70a00684f8286,CCRM-148,Delete Listing by User,18000,5,,08/03/2023 14:19,Medium,2.1 In Progress,,Classified CRM,Graana
+abdullah.jahangir@imarat.com.pk,Abdullah Jadoon,712020:00e62484-1ca8-4d01-a613-7a1522782eda,CCRM-147,Update Listing by User,28800,8,,08/02/2023 11:02,Medium,2.1 In Progress,,Classified CRM,Graana
+wilayat.shah@propsure.com.pk,Muhammad Wilayat Shah,61d2d09f9ee70a00684f8286,CCRM-147,Update Listing by User,7200,2,,08/03/2023 17:19,Medium,2.1 In Progress,,Classified CRM,Graana
+abdullah.jahangir@imarat.com.pk,Abdullah Jadoon,712020:00e62484-1ca8-4d01-a613-7a1522782eda,CCRM-147,Update Listing by User,28800,8,,08/04/2023 10:04,Medium,2.1 In Progress,,Classified CRM,Graana
+abdullah.jahangir@imarat.com.pk,Abdullah Jadoon,712020:00e62484-1ca8-4d01-a613-7a1522782eda,CCRM-146,Read Listing by User,14400,4,,07/31/2023 18:36:30,Medium,2.0 On Hold,,Classified CRM,Graana
+abdullah.jahangir@imarat.com.pk,Abdullah Jadoon,712020:00e62484-1ca8-4d01-a613-7a1522782eda,CCRM-146,Read Listing by User,18000,5,,08/01/2023 11:58,Medium,2.0 On Hold,,Classified CRM,Graana
+wilayat.shah@propsure.com.pk,Muhammad Wilayat Shah,61d2d09f9ee70a00684f8286,CCRM-146,Read Listing by User,21600,6,,08/02/2023 23:56,Medium,2.0 On Hold,,Classified CRM,Graana
+bilawal.khan@imarat.com.pk,Bilawalkhan,712020:d1cfbb8c-2eef-45de-bd30-d66d7fac8892,CCRM-141,Update Tasks,3600,1,,08/01/2023 11:03,Medium,5.0 Business Review,,Classified CRM,Graana
+usama.hadi@graana.com,Usama Hadi,712020:ef76f3cb-e434-4c6c-957b-e355fed97e3f,CCRM-123,CRM Reports,10800,3,,08/03/2023 14:56,Medium,2.1 In Progress,,Classified CRM,Graana
+usama.hadi@graana.com,Usama Hadi,712020:ef76f3cb-e434-4c6c-957b-e355fed97e3f,CCRM-123,CRM Reports,14400,4,,08/04/2023 13:57,Medium,2.1 In Progress,,Classified CRM,Graana
+usama.hadi@graana.com,Usama Hadi,712020:ef76f3cb-e434-4c6c-957b-e355fed97e3f,CCRM-123,CRM Reports,3600,1,,08/04/2023 17:53,Medium,2.1 In Progress,,Classified CRM,Graana
+bilawal.khan@imarat.com.pk,Bilawalkhan,712020:d1cfbb8c-2eef-45de-bd30-d66d7fac8892,CCRM-99,Read Add-On,3600,1,,08/01/2023 11:34,Medium,5.0 Business Review,,Classified CRM,Graana
+bilawal.khan@imarat.com.pk,Bilawalkhan,712020:d1cfbb8c-2eef-45de-bd30-d66d7fac8892,CCRM-94,Create Package,3600,1,,08/01/2023 11:20,Medium,5.0 Business Review,,Classified CRM,Graana
+bilawal.khan@imarat.com.pk,Bilawalkhan,712020:d1cfbb8c-2eef-45de-bd30-d66d7fac8892,CCRM-63,Block Contract,3600,1,,07/31/2023 17:37:55,Medium,5.0 Business Review,,Classified CRM,Graana
+wilayat.shah@propsure.com.pk,Muhammad Wilayat Shah,61d2d09f9ee70a00684f8286,CCRM-48,Upgrading Package for Contract upgrade,10800,3,,07/31/2023 13:58:20,Medium,4.2 In Progress-QA,,Classified CRM,Graana
+mudasir.hamid@graana.com,Mudasir Hamid,606c33ba3e6ea000684bf02d,CCRM-48,Upgrading Package for Contract upgrade,14400,4,,07/31/2023 04:02:00,Medium,4.2 In Progress-QA,,Classified CRM,Graana
+wilayat.shah@propsure.com.pk,Muhammad Wilayat Shah,61d2d09f9ee70a00684f8286,CCRM-48,Upgrading Package for Contract upgrade,14400,4,,08/01/2023 14:07,Medium,4.2 In Progress-QA,,Classified CRM,Graana
+wilayat.shah@propsure.com.pk,Muhammad Wilayat Shah,61d2d09f9ee70a00684f8286,CCRM-48,Upgrading Package for Contract upgrade,3600,1,,08/02/2023 23:57,Medium,4.2 In Progress-QA,,Classified CRM,Graana
+mudasir.hamid@graana.com,Mudasir Hamid,606c33ba3e6ea000684bf02d,CCRM-48,Upgrading Package for Contract upgrade,14400,4,,08/02/2023 10:40,Medium,4.2 In Progress-QA,,Classified CRM,Graana
+mudasir.hamid@graana.com,Mudasir Hamid,606c33ba3e6ea000684bf02d,CCRM-48,Upgrading Package for Contract upgrade,28800,8,,08/03/2023 06:40,Medium,4.2 In Progress-QA,,Classified CRM,Graana
+usama.hadi@graana.com,Usama Hadi,712020:ef76f3cb-e434-4c6c-957b-e355fed97e3f,CCRM-47,Manage Agencies,31500,8.75,,08/01/2023 09:05,Medium,2.0 On Hold,,Classified CRM,Graana
+usama.hadi@graana.com,Usama Hadi,712020:ef76f3cb-e434-4c6c-957b-e355fed97e3f,CCRM-47,Manage Agencies,31500,8.75,,07/31/2023 09:30:00,Medium,2.0 On Hold,,Classified CRM,Graana
+usama.hadi@graana.com,Usama Hadi,712020:ef76f3cb-e434-4c6c-957b-e355fed97e3f,CCRM-47,Manage Agencies,14400,4,,08/03/2023 17:57,Medium,2.0 On Hold,,Classified CRM,Graana
+bilawal.khan@imarat.com.pk,Bilawalkhan,712020:d1cfbb8c-2eef-45de-bd30-d66d7fac8892,CCRM-19,Update Contract,9000,2.5,,08/04/2023 16:18,Medium,5.0 Business Review,,Classified CRM,Graana
+bilawal.khan@imarat.com.pk,Bilawalkhan,712020:d1cfbb8c-2eef-45de-bd30-d66d7fac8892,CCRM-13,Create Contract,3600,1,,07/31/2023 17:36:48,Medium,5.0 Business Review,,Classified CRM,Graana
+usama.hadi@graana.com,Usama Hadi,712020:ef76f3cb-e434-4c6c-957b-e355fed97e3f,CCRM-10,Update Agencies,18000,5,,08/02/2023 12:53,Medium,5.0 Business Review,,Classified CRM,Graana
+usama.hadi@graana.com,Usama Hadi,712020:ef76f3cb-e434-4c6c-957b-e355fed97e3f,CCRM-10,Update Agencies,9000,2.5,,08/04/2023 19:20,Medium,5.0 Business Review,,Classified CRM,Graana
+bilawal.khan@imarat.com.pk,Bilawalkhan,712020:d1cfbb8c-2eef-45de-bd30-d66d7fac8892,CCRM-8,Create Agencies,7200,2,Performed regression o nagency module,07/31/2023 16:36:01,Medium,5.0 Business Review,,Classified CRM,Graana

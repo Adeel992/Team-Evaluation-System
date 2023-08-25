@@ -1,0 +1,434 @@
+[26-Jul-2023 08:01:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/class-wp-query.php:2671
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/class-wp-query.php(3787): WP_Query->get_posts()
+#1 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/class-wp-query.php(3919): WP_Query->query(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/custom-functions.php(528): WP_Query->__construct(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/custom-functions.php(594): insert_team_member_with_current_week()
+#4 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/team-member.php(13): include('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-settings.php(453): include_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-config.php(98): require_once('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-load.php(50): require_once('/Applications/X...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-admin/admin.php(34): require_once('/Applications/X...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-admin/edit.php(10): require_once('/Applications/X...')
+#10 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/class-wp-query.php on line 2671
+[26-Jul-2023 08:01:06 UTC] PHP Notice:  Function is_embed was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/functions.php on line 5865
+[26-Jul-2023 08:01:06 UTC] PHP Notice:  Function is_search was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/functions.php on line 5865
+[26-Jul-2023 10:05:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/class-wp-query.php:2671
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/class-wp-query.php(3787): WP_Query->get_posts()
+#1 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/class-wp-query.php(3919): WP_Query->query(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/custom-functions.php(530): WP_Query->__construct(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/custom-functions.php(597): insert_team_member_with_current_week()
+#4 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/team-member.php(13): include('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-settings.php(453): include_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-config.php(98): require_once('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-load.php(50): require_once('/Applications/X...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-admin/admin.php(34): require_once('/Applications/X...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-admin/edit.php(10): require_once('/Applications/X...')
+#10 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/class-wp-query.php on line 2671
+[26-Jul-2023 10:05:29 UTC] PHP Notice:  Function is_embed was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/functions.php on line 5865
+[26-Jul-2023 10:05:29 UTC] PHP Notice:  Function is_search was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/functions.php on line 5865
+[26-Jul-2023 10:09:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/class-wp-query.php:2671
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/class-wp-query.php(3787): WP_Query->get_posts()
+#1 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/class-wp-query.php(3919): WP_Query->query(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/custom-functions.php(530): WP_Query->__construct(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/custom-functions.php(597): insert_team_member_with_current_week()
+#4 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/team-member.php(13): include('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-settings.php(453): include_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-config.php(98): require_once('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-load.php(50): require_once('/Applications/X...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-admin/admin.php(34): require_once('/Applications/X...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-admin/edit.php(10): require_once('/Applications/X...')
+#10 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/class-wp-query.php on line 2671
+[26-Jul-2023 10:09:40 UTC] PHP Notice:  Function is_embed was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/functions.php on line 5865
+[26-Jul-2023 10:09:40 UTC] PHP Notice:  Function is_search was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/functions.php on line 5865
+[26-Jul-2023 10:13:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/class-wp-query.php:2671
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/class-wp-query.php(3787): WP_Query->get_posts()
+#1 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/class-wp-query.php(3919): WP_Query->query(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/custom-functions.php(530): WP_Query->__construct(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/custom-functions.php(596): insert_team_member_with_current_week()
+#4 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/team-member.php(13): include('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-settings.php(453): include_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-config.php(98): require_once('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-load.php(50): require_once('/Applications/X...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-admin/admin.php(34): require_once('/Applications/X...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-admin/edit.php(10): require_once('/Applications/X...')
+#10 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/class-wp-query.php on line 2671
+[26-Jul-2023 10:13:27 UTC] PHP Notice:  Function is_embed was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/functions.php on line 5865
+[26-Jul-2023 10:13:27 UTC] PHP Notice:  Function is_search was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/functions.php on line 5865
+[26-Jul-2023 10:13:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/class-wp-query.php:2671
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/class-wp-query.php(3787): WP_Query->get_posts()
+#1 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/class-wp-query.php(3919): WP_Query->query(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/custom-functions.php(530): WP_Query->__construct(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/custom-functions.php(596): insert_team_member_with_current_week()
+#4 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/team-member.php(13): include('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-settings.php(453): include_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-config.php(98): require_once('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-load.php(50): require_once('/Applications/X...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-admin/admin.php(34): require_once('/Applications/X...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-admin/edit.php(10): require_once('/Applications/X...')
+#10 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/class-wp-query.php on line 2671
+[26-Jul-2023 10:13:30 UTC] PHP Notice:  Function is_embed was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/functions.php on line 5865
+[26-Jul-2023 10:13:30 UTC] PHP Notice:  Function is_search was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/functions.php on line 5865
+[26-Jul-2023 10:13:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/class-wp-query.php:2671
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/class-wp-query.php(3787): WP_Query->get_posts()
+#1 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/class-wp-query.php(3919): WP_Query->query(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/custom-functions.php(530): WP_Query->__construct(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/custom-functions.php(596): insert_team_member_with_current_week()
+#4 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/team-member.php(13): include('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-settings.php(453): include_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-config.php(98): require_once('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-load.php(50): require_once('/Applications/X...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-admin/admin.php(34): require_once('/Applications/X...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-admin/edit.php(10): require_once('/Applications/X...')
+#10 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/class-wp-query.php on line 2671
+[26-Jul-2023 10:13:31 UTC] PHP Notice:  Function is_embed was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/functions.php on line 5865
+[26-Jul-2023 10:13:31 UTC] PHP Notice:  Function is_search was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/functions.php on line 5865
+[26-Jul-2023 10:14:24 UTC] PHP Warning:  Array to string conversion in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/custom-functions.php on line 529
+[26-Jul-2023 10:15:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/class-wp-query.php:2671
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/class-wp-query.php(3787): WP_Query->get_posts()
+#1 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/class-wp-query.php(3919): WP_Query->query(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/custom-functions.php(532): WP_Query->__construct(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/custom-functions.php(600): insert_team_member_with_current_week()
+#4 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/team-member.php(13): include('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-settings.php(453): include_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-config.php(98): require_once('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-load.php(50): require_once('/Applications/X...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-admin/admin.php(34): require_once('/Applications/X...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-admin/edit.php(10): require_once('/Applications/X...')
+#10 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/class-wp-query.php on line 2671
+[26-Jul-2023 10:15:03 UTC] PHP Notice:  Function is_embed was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/functions.php on line 5865
+[26-Jul-2023 10:15:03 UTC] PHP Notice:  Function is_search was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/functions.php on line 5865
+[26-Jul-2023 10:15:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/class-wp-query.php:2671
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/class-wp-query.php(3787): WP_Query->get_posts()
+#1 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/class-wp-query.php(3919): WP_Query->query(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/custom-functions.php(532): WP_Query->__construct(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/custom-functions.php(598): insert_team_member_with_current_week()
+#4 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/team-member.php(13): include('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-settings.php(453): include_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-config.php(98): require_once('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-load.php(50): require_once('/Applications/X...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-admin/admin.php(34): require_once('/Applications/X...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-admin/edit.php(10): require_once('/Applications/X...')
+#10 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/class-wp-query.php on line 2671
+[26-Jul-2023 10:15:27 UTC] PHP Notice:  Function is_embed was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/functions.php on line 5865
+[26-Jul-2023 10:15:27 UTC] PHP Notice:  Function is_search was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/functions.php on line 5865
+[26-Jul-2023 10:17:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on array in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/custom-functions.php:531
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/custom-functions.php(595): insert_team_member_with_current_week()
+#1 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/team-member.php(13): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-settings.php(453): include_once('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-config.php(98): require_once('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-load.php(50): require_once('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-admin/admin.php(34): require_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-admin/edit.php(10): require_once('/Applications/X...')
+#7 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/custom-functions.php on line 531
+[26-Jul-2023 10:17:56 UTC] PHP Notice:  Function is_embed was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/functions.php on line 5865
+[26-Jul-2023 10:17:56 UTC] PHP Notice:  Function is_search was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/functions.php on line 5865
+[26-Jul-2023 10:18:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on array in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/custom-functions.php:532
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/custom-functions.php(596): insert_team_member_with_current_week()
+#1 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/team-member.php(13): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-settings.php(453): include_once('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-config.php(98): require_once('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-load.php(50): require_once('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-admin/admin.php(34): require_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-admin/edit.php(10): require_once('/Applications/X...')
+#7 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/custom-functions.php on line 532
+[26-Jul-2023 10:18:25 UTC] PHP Notice:  Function is_embed was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/functions.php on line 5865
+[26-Jul-2023 10:18:25 UTC] PHP Notice:  Function is_search was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/functions.php on line 5865
+[26-Jul-2023 03:21:05 America/Los_Angeles] PHP Warning:  file(/Applications/XAMPP/xamppfiles/htdocs/teams/jira_logs/jira_logs_csv_26-07-2023.csv): Failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/custom-functions.php on line 390
+[26-Jul-2023 03:21:05 America/Los_Angeles] PHP Fatal error:  Uncaught TypeError: array_map(): Argument #2 ($array) must be of type array, bool given in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/custom-functions.php:390
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/custom-functions.php(390): array_map('str_getcsv', false)
+#1 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/class-wp-hook.php(308): update_new_jira()
+#2 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-cron.php(188): do_action_ref_array('update_jiralogs...', Array)
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/custom-functions.php on line 390
+[26-Jul-2023 10:21:05 UTC] PHP Notice:  Function wpdb::prepare was called <strong>incorrectly</strong>. The query argument of wpdb::prepare() must have a placeholder. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.9.0.) in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/functions.php on line 5865
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[26-Jul-2023 10:21:05 UTC] PHP Warning:  Undefined property: stdClass::$user_lead_password in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 168
+[02-Aug-2023 07:38:16 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "team_members_personality_evaluate_page" not found or invalid function name in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-admin/admin.php(259): do_action('team_member_pag...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-admin/edit.php(10): require_once('/Applications/X...')
+#4 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/class-wp-hook.php on line 308
