@@ -680,11 +680,16 @@ jQuery('body').on('click', '.delete-holiday', function(e) {
         },
         success: function(response) {
         jQuery('#successModal').modal('show');
-       console.log(response);
        setTimeout(function() {
      
             window.location.reload();
     }, 2000);
+        },
+        error: function(xhr, status, error) {
+            jQuery('#failModal').modal('show');
+            setTimeout(function() {
+               window.location.reload();
+         }, 2000);
         },
     });
   

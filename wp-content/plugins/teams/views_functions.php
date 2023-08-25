@@ -667,5 +667,17 @@ function team_members_public_holiday(){
                     </div>
                 </div>
             </div>
+            <div class="modal fade" id="failModal" tabindex="-1" role="dialog" aria-labelledby="failModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="successModalLabel">Something went wrong!</h5>
+                        </div>
+                        <div class="modal-body">
+                            <p>Try Again.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
     <?php
 }
