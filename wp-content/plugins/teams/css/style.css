@@ -267,12 +267,20 @@ a.nav-link {
 }
 
 .rating-fields {
-   display: inline-block;
-   margin: 10px;
+   /* display: inline-block; */
+   margin: 10px 0;
 }
+
+.rating-fields label {
+    margin: 5px 0;
+    width: 40%;
+}
+
 .rating-fields input {
     display: block;
-    margin: 5px;
+    margin: 5px 0;
+    padding-right: 0;
+    width: 100%;
 }
 
 .widefat td {

@@ -504,7 +504,7 @@ function updatePersonalityScore(rowId) {
 jQuery('#team-member-name-option').change(function() {
 
         jQuery('#team-member-name-field').toggle();
-        
+        var ajax_url = window.location.origin + '/' + window.location.pathname.split ('/') [1]+'/wp-admin/admin-ajax.php';
 
         jQuery.ajax({
             url: ajax_url, 
@@ -567,7 +567,7 @@ jQuery('#team-member-name-option').change(function() {
 
   jQuery('body').on('click', '.webhr_leaves', function(e) {
   
-  
+    var ajax_url = window.location.origin + '/' + window.location.pathname.split ('/') [1]+'/wp-admin/admin-ajax.php';
     jQuery.ajax({
         url: ajax_url, 
         type: 'POST',
@@ -615,6 +615,7 @@ jQuery('#team-member-name-option').change(function() {
 
 jQuery('body').on('click', '.jira_logs', function(e) {
     e.preventDefault();
+    var ajax_url = window.location.origin + '/' + window.location.pathname.split ('/') [1]+'/wp-admin/admin-ajax.php';
     jQuery.ajax({
         url: ajax_url, 
         type: 'POST',
@@ -670,7 +671,7 @@ jQuery('#clear_dates').on('click', function() {
 jQuery('body').on('click', '.delete-holiday', function(e) {
     e.preventDefault();
     var holiday_week = jQuery(this).attr("data-holiday-id");
-    console.log(holiday_week);
+    var ajax_url = window.location.origin + '/' + window.location.pathname.split ('/') [1]+'/wp-admin/admin-ajax.php';
     jQuery.ajax({
         url: ajax_url, 
         type: 'POST',
@@ -679,18 +680,24 @@ jQuery('body').on('click', '.delete-holiday', function(e) {
             holiday_id: holiday_week 
         },
         success: function(response) {
-        jQuery('#successModal').modal('show');
-       setTimeout(function() {
-     
-            window.location.reload();
-    }, 2000);
+            if (response.success === true) {
+                jQuery('#successModal').modal('show');
+                setTimeout(function() {
+                    window.location.reload();
+                }, 2000);
+            } else {
+                jQuery('#failModal').modal('show');
+                setTimeout(function() {
+                    window.location.reload();
+                }, 2000);
+            }
         },
         error: function(xhr, status, error) {
+            console.log(error);
             jQuery('#failModal').modal('show');
             setTimeout(function() {
                window.location.reload();
-         }, 2000);
+            }, 2000);
         },
     });
-  
 });

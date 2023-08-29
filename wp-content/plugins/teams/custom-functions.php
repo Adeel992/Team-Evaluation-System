@@ -72,13 +72,6 @@ function team_members_single_template( $template ) {
 }
 add_filter( 'template_include', 'team_members_single_template' );
 
-function ajax_link() {
-    echo "<script>
-    var ajax_url = '" . esc_url(admin_url('admin-ajax.php')) . "';
-    </script>";
-}
-add_action( 'init', 'ajax_link' );
-
 
 function team_members_publish_user_creation(  $post_id, $post ) {
     // Check if the post is a team member and is being published
@@ -625,86 +618,78 @@ function insert_team_member_with_current_week() {
 
 }
 
-
 function user_hierarchy_chart_shortcode() {
+
+    global $wpdb;
+    $sql = "SELECT DISTINCT
+e1.user_name,
+e1.user_email,
+e1.user_report_to
+FROM
+    {$wpdb->prefix}team_members e1
+LEFT JOIN
+    {$wpdb->prefix}team_members e2 ON e1.user_report_to = e2.user_name
+LEFT JOIN
+    {$wpdb->prefix}team_members e3 ON e2.user_report_to = e3.user_name
+
+WHERE
+    e1.user_report_to IS NULL
+    OR e2.user_report_to IS NULL
+    OR e3.user_report_to IS NULL";
+
+    $hierarchicalData = $wpdb->get_results($sql, ARRAY_A);
+    $chart_data = array(array('Name', 'Manager', 'user email'));
+    $uniqueChartRows = array(); 
+
+    foreach ($hierarchicalData as $employee) {
+        $userName = $employee['user_name'];
+        $userReportTo = $employee['user_report_to'];
+        $userEmail = $employee['user_email'];
+
+        if ($userReportTo == 'adeel.ahmed@graana.com' || $userReportTo == 'None') {
+            $userReportTo = 'Graana Innovation Lab';
+        }
+
+        if ($userReportTo == null) {
+            $uniqueChartRows[$userEmail] = array($userEmail, '', $userEmail);
+        } else {
+            $uniqueChartRows[$userEmail] = array($userEmail, $userReportTo, $userEmail);
+        }
+    }
+
+    $chart_data = array_values($uniqueChartRows);
+    $chart_data_json = json_encode($chart_data);
+
  
-        global $wpdb;
-        $sql = "SELECT DISTINCT
-        e1.user_name,
-        e1.user_email,
-        e1.user_report_to
-    FROM
-        {$wpdb->prefix}team_members e1
-    LEFT JOIN
-        {$wpdb->prefix}team_members e2 ON e1.user_report_to = e2.user_name
-    LEFT JOIN
-        {$wpdb->prefix}team_members e3 ON e2.user_report_to = e3.user_name
-   
-    WHERE
-        e1.user_report_to IS NULL
-        OR e2.user_report_to IS NULL
-        OR e3.user_report_to IS NULL
-       
     
-        ";
+    ?>
+    <h2>Organogram</h2>
+    <div id="chart_div"></div>
+    <style>
+          #chart_div{
+            width: 100%; 
+            height: 100vh; 
+            margin: auto;
+            overflow:auto;
+          }
+        </style>
+    <script>
+    var chartData = <?php echo $chart_data_json; ?>;
+    google.charts.load('current', { 'packages': ['orgchart'] });
+    google.charts.setOnLoadCallback(drawChart);
 
-        $hierarchicalData = $wpdb->get_results($sql, ARRAY_A);
-        $chart_data = array(array('Name', 'Manager', 'user email'));
-        $uniqueChartRows = array(); 
+    function drawChart() {
+    const data = new google.visualization.DataTable();
+    data.addColumn('string', 'Name');
+    data.addColumn('string', 'Manager');
+    data.addColumn('string', 'ToolTip');
+    data.addRows(chartData);
 
-        foreach ($hierarchicalData as $employee) {
-            $userName = $employee['user_name'];
-            $userReportTo = $employee['user_report_to'];
-            $userEmail = $employee['user_email'];
-
-            if ($userReportTo == 'None') {
-                $userReportTo = 'Graana Innovation Lab';
-            }
-
-            if ($userReportTo == null) {
-                $uniqueChartRows[$userEmail] = array($userEmail, '', $userEmail);
-            } else {
-                $uniqueChartRows[$userEmail] = array($userEmail, $userReportTo, $userEmail);
-            }
-        }
-
-        $chart_data = array_values($uniqueChartRows);
-        $chart_data_json = json_encode($chart_data);
-        
-        ?>
-        <div class="evaluate-table-view">
-        <h2>Organogram</h2>
-    </div>
-        <div id="chart_div"></div>
-        <script>
-        var chartData = <?php echo $chart_data_json; ?>;
-        google.charts.load('current', { 'packages': ['orgchart'] });
-        google.charts.setOnLoadCallback(drawChart);
-
-        function drawChart() {
-        const data = new google.visualization.DataTable();
-        data.addColumn('string', 'Name');
-        data.addColumn('string', 'Manager');
-        data.addColumn('string', 'ToolTip');
-        
-        data.addRows(chartData);
-        const chart = new google.visualization.OrgChart(document.getElementById('chart_div'));
+    const chart = new google.visualization.OrgChart(document.getElementById('chart_div'));
+    chart.draw(data, { allowHtml: true });
+    }
     
-            const parents = new Set();
-            for (let i = 0; i < chartData.length; i++) {
-                const manager = chartData[i][1];
-                if (manager !== '') {
-                parents.add(manager);
-                
-                }
-            }
-            console.log('Number of Parents:', parents.size);
-            chart.draw(data, {
-                allowHtml: true
-            });
-        }
-      
-        </script>
+    </script>
 <?php
 }
 
@@ -721,6 +706,7 @@ function delete_holiday_callback() {
         );
 
         wp_send_json(['success' => true]);
+       
     }
     wp_send_json(['success' => false]);
 }
