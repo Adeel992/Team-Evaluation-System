@@ -12,6 +12,10 @@ table.dataTable tbody th, table.dataTable tbody td {
     padding: 10px 10px;
 }
 
+.dataTables_wrapper .dataTables_filter input{
+    padding:0;
+}
+
 .table-header ul , .e-table-header ul {
     display: flex;
     align-items: center;
@@ -31,7 +35,10 @@ table.dataTable tbody th, table.dataTable tbody td {
 }
 
 #team-members-table_filter button {
-    padding: 6px 20px;
+    padding: 6px 15px;
+    border-radius: 3px;
+    border: 1px solid #cfcfcf;
+    font-size: 14px;
 }
 
 #team-members-table_filter select {
@@ -289,4 +296,11 @@ a.nav-link {
 
 .holidays-table td:nth-child(3) {
     text-align: right;
+}
+span.work-rating-value {
+    margin-right: 40%;
+}
+
+td.user-designation {
+    text-transform: uppercase;
 }

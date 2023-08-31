@@ -498,6 +498,68 @@ function updatePersonalityScore(rowId) {
     updatePersonalityScore(rowId);
   });
   
+  //updating performance scores on runtime
+function updateQualityScore(rowId) {
+    var quality_of_work = parseInt(jQuery('#team_member_quality_of_work_' + rowId).val());
+    var server_down_incidents = parseInt(jQuery('#team_member_server_down_incidents_' + rowId).val());
+    var mean_time_to_repair = parseInt(jQuery('#team_member_mean_time_to_repair_' + rowId).val());
+    var code_quality_by_peer = parseInt(jQuery('#team_member_code_quality_by_peer_' + rowId).val());
+    var code_quality_by_team_lead = parseInt(jQuery('#team_member_code_quality_by_team_lead_' + rowId).val());
+    var bug_reported = parseInt(jQuery('#team_member_bug_reported_' + rowId).val());
+    var survey_results = parseInt(jQuery('#team_member_survey_results_' + rowId).val());
+    var defects_reported = parseInt(jQuery('#team_member_defects_reported_' + rowId).val());
+    var test_cases_tested = parseInt(jQuery('#team_member_test_cases_tested_' + rowId).val());
+    var requirements_initiation = parseInt(jQuery('#team_member_requirements_initiation_' + rowId).val());
+    var project_documentation = parseInt(jQuery('#team_member_project_documentation_' + rowId).val());
+    var backlog_management = parseInt(jQuery('#team_member_backlog_management_' + rowId).val());
+    var uat = parseInt(jQuery('#team_member_uat_' + rowId).val());
+    var post_production_support = parseInt(jQuery('#team_member_post_production_support_' + rowId).val());
+    var design_iterations = parseInt(jQuery('#team_member_design_iterations_' + rowId).val());
+    var design_reworks = parseInt(jQuery('#team_member_design_reworks_' + rowId).val());
+    var design_quality = parseInt(jQuery('#team_member_design_quality_' + rowId).val());
+    var manuals_content = parseInt(jQuery('#team_member_manuals_content_' + rowId).val());
+    var demo_videos = parseInt(jQuery('#team_member_demo_videos_' + rowId).val());
+    var training_material = parseInt(jQuery('#team_member_training_material_' + rowId).val());
+    var training_feedback_survey = parseInt(jQuery('#team_member_training_feedback_survey_' + rowId).val());
+
+
+    var variables = [quality_of_work, server_down_incidents, mean_time_to_repair, code_quality_by_peer,code_quality_by_team_lead,
+        bug_reported, survey_results, defects_reported, test_cases_tested, requirements_initiation, project_documentation,
+        backlog_management, uat, post_production_support, design_iterations, design_reworks, design_quality, manuals_content,
+        demo_videos, training_material, training_feedback_survey];
+
+    var nonEmptyNumericVariables = variables.map(function(value) {
+        var numericValue = parseFloat(value);
+        return isNaN(numericValue) ? 0 : numericValue;
+    }).filter(function(value) {
+        return value !== 0;
+    });
+    
+    var sumOfNonEmptyVariables = nonEmptyNumericVariables.reduce(function(sum, value) {
+        return sum + value;
+    }, 0);
+    
+    var numberOfNonEmptyVariables = nonEmptyNumericVariables.length;
+
+    var sum_value = numberOfNonEmptyVariables * 10;
+    
+    var qualityScore = (sumOfNonEmptyVariables / sum_value) * 100;
+    
+    // console.log(sumOfNonEmptyVariables);
+    // console.log(numberOfNonEmptyVariables);
+    // console.log(sum_value);
+    // console.log(qualityScore);
+    
+    
+    jQuery('.quality-score[data-row="' + rowId + '"]').text(qualityScore);
+    jQuery('.quality_overall-field[data-row="' + rowId + '"]').val(qualityScore);
+  }
+
+  // Call the updateQualityScore function on keydown for each input field
+  jQuery('.min-max-range').on('input', function() {
+    var rowId = jQuery(this).data('row');
+    updateQualityScore(rowId);
+  });
   
 
  // Button click event

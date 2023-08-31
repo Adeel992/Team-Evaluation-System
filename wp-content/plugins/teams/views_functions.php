@@ -67,7 +67,7 @@ function team_members_display_table() {
                         <td><?php echo $counter;?></td>
                         <td><?php echo esc_html($name);?></td>
                         <td><?php echo esc_html( $webhr_id ); ?></td>
-                        <td><?php echo esc_html( $designation ); ?></td>
+                        <td class="user-designation"><?php echo esc_html( $designation ); ?></td>
                         <td><?php echo esc_html( $report_to ); ?></td>
                         <td><?php echo esc_html( $is_lead ); ?></td>
                         <td><?php echo esc_html($percentage);?></td>
@@ -119,7 +119,7 @@ function team_members_evaluate_page() {
                 <?php 
              
               global $wpdb;
-              $table_name = $wpdb->prefix . 'team_members';
+              $table_name = $wpdb->prefix . 'team_members_evaluation';
 
               $query = $wpdb->prepare( "SELECT * FROM $table_name");
               $results = $wpdb->get_results( $query );
@@ -129,25 +129,81 @@ function team_members_evaluate_page() {
                     $name = $result->user_name;
                     $email = $result->user_email;
                     $designation = $result->user_designation;
-                    $percentage = $result->user_lead_percentage;
-                    $is_lead = $result->user_is_lead;
                     $report_to = $result->user_report_to;
-                    $lead_password = $result->user_lead_password;
                     $webhr_id = $result->user_webhrID;
-                    $work_rating_value = $result->work_rating_value;
-                    $management_rating = $result->management_rating;
-                    $work_rating_comment = $result->work_rating_comment;
-                    $management_comment = $result->management_comment;
-                    $member_status = $result->user_status;
-                    $leaves_hours = $result->user_on_leaves;
-                    $jira_log_hours = $result->jira_work_logs;
                     $week_number = $result->week_number;
                     $month_number = $result->month_number;
-                    $quality_overall = $result->quality_overall;
+                    $year_number = $result->year;
                     $current_user = wp_get_current_user();
                     $current_user_email = $current_user->user_email;
+
+                    $quality_of_work = $result->quality_of_work;
+                    $quality_of_work_comment = $result->quality_of_work_comment;
+
+                    $server_down_incidents = $result->server_down_incidents;
+                    $server_down_incidents_comment = $result->server_down_incidents_comment;
+
+                    $mean_time_to_repair = $result->mean_time_to_repair;
+                    $mean_time_to_repair_comment = $result->mean_time_to_repair_comment;
+
+                    $code_quality_by_peer = $result->code_quality_by_peer;
+                    $code_quality_by_peer_comment = $result->code_quality_by_peer_comment;
+
+                    $code_quality_by_team_lead = $result->code_quality_by_team_lead;
+                    $code_quality_by_team_lead_comment = $result->code_quality_by_team_lead_comment;
                     
-                    if($name && $webhr_id != 1851 && $webhr_id != 3636 && $webhr_id != 3153 && $current_user_email==$report_to){
+                    $survey_results = $result->survey_results;
+                    $survey_results_comment = $result->survey_results_comment;
+
+                    $bug_reported = $result->bug_reported;
+                    $bug_reported_comment = $result->bug_reported_comment;
+
+                    $defects_reported = $result->defects_reported;
+                    $defects_reported_comment = $result->defects_reported_comment;
+
+                    $test_cases_tested = $result->test_cases_tested;
+                    $test_cases_tested_comment = $result->test_cases_tested_comment;
+
+                    $requirements_initiation = $result->requirements_initiation;
+                    $requirements_initiation_comment = $result->requirements_initiation_comment;
+
+                    $project_documentation = $result->project_documentation;
+                    $project_documentation_comment = $result->project_documentation_comment;
+
+                    $backlog_management = $result->backlog_management;
+                    $backlog_management_comment = $result->backlog_management_comment;
+
+                    $uat = $result->uat;
+                    $uat_comment = $result->uat_comment;
+
+                    $post_production_support = $result->post_production_support;
+                    $post_production_support_comment = $result->post_production_support_comment;
+
+                    $design_iterations = $result->design_iterations;
+                    $design_iterations_comment = $result->design_iterations_comment;
+
+                    $design_reworks = $result->design_reworks;
+                    $design_reworks_comment = $result->design_reworks_comment;
+
+                    $design_quality = $result->design_quality;
+                    $design_quality_comment = $result->design_quality_comment;
+
+                    $manuals_content = $result->manuals_content;
+                    $manuals_content_comment = $result->manuals_content_comment;
+
+                    $demo_videos = $result->demo_videos;
+                    $demo_videos_comment = $result->demo_videos_comment;
+
+                    $training_material = $result->training_material;
+                    $training_material_comment = $result->training_material_comment;
+
+                    $training_feedback_survey = $result->training_feedback_survey;
+                    $training_feedback_survey_comment = $result->training_feedback_survey_comment;
+
+                    $evaluation_overall = $result->evaluation_overall;
+        
+                    
+                    if($name && $webhr_id != 3636 && $current_user_email==$report_to){
                   
                    ?>
 
@@ -165,19 +221,19 @@ function team_members_evaluate_page() {
                             <span class="work-rating-value server_down_incidents"><?php echo esc_html($server_down_incidents);?></span>
                             <span class="work-rating-value-field"> 
                             <label>
-                            <input type="number" id="team_member_server_down_incidents_<?php echo $post_id;?>" class="min-max-range" name="team_member_server_down_incidents_<?php echo $post_id;?>" value="<?php echo esc_html($server_down_incidents);?>" placeholder="Server Down Incidents" /></label></span>
+                            <input type="number" id="team_member_server_down_incidents_<?php echo $post_id;?>" class="min-max-range" name="team_member_server_down_incidents_<?php echo $post_id;?>" value="<?php echo esc_html($server_down_incidents);?>" data-row="<?php echo $post_id;?>" placeholder="Server Down Incidents" /></label></span>
                             
                             <span class="work-rating-comment"> <?php echo esc_html($server_down_incidents_comment);?></span>
                             <span class="work-rating-comment-field" >
                             <label> 
-                            <input type="text" id="team_member_server_down_incidents_comment_<?php echo $post_id;?>"  name="team_member_server_down_incidents_comment_<?php  echo $post_id;?>" value="<?php echo esc_html($work_rating_comment);?>" placeholder="Comments" /></label></span>
+                            <input type="text" id="team_member_server_down_incidents_comment_<?php echo $post_id;?>"  name="team_member_server_down_incidents_comment_<?php  echo $post_id;?>" value="<?php echo esc_html($server_down_incidents_comment);?>" placeholder="Comments" /></label></span>
                         </div>
 
                         <div class="rating-fields">
                             <span class="work-rating-value mean_time_to_repair"><?php echo esc_html($mean_time_to_repair);?></span>
                             <span class="work-rating-value-field"> 
                             <label>
-                            <input type="number" id="team_member_mean_time_to_repair_<?php echo $post_id;?>" class="min-max-range" name="team_member_mean_time_to_repair_<?php echo $post_id;?>" value="<?php echo esc_html($mean_time_to_repair);?>" placeholder="Mean Time To Repair" /></label></span>
+                            <input type="number" id="team_member_mean_time_to_repair_<?php echo $post_id;?>" class="min-max-range" name="team_member_mean_time_to_repair_<?php echo $post_id;?>" value="<?php echo esc_html($mean_time_to_repair);?>" data-row="<?php echo $post_id;?>" placeholder="Mean Time To Repair" /></label></span>
                             
                             <span class="work-rating-comment"> <?php echo esc_html($mean_time_to_repair_comment);?></span>
                             <span class="work-rating-comment-field" >
@@ -189,10 +245,10 @@ function team_members_evaluate_page() {
                         <!-- development -->
                         <?php  if($designation == "development"){?>
                         <div class="rating-fields">
-                            <span class="work-rating-value code_quality_by_peer"><?php echo esc_html($code_quality_by_peer);?></span>
+                         <span class="work-rating-value code_quality_by_peer"><?php echo esc_html($code_quality_by_peer);?></span>
                             <span class="work-rating-value-field"> 
                             <label>
-                            <input type="number" id="team_member_code_quality_by_peer_<?php echo $post_id;?>" class="min-max-range" name="team_member_code_quality_by_peer_<?php echo $post_id;?>" value="<?php echo esc_html($code_quality_by_peer);?>" placeholder="Code Quality Review By Peer" /></label></span>
+                            <input type="number" id="team_member_code_quality_by_peer_<?php echo $post_id;?>" class="min-max-range" name="team_member_code_quality_by_peer_<?php echo $post_id;?>" value="<?php echo esc_html($code_quality_by_peer);?>" data-row="<?php echo $post_id;?>" placeholder="Code Quality Review By Peer" /></label></span>
                             
                             <span class="work-rating-comment"> <?php echo esc_html($code_quality_by_peer_comment);?></span>
                             <span class="work-rating-comment-field" >
@@ -201,10 +257,10 @@ function team_members_evaluate_page() {
                         </div>
 
                         <div class="rating-fields">
-                            <span class="work-rating-value code_quality_by_team_lead"><?php echo esc_html($code_quality_by_team_lead);?></span>
+                         <span class="work-rating-value code_quality_by_team_lead"><?php echo esc_html($code_quality_by_team_lead);?></span>
                             <span class="work-rating-value-field"> 
                             <label>
-                            <input type="number" id="team_member_code_quality_by_team_lead_<?php echo $post_id;?>" class="min-max-range" name="team_member_code_quality_by_team_lead_<?php echo $post_id;?>" value="<?php echo esc_html($code_quality_by_team_lead);?>" placeholder="Code Quality Review By Team Lead"/></label></span>
+                            <input type="number" id="team_member_code_quality_by_team_lead_<?php echo $post_id;?>" class="min-max-range" name="team_member_code_quality_by_team_lead_<?php echo $post_id;?>" value="<?php echo esc_html($code_quality_by_team_lead);?>" data-row="<?php echo $post_id;?>" placeholder="Code Quality Review By Team Lead"/></label></span>
                             
                             <span class="work-rating-comment"> <?php echo esc_html($code_quality_by_team_lead_comment);?></span>
                             <span class="work-rating-comment-field" >
@@ -213,10 +269,10 @@ function team_members_evaluate_page() {
                         </div>
 
                         <div class="rating-fields">
-                            <span class="work-rating-value survey_results"><?php echo esc_html($survey_results);?></span>
+                          <span class="work-rating-value survey_results"><?php echo esc_html($survey_results);?></span>
                             <span class="work-rating-value-field"> 
                             <label>
-                            <input type="number" id="team_member_survey_results_<?php echo $post_id;?>" class="min-max-range" name="team_member_survey_results_<?php echo $post_id;?>" value="<?php echo esc_html($survey_results);?>" placeholder="Survey Results" /></label></span>
+                            <input type="number" id="team_member_survey_results_<?php echo $post_id;?>" class="min-max-range" name="team_member_survey_results_<?php echo $post_id;?>" value="<?php echo esc_html($survey_results);?>" data-row="<?php echo $post_id;?>" placeholder="Survey Results" /></label></span>
                             
                             <span class="work-rating-comment"> <?php echo esc_html($survey_results_comment);?></span>
                             <span class="work-rating-comment-field" >
@@ -225,15 +281,15 @@ function team_members_evaluate_page() {
                         </div>
 
                         <div class="rating-fields">
-                            <span class="work-rating-value bugs_reported"><?php echo esc_html($bugs_reported);?></span>
+                        <span class="work-rating-value bugs_reported"><?php echo esc_html($bug_reported);?></span>
                             <span class="work-rating-value-field"> 
                             <label>
-                            <input type="number" id="team_member_bugs_reported_<?php echo $post_id;?>" class="min-max-range" name="team_member_bugs_reported_<?php echo $post_id;?>" value="<?php echo esc_html($survey_results);?>" placeholder="Bugs Reported, QA iterations" /></label></span>
+                            <input type="number" id="team_member_bug_reported_<?php echo $post_id;?>" class="min-max-range" name="team_member_bug_reported_<?php echo $post_id;?>" value="<?php echo esc_html($bug_reported);?>" data-row="<?php echo $post_id;?>" placeholder="Bugs Reported, QA iterations" /></label></span>
                             
-                            <span class="work-rating-comment"> <?php echo esc_html($bugs_reported_comment);?></span>
+                            <span class="work-rating-comment"> <?php echo esc_html($bug_reported_comment);?></span>
                             <span class="work-rating-comment-field" >
                             <label> 
-                            <input type="text" id="team_member_bugs_reported_comment_<?php echo $post_id;?>"  name="team_member_bugs_reported_comment_<?php  echo $post_id;?>" value="<?php echo esc_html($bugs_reported_comment);?>" placeholder="Comments" /></label></span>
+                            <input type="text" id="team_member_bug_reported_comment_<?php echo $post_id;?>"  name="team_member_bug_reported_comment_<?php  echo $post_id;?>" value="<?php echo esc_html($bug_reported_comment);?>" placeholder="Comments" /></label></span>
                         </div>
                         <?php } ?>
 
@@ -243,7 +299,7 @@ function team_members_evaluate_page() {
                             <span class="work-rating-value defects_reported"><?php echo esc_html($defects_reported);?></span>
                             <span class="work-rating-value-field"> 
                             <label>
-                            <input type="number" id="team_member_defects_reported_<?php echo $post_id;?>" class="min-max-range" name="team_member_defects_reported_<?php echo $post_id;?>" value="<?php echo esc_html($code_quality_by_peer);?>" placeholder="Number Of Defects Reported By End User" /></label></span>
+                            <input type="number" id="team_member_defects_reported_<?php echo $post_id;?>" class="min-max-range" name="team_member_defects_reported_<?php echo $post_id;?>" value="<?php echo esc_html($defects_reported);?>" data-row="<?php echo $post_id;?>" placeholder="Number Of Defects Reported By End User" /></label></span>
                             
                             <span class="work-rating-comment"> <?php echo esc_html($defects_reported_comment);?></span>
                             <span class="work-rating-comment-field" >
@@ -255,7 +311,7 @@ function team_members_evaluate_page() {
                             <span class="work-rating-value test_cases_tested"><?php echo esc_html($test_cases_tested);?></span>
                             <span class="work-rating-value-field"> 
                             <label>
-                            <input type="number" id="team_member_test_cases_tested_<?php echo $post_id;?>" class="min-max-range" name="team_member_test_cases_tested_<?php echo $post_id;?>" value="<?php echo esc_html($test_cases_tested);?>" placeholder="Number Of Test Cases Tested vs Assigned"/></label></span>
+                            <input type="number" id="team_member_test_cases_tested_<?php echo $post_id;?>" class="min-max-range" name="team_member_test_cases_tested_<?php echo $post_id;?>" value="<?php echo esc_html($test_cases_tested);?>" data-row="<?php echo $post_id;?>" placeholder="Number Of Test Cases Tested vs Assigned"/></label></span>
                             
                             <span class="work-rating-comment"> <?php echo esc_html($test_cases_tested_comment);?></span>
                             <span class="work-rating-comment-field" >
@@ -267,7 +323,7 @@ function team_members_evaluate_page() {
                             <span class="work-rating-value survey_results"><?php echo esc_html($survey_results);?></span>
                             <span class="work-rating-value-field"> 
                             <label>
-                            <input type="number" id="team_member_survey_results_<?php echo $post_id;?>" class="min-max-range" name="team_member_survey_results_<?php echo $post_id;?>" value="<?php echo esc_html($survey_results);?>" placeholder="Survey Results" /></label></span>
+                            <input type="number" id="team_member_survey_results_<?php echo $post_id;?>" class="min-max-range" name="team_member_survey_results_<?php echo $post_id;?>" value="<?php echo esc_html($survey_results);?>" data-row="<?php echo $post_id;?>" placeholder="Survey Results" /></label></span>
                             
                             <span class="work-rating-comment"> <?php echo esc_html($survey_results_comment);?></span>
                             <span class="work-rating-comment-field" >
@@ -279,22 +335,22 @@ function team_members_evaluate_page() {
                         <!-- Product -->
                         <?php  if($designation == "product-management"){?>
                         <div class="rating-fields">
-                            <span class="work-rating-value requirments_initiation"><?php echo esc_html($requirments_initiation);?></span>
+                            <span class="work-rating-value requirements_initiation"><?php echo esc_html($requirements_initiation);?></span>
                             <span class="work-rating-value-field"> 
                             <label>
-                            <input type="number" id="team_member_requirments_initiation_<?php echo $post_id;?>" class="min-max-range" name="team_member_requirments_initiation_<?php echo $post_id;?>" value="<?php echo esc_html($requirments_initiation);?>" placeholder="Requirement Gathering / Idea Initiation" /></label></span>
+                            <input type="number" id="team_member_requirements_initiation_<?php echo $post_id;?>" class="min-max-range" name="team_member_requirements_initiation_<?php echo $post_id;?>" value="<?php echo esc_html($requirements_initiation);?>" data-row="<?php echo $post_id;?>" placeholder="Requirement Gathering / Idea Initiation" /></label></span>
                             
-                            <span class="work-rating-comment"> <?php echo esc_html($requirments_initiation_comment);?></span>
+                            <span class="work-rating-comment"> <?php echo esc_html($requirements_initiation_comment);?></span>
                             <span class="work-rating-comment-field" >
                             <label> 
-                            <input type="text" id="team_member_requirments_initiation_comment_<?php echo $post_id;?>"  name="team_member_requirments_initiation_comment_<?php  echo $post_id;?>" value="<?php echo esc_html($requirments_initiation_comment);?>" placeholder="Comments" /></label></span> 
+                            <input type="text" id="team_member_requirements_initiation_comment_<?php echo $post_id;?>"  name="team_member_requirements_initiation_comment_<?php  echo $post_id;?>" value="<?php echo esc_html($requirements_initiation_comment);?>" placeholder="Comments" /></label></span> 
                         </div>
 
                         <div class="rating-fields">
                             <span class="work-rating-value project_documentation"><?php echo esc_html($project_documentation);?></span>
                             <span class="work-rating-value-field"> 
                             <label>
-                            <input type="number" id="team_member_project_documentation_<?php echo $post_id;?>" class="min-max-range" name="team_member_project_documentation_<?php echo $post_id;?>" value="<?php echo esc_html($project_documentation);?>" placeholder="Project Documentation"/></label></span>
+                            <input type="number" id="team_member_project_documentation_<?php echo $post_id;?>" class="min-max-range" name="team_member_project_documentation_<?php echo $post_id;?>" value="<?php echo esc_html($project_documentation);?>" data-row="<?php echo $post_id;?>" placeholder="Project Documentation"/></label></span>
                             
                             <span class="work-rating-comment"> <?php echo esc_html($project_documentation_comment);?></span>
                             <span class="work-rating-comment-field" >
@@ -306,7 +362,7 @@ function team_members_evaluate_page() {
                             <span class="work-rating-value backlog_management"><?php echo esc_html($backlog_management);?></span>
                             <span class="work-rating-value-field"> 
                             <label>
-                            <input type="number" id="team_member_backlog_management_<?php echo $post_id;?>" class="min-max-range" name="team_member_backlog_management_<?php echo $post_id;?>" value="<?php echo esc_html($backlog_management);?>" placeholder="Backlog Management" /></label></span>
+                            <input type="number" id="team_member_backlog_management_<?php echo $post_id;?>" class="min-max-range" name="team_member_backlog_management_<?php echo $post_id;?>" value="<?php echo esc_html($backlog_management);?>" data-row="<?php echo $post_id;?>" placeholder="Backlog Management" /></label></span>
                             
                             <span class="work-rating-comment"> <?php echo esc_html($backlog_management_comment);?></span>
                             <span class="work-rating-comment-field" >
@@ -318,7 +374,7 @@ function team_members_evaluate_page() {
                             <span class="work-rating-value uat"><?php echo esc_html($uat);?></span>
                             <span class="work-rating-value-field"> 
                             <label>
-                            <input type="number" id="team_member_uat_<?php echo $post_id;?>" class="min-max-range" name="team_member_uat_<?php echo $post_id;?>" value="<?php echo esc_html($uat);?>" placeholder="UAT" /></label></span>
+                            <input type="number" id="team_member_uat_<?php echo $post_id;?>" class="min-max-range" name="team_member_uat_<?php echo $post_id;?>" value="<?php echo esc_html($uat);?>" data-row="<?php echo $post_id;?>" placeholder="UAT" /></label></span>
                             
                             <span class="work-rating-comment"> <?php echo esc_html($uat_comment);?></span>
                             <span class="work-rating-comment-field" >
@@ -330,12 +386,12 @@ function team_members_evaluate_page() {
                             <span class="work-rating-value post_production_support"><?php echo esc_html($post_production_support);?></span>
                             <span class="work-rating-value-field"> 
                             <label>
-                            <input type="number" id="team_member_post_production_support_<?php echo $post_id;?>" class="min-max-range" name="team_member_post_production_support_<?php echo $post_id;?>" value="<?php echo esc_html($post_production_support);?>" placeholder="Post Production Support" /></label></span>
+                            <input type="number" id="team_member_post_production_support_<?php echo $post_id;?>" class="min-max-range" name="team_member_post_production_support_<?php echo $post_id;?>" value="<?php echo esc_html($post_production_support);?>" data-row="<?php echo $post_id;?>" placeholder="Post Production Support" /></label></span>
                             
                             <span class="work-rating-comment"> <?php echo esc_html($post_production_support_comment);?></span>
                             <span class="work-rating-comment-field" >
                             <label> 
-                            <input type="text" id="team_member_post_production_support_comment_<?php echo $post_id;?>"  name="team_member_uat_comment_<?php  echo $post_id;?>" value="<?php echo esc_html($post_production_support_comment);?>" placeholder="Comments" /></label></span>
+                            <input type="text" id="team_member_post_production_support_comment_<?php echo $post_id;?>"  name="team_member_post_production_support_comment_<?php  echo $post_id;?>" value="<?php echo esc_html($post_production_support_comment);?>" placeholder="Comments" /></label></span>
                         </div>
 
 
@@ -343,7 +399,7 @@ function team_members_evaluate_page() {
                             <span class="work-rating-value survey_results"><?php echo esc_html($survey_results);?></span>
                             <span class="work-rating-value-field"> 
                             <label>
-                            <input type="number" id="team_member_survey_results_<?php echo $post_id;?>" class="min-max-range" name="team_member_survey_results_<?php echo $post_id;?>" value="<?php echo esc_html($survey_results);?>" placeholder="Survey Results" /></label></span>
+                            <input type="number" id="team_member_survey_results_<?php echo $post_id;?>" class="min-max-range" name="team_member_survey_results_<?php echo $post_id;?>" value="<?php echo esc_html($survey_results);?>" data-row="<?php echo $post_id;?>" placeholder="Survey Results" /></label></span>
                             
                             <span class="work-rating-comment"> <?php echo esc_html($survey_results_comment);?></span>
                             <span class="work-rating-comment-field" >
@@ -353,12 +409,12 @@ function team_members_evaluate_page() {
                         <?php } ?>
 
                            <!-- Design -->
-                           <?php  if($designation == "design"){?>
+                        <?php  if($designation == "design"){?>
                         <div class="rating-fields">
                             <span class="work-rating-value design_iterations"><?php echo esc_html($design_iterations);?></span>
                             <span class="work-rating-value-field"> 
                             <label>
-                            <input type="number" id="team_member_design_iterations_<?php echo $post_id;?>" class="min-max-range" name="team_member_design_iterations_<?php echo $post_id;?>" value="<?php echo esc_html($design_iterations);?>" placeholder="Number of design iteration based on the product requirement" /></label></span>
+                            <input type="number" id="team_member_design_iterations_<?php echo $post_id;?>" class="min-max-range" name="team_member_design_iterations_<?php echo $post_id;?>" value="<?php echo esc_html($design_iterations);?>" data-row="<?php echo $post_id;?>" placeholder="Number of design iteration based on the product requirement" /></label></span>
                             
                             <span class="work-rating-comment"> <?php echo esc_html($design_iterations_comment);?></span>
                             <span class="work-rating-comment-field" >
@@ -370,7 +426,7 @@ function team_members_evaluate_page() {
                             <span class="work-rating-value design_reworks"><?php echo esc_html($design_reworks);?></span>
                             <span class="work-rating-value-field"> 
                             <label>
-                            <input type="number" id="team_member_design_reworks_<?php echo $post_id;?>" class="min-max-range" name="team_member_design_reworks_<?php echo $post_id;?>" value="<?php echo esc_html($design_reworks);?>" placeholder="Number of reworks done on design"/></label></span>
+                            <input type="number" id="team_member_design_reworks_<?php echo $post_id;?>" class="min-max-range" name="team_member_design_reworks_<?php echo $post_id;?>" value="<?php echo esc_html($design_reworks);?>" data-row="<?php echo $post_id;?>" placeholder="Number of reworks done on design"/></label></span>
                             
                             <span class="work-rating-comment"> <?php echo esc_html($design_reworks_comment);?></span>
                             <span class="work-rating-comment-field" >
@@ -382,7 +438,7 @@ function team_members_evaluate_page() {
                             <span class="work-rating-value design_quality"><?php echo esc_html($design_quality);?></span>
                             <span class="work-rating-value-field"> 
                             <label>
-                            <input type="number" id="team_member_design_quality_<?php echo $post_id;?>" class="min-max-range" name="team_member_design_quality_<?php echo $post_id;?>" value="<?php echo esc_html($design_quality);?>" placeholder=" Design Quality: UI and UX audit" /></label></span>
+                            <input type="number" id="team_member_design_quality_<?php echo $post_id;?>" class="min-max-range" name="team_member_design_quality_<?php echo $post_id;?>" value="<?php echo esc_html($design_quality);?>" data-row="<?php echo $post_id;?>" placeholder=" Design Quality: UI and UX audit" /></label></span>
                             
                             <span class="work-rating-comment"> <?php echo esc_html($design_quality_comment);?></span>
                             <span class="work-rating-comment-field" >
@@ -394,7 +450,7 @@ function team_members_evaluate_page() {
                             <span class="work-rating-value survey_results"><?php echo esc_html($survey_results);?></span>
                             <span class="work-rating-value-field"> 
                             <label>
-                            <input type="number" id="team_member_survey_results_<?php echo $post_id;?>" class="min-max-range" name="team_member_survey_results_<?php echo $post_id;?>" value="<?php echo esc_html($survey_results);?>" placeholder="Survey Results" /></label></span>
+                            <input type="number" id="team_member_survey_results_<?php echo $post_id;?>" class="min-max-range" name="team_member_survey_results_<?php echo $post_id;?>" value="<?php echo esc_html($survey_results);?>" data-row="<?php echo $post_id;?>" placeholder="Survey Results" /></label></span>
                             
                             <span class="work-rating-comment"> <?php echo esc_html($survey_results_comment);?></span>
                             <span class="work-rating-comment-field" >
@@ -404,25 +460,75 @@ function team_members_evaluate_page() {
 
                         <?php } ?>
 
-                        <div class="rating-fields">
-                            <?php  if($report_to == "None"){?>
-                            <span class="team-management-value"><?php echo esc_html($management_rating);?></span>
-                            <span class="team-management-value-field">
-                            <label>Management Rating
-                            <input type="number" id="team_member_management_<?php echo $post_id;?>" class="min-max-range" name="team_member_management_<?php echo $post_id;?>" value="<?php echo esc_attr( $management_rating ); ?>" /></label></span>
+                        <!-- Implementation -->
+                        <?php  if($designation == "implementation"){?>
+                            <div class="rating-fields">
+                                <span class="work-rating-value manuals_content"><?php echo esc_html($manuals_content);?></span>
+                                <span class="work-rating-value-field"> 
+                                <label>
+                                <input type="number" id="team_member_manuals_content_<?php echo $post_id;?>" class="min-max-range" name="team_member_manuals_content_<?php echo $post_id;?>" value="<?php echo esc_html($manuals_content);?>" data-row="<?php echo $post_id;?>" placeholder="Manuals Content" /></label></span>
+                                
+                                <span class="work-rating-comment"> <?php echo esc_html($manuals_content_comment);?></span>
+                                <span class="work-rating-comment-field" >
+                                <label> 
+                                <input type="text" id="team_member_manuals_content_comment_<?php echo $post_id;?>"  name="team_member_manuals_content_comment_<?php  echo $post_id;?>" value="<?php echo esc_html($manuals_content_comment);?>" placeholder="Comments" /></label></span>
+                            </div>
+                            <div class="rating-fields">
+                                <span class="work-rating-value demo_videos"><?php echo esc_html($demo_videos);?></span>
+                                <span class="work-rating-value-field"> 
+                                <label>
+                                <input type="number" id="team_member_demo_videos_<?php echo $post_id;?>" class="min-max-range" name="team_member_demo_videos_<?php echo $post_id;?>" value="<?php echo esc_html($demo_videos);?>" data-row="<?php echo $post_id;?>" placeholder="Demo Videos" /></label></span>
+                                
+                                <span class="work-rating-comment"> <?php echo esc_html($demo_videos_comment);?></span>
+                                <span class="work-rating-comment-field" >
+                                <label> 
+                                <input type="text" id="team_member_demo_videos_comment_<?php echo $post_id;?>"  name="team_member_demo_videos_comment_<?php  echo $post_id;?>" value="<?php echo esc_html($demo_videos_comment);?>" placeholder="Comments" /></label></span>
+                            </div>
+                            <div class="rating-fields">
+                                <span class="work-rating-value training_material"><?php echo esc_html($training_material);?></span>
+                                <span class="work-rating-value-field"> 
+                                <label>
+                                <input type="number" id="team_member_training_material_<?php echo $post_id;?>" class="min-max-range" name="team_member_training_material_<?php echo $post_id;?>" value="<?php echo esc_html($training_material);?>" data-row="<?php echo $post_id;?>" placeholder="Training Material" /></label></span>
+                                
+                                <span class="work-rating-comment"> <?php echo esc_html($training_material_comment);?></span>
+                                <span class="work-rating-comment-field" >
+                                <label> 
+                                <input type="text" id="team_member_training_material_comment_<?php echo $post_id;?>"  name="team_member_training_material_comment_<?php  echo $post_id;?>" value="<?php echo esc_html($training_material_comment);?>" placeholder="Comments" /></label></span>
+                            </div>
+                            <div class="rating-fields">
+                                <span class="work-rating-value training_feedback_survey"><?php echo esc_html($training_feedback_survey);?></span>
+                                <span class="work-rating-value-field"> 
+                                <label>
+                                <input type="number" id="team_member_training_feedback_survey_<?php echo $post_id;?>" class="min-max-range" name="team_member_training_feedback_survey_<?php echo $post_id;?>" value="<?php echo esc_html($training_feedback_survey);?>" data-row="<?php echo $post_id;?>" placeholder="Training Feedback Survey" /></label></span>
+                                
+                                <span class="work-rating-comment"> <?php echo esc_html($training_feedback_survey_comment);?></span>
+                                <span class="work-rating-comment-field" >
+                                <label> 
+                                <input type="text" id="team_member_training_feedback_survey_comment_<?php echo $post_id;?>"  name="team_member_training_feedback_survey_comment_<?php  echo $post_id;?>" value="<?php echo esc_html($training_feedback_survey_comment);?>" placeholder="Comments" /></label></span>
+                            </div>
+                        <?php }?> 
 
-                            <span class="work-management-comment"><?php echo esc_html($management_comment);?></span>
-                            <span class="work-management-comment-field">
-                            <label>Comments
-                            <input type="text" id="team_member_work_management_comment_<?php echo $post_id;?>" name="team_member_work_management_comment_<?php echo $post_id;?>" value="<?php echo esc_html($management_comment);?>" /></label></span>
-                            <?php }?> 
+                        <!-- Unit head, project manager, sap, IT manager, IT exec, Content writers -->
+                        <?php $allowed_designations = array("unit-head", "project-management", "sap", "it-manager", "it-executive", "content-writers");
+                          if (in_array($designation, $allowed_designations)) {?>
+                            <div class="rating-fields">
+                            <span class="work-rating-value quality_of_work"><?php echo esc_html($quality_of_work);?></span>
+                            <span class="work-rating-value-field"> 
+                            <label>
+                            <input type="number" id="team_member_quality_of_work_<?php echo $post_id;?>" class="min-max-range" name="team_member_quality_of_work_<?php echo $post_id;?>" value="<?php echo esc_html($quality_of_work);?>" data-row="<?php echo $post_id;?>" placeholder="Quality Of Work" /></label></span>
+                            
+                            <span class="work-rating-comment"> <?php echo esc_html($quality_of_work_comment);?></span>
+                            <span class="work-rating-comment-field" >
+                            <label> 
+                            <input type="text" id="team_member_quality_of_work_comment_<?php echo $post_id;?>"  name="team_member_quality_of_work_comment_<?php  echo $post_id;?>" value="<?php echo esc_html($quality_of_work_comment);?>" placeholder="Comments" /></label></span>
                         </div>
+                        <?php }?> 
                     </td>
 
                     <td>
           
-                            <span class="quality-score" data-row="<?php echo $post_id;?>"><?php echo esc_html($quality_overall);?></span>
-                            <input type="hidden" id="team_member_quality_overall_<?php echo $post_id;?>" class="quality_overall-field quality-score" name="team_member_quality_overall_<?php  echo $post_id;?>" value="<?php echo esc_html($quality_overall);?>" data-row="<?php echo $post_id;?>"/>
+                            <span class="quality-score" data-row="<?php echo $post_id;?>"><?php echo ($evaluation_overall != null) ? esc_html($evaluation_overall) . "%" : null;?> </span>
+                            <input type="hidden" id="team_member_quality_overall_<?php echo $post_id;?>" class="quality_overall-field quality-score" name="team_member_quality_overall_<?php  echo $post_id;?>" value="<?php echo esc_html($evaluation_overall);?>" data-row="<?php echo $post_id;?>"/>
                             
                         </td>
                     </tr>
@@ -436,24 +542,103 @@ function team_members_evaluate_page() {
             
             if ( isset( $_POST['submit_evaluation'] ) ) {
                
-                $work_rating_value = intval( $_POST['team_member_work_rating_' . $post_id] );
-                $work_rating_comment = sanitize_text_field( $_POST['team_member_work_rating_comment_' . $post_id] );
                 $week_value = intval( $_POST['team_member_week_' . $post_id] );
-                if($is_lead == "Yes"){
-                $management_rating = intval( $_POST['team_member_management_' . $post_id] );
-                $management_comment = sanitize_text_field( $_POST['team_member_work_management_comment_' . $post_id] );
 
-                 }
+                $allowed_designations = array("unit-head", "project-management", "sap", "it-manager", "it-executive", "content-writers");
+                if (in_array($designation, $allowed_designations)) {
+                $quality_of_work = intval( $_POST['team_member_quality_of_work_' . $post_id] );
+                $quality_of_work_comment = sanitize_text_field( $_POST['team_member_quality_of_work_comment_' . $post_id] );
+                }
+
+                if($designation == "dev-ops"){
+                $server_down_incidents = intval( $_POST['team_member_server_down_incidents_' . $post_id] );
+                $server_down_incidents_comment = sanitize_text_field( $_POST['team_member_server_down_incidents_comment_' . $post_id] );
+
+                $mean_time_to_repair = intval( $_POST['team_member_mean_time_to_repair_' . $post_id] );
+                $mean_time_to_repair_comment = sanitize_text_field( $_POST['team_member_mean_time_to_repair_comment_' . $post_id] );
+                }
+
+                if($designation == "development"){
+                $code_quality_by_peer = intval( $_POST['team_member_code_quality_by_peer_' . $post_id] );
+                $code_quality_by_peer_comment = sanitize_text_field( $_POST['team_member_code_quality_by_peer_comment_' . $post_id] );
+
+                $code_quality_by_team_lead = intval( $_POST['team_member_code_quality_by_team_lead_' . $post_id] );
+                $code_quality_by_team_lead_comment = sanitize_text_field( $_POST['team_member_code_quality_by_team_lead_comment_' . $post_id] );
+
+                $bug_reported = intval( $_POST['team_member_bug_reported_' . $post_id] );
+                $bug_reported_comment = sanitize_text_field( $_POST['team_member_bug_reported_comment_' . $post_id] );
+
+                $survey_results = intval( $_POST['team_member_survey_results_' . $post_id] );
+                $survey_results_comment = sanitize_text_field( $_POST['team_member_survey_results_comment_' . $post_id] );
+                }
+
+                if($designation == "qa" || $designation == "qa-automation"){
+                $survey_results = intval( $_POST['team_member_survey_results_' . $post_id] );
+                $survey_results_comment = sanitize_text_field( $_POST['team_member_survey_results_comment_' . $post_id] );
+
+                $defects_reported = intval( $_POST['team_member_defects_reported_' . $post_id] );
+                $defects_reported_comment = sanitize_text_field( $_POST['team_member_defects_reported_comment_' . $post_id] );
+
+                $test_cases_tested = intval( $_POST['team_member_test_cases_tested_' . $post_id] );
+                $test_cases_tested_comment = sanitize_text_field( $_POST['team_member_test_cases_tested_comment_' . $post_id] );
+                }
+
+                if($designation == "product-management"){
+                $requirements_initiation = intval( $_POST['team_member_requirements_initiation_' . $post_id] );
+                $requirements_initiation_comment = sanitize_text_field( $_POST['team_member_requirements_initiation_comment_' . $post_id] );
+
+                $project_documentation = intval( $_POST['team_member_project_documentation_' . $post_id] );
+                $project_documentation_comment = sanitize_text_field( $_POST['team_member_project_documentation_comment_' . $post_id] );
+
+                $backlog_management = intval( $_POST['team_member_backlog_management_' . $post_id] );
+                $backlog_management_comment = sanitize_text_field( $_POST['team_member_backlog_management_comment_' . $post_id] );
+
+                $uat = intval( $_POST['team_member_uat_' . $post_id] );
+                $uat_comment = sanitize_text_field( $_POST['team_member_uat_comment_' . $post_id] );
+
+                $post_production_support = intval( $_POST['team_member_post_production_support_' . $post_id] );
+                $post_production_support_comment = sanitize_text_field( $_POST['team_member_post_production_support_comment_' . $post_id] );
+
+                $survey_results = intval( $_POST['team_member_survey_results_' . $post_id] );
+                $survey_results_comment = sanitize_text_field( $_POST['team_member_survey_results_comment_' . $post_id] );
+                }
+
+                if($designation == "design"){
+                $design_iterations = intval( $_POST['team_member_design_iterations_' . $post_id] );
+                $design_iterations_comment = sanitize_text_field( $_POST['team_member_design_iterations_comment_' . $post_id] );
                 
+                $design_reworks = intval( $_POST['team_member_design_reworks_' . $post_id] );
+                $design_reworks_comment = sanitize_text_field( $_POST['team_member_design_reworks_comment_' . $post_id] );
 
-                // Check if the record already exists in the custom table
+                $design_quality = intval( $_POST['team_member_design_quality_' . $post_id] );
+                $design_quality_comment = sanitize_text_field( $_POST['team_member_design_quality_comment_' . $post_id] );
+
+                $survey_results = intval( $_POST['team_member_survey_results_' . $post_id] );
+                $survey_results_comment = sanitize_text_field( $_POST['team_member_survey_results_comment_' . $post_id] );
+                }
+
+                if($designation == "implementation"){
+                $manuals_content = intval( $_POST['team_member_manuals_content_' . $post_id] );
+                $manuals_content_comment = sanitize_text_field( $_POST['team_member_manuals_content_comment_' . $post_id] );
+
+                $demo_videos = intval( $_POST['team_member_demo_videos_' . $post_id] );
+                $demo_videos_comment = sanitize_text_field( $_POST['team_member_demo_videos_comment_' . $post_id] );
+
+                $training_material = intval( $_POST['team_member_training_material_' . $post_id] );
+                $training_material_comment = sanitize_text_field( $_POST['team_member_training_material_comment_' . $post_id] );
+               
+                $training_feedback_survey = intval( $_POST['team_member_training_feedback_survey_' . $post_id] );
+                $training_feedback_survey_comment = sanitize_text_field( $_POST['team_member_training_feedback_survey_comment_' . $post_id] );
+                }
+                
+                $evaluation_overall_val = round(floatval( $_POST['team_member_quality_overall_' . $post_id] ));
+
                 global $wpdb;
-                // $current_week = date( 'W' );
                 $current_week = $week_value;
                 $current_year = date( 'Y' );
                 $existing_record = $wpdb->get_row(
                     $wpdb->prepare(
-                        "SELECT * FROM {$wpdb->prefix}team_members WHERE post_id = %d AND week_number = %d AND year = %d",
+                        "SELECT * FROM {$wpdb->prefix}team_members_evaluation WHERE post_id = %d AND week_number = %d AND year = %d",
                         $post_id,
                         $current_week,
                         $current_year
@@ -461,45 +646,55 @@ function team_members_evaluate_page() {
                 );
 
                 if ( $existing_record ) {
-                   
-                    // Update the existing record
               
                     $data = array(
-                        'work_rating_value' => $work_rating_value,
-                        'work_rating_comment' => $work_rating_comment,
-                        'management_rating' => $management_rating,
-                        'management_comment' => $management_comment,
-                        'week_number' => $current_week,
+                        'quality_of_work' => $quality_of_work,
+                        'quality_of_work_comment' => $quality_of_work_comment,
+                        'server_down_incidents' => $server_down_incidents,
+                        'server_down_incidents_comment' => $server_down_incidents_comment,
+                        'mean_time_to_repair' => $mean_time_to_repair,
+                        'mean_time_to_repair_comment' => $mean_time_to_repair_comment,
+                        'code_quality_by_peer' => $code_quality_by_peer,
+                        'code_quality_by_peer_comment' => $code_quality_by_peer_comment,
+                        'code_quality_by_team_lead' => $code_quality_by_team_lead,
+                        'code_quality_by_team_lead_comment' => $code_quality_by_team_lead_comment,
+                        'survey_results' => $survey_results,
+                        'survey_results_comment' => $survey_results_comment,
+                        'bug_reported' => $bug_reported,
+                        'bug_reported_comment' => $bug_reported_comment,
+                        'defects_reported'=> $defects_reported,
+                        'defects_reported_comment' => $defects_reported_comment,
+                        'test_cases_tested' => $test_cases_tested,
+                        'test_cases_tested_comment' => $test_cases_tested_comment,
+                        'requirements_initiation' => $requirements_initiation,
+                        'requirements_initiation_comment' => $requirements_initiation_comment,
+                        'project_documentation' => $project_documentation,
+                        'project_documentation_comment' => $project_documentation_comment,
+                        'backlog_management'=>$backlog_management,
+                        'backlog_management_comment'=>$backlog_management_comment,
+                        'uat' => $uat,
+                        'uat_comment' => $uat_comment,
+                        'post_production_support' => $post_production_support,
+                        'post_production_support_comment' => $post_production_support_comment,
+                        'design_iterations' => $design_iterations,
+                        'design_iterations_comment' => $design_iterations_comment,
+                        'design_reworks' => $design_reworks,
+                        'design_reworks_comment' => $design_reworks_comment,
+                        'design_quality' => $design_quality,
+                        'design_quality_comment' => $design_quality_comment,
+                        'manuals_content' => $manuals_content,
+                        'manuals_content_comment' => $manuals_content_comment,
+                        'demo_videos' => $demo_videos,
+                        'demo_videos_comment' => $demo_videos_comment,
+                        'training_material' => $training_material,
+                        'training_material_comment' => $training_material_comment,
+                        'training_feedback_survey' => $training_feedback_survey,
+                        'training_feedback_survey_comment' => $training_feedback_survey_comment,
+                        'evaluation_overall' => $evaluation_overall_val,
                     );
 
-                    $wpdb->update( $wpdb->prefix . 'team_members', $data, array( 'post_id' => $post_id, 'week_number' => $current_week, 'year' => $current_year ) );
+                    $wpdb->update( $wpdb->prefix . 'team_members_evaluation', $data, array( 'post_id' => $post_id, 'week_number' => $current_week, 'year' => $current_year ) );
                 } 
-                else {
-                   
-                    $data = array(
-                        'post_id' => $post_id,
-                        'user_name' => $name,
-                        'user_designation' => $designation,
-                        'user_email' => $email,
-                        'user_webhrID' => $webhr_id,
-                        'user_report_to' => $report_to,
-                        'user_is_lead' => $is_lead,
-                        'user_lead_percentage' => $percentage,
-                        'user_status' => $member_status,
-                        'lead_username' => '',
-                        'lead_password' => $lead_password,
-                        'work_rating_value' => $work_rating_value,
-                        'work_rating_comment' => $work_rating_comment,
-                        'management_rating' => $management_rating,
-                        'management_comment' => $management_comment,
-                        'week_number'  => $current_week,
-                        'year'  => $current_year,
-                        'user_on_leaves' => $leaves_hours ,
-                        'jira_work_logs' => $jira_log_hours,
-                    );
-
-                    $wpdb->insert( $wpdb->prefix . 'team_members', $data );
-                }
             }
           
         }

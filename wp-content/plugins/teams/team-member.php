@@ -65,7 +65,6 @@ add_action( 'add_meta_boxes', 'team_members_add_meta_box' );
 global $wpdb;
 $table_name = $wpdb->prefix . 'team_members';
 
-
 if ($wpdb->get_var("SHOW TABLES LIKE '$table_name'") != $table_name) {
 
     $charset_collate = $wpdb->get_charset_collate();
@@ -90,6 +89,75 @@ if ($wpdb->get_var("SHOW TABLES LIKE '$table_name'") != $table_name) {
     require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
     dbDelta($sql);
 }
+
+$table_name = $wpdb->prefix . 'team_members_evaluation';
+
+if ($wpdb->get_var("SHOW TABLES LIKE '$table_name'") != $table_name) {
+
+    $charset_collate = $wpdb->get_charset_collate();
+
+    $sql = "CREATE TABLE $table_name (
+        id INT NOT NULL AUTO_INCREMENT,
+        post_id INT,
+        user_name VARCHAR(255),
+        user_webhrID VARCHAR(255),
+        user_email VARCHAR(255),
+        user_designation VARCHAR(255),
+        user_report_to VARCHAR(255),
+        week_number INT,
+        month_number INT,
+        year INT,
+        quality_of_work INT,
+        quality_of_work_comment TEXT,
+        server_down_incidents INT,
+        server_down_incidents_comment TEXT,
+        mean_time_to_repair INT,
+        mean_time_to_repair_comment TEXT,
+        code_quality_by_peer INT,
+        code_quality_by_peer_comment TEXT,
+        code_quality_by_team_lead INT,
+        code_quality_by_team_lead_comment TEXT,
+        survey_results INT,
+        survey_results_comment TEXT,
+        bug_reported INT,
+        bug_reported_comment TEXT,
+        defects_reported INT,
+        defects_reported_comment TEXT,
+        test_cases_tested INT,
+        test_cases_tested_comment TEXT,
+        requirements_initiation INT,
+        requirements_initiation_comment TEXT,
+        project_documentation INT,
+        project_documentation_comment TEXT,
+        backlog_management INT,
+        backlog_management_comment TEXT,
+        uat INT,
+        uat_comment TEXT,
+        post_production_support INT,
+        post_production_support_comment TEXT,
+        design_iterations INT,
+        design_iterations_comment TEXT,
+        design_reworks INT,
+        design_reworks_comment TEXT,
+        design_quality INT,
+        design_quality_comment TEXT,
+        manuals_content INT,
+        manuals_content_comment TEXT,
+        demo_videos INT,
+        demo_videos_comment TEXT,
+        training_material INT,
+        training_material_comment TEXT,
+        training_feedback_survey INT,
+        training_feedback_survey_comment TEXT,
+        evaluation_overall INT,
+        Timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        PRIMARY KEY (id)
+    ) $charset_collate;";
+
+    require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
+    dbDelta($sql);
+}
+
 
 // Render meta box fields
 function team_members_render_meta_box( $post ) {
@@ -179,7 +247,11 @@ function team_members_render_meta_box( $post ) {
         'Implementation' => 'implementation',
         'SAP' => 'sap',
         'Design' => 'design',
-        'Product Management' => 'product-management'
+        'Product Management' => 'product-management',
+        'IT Manager' => 'it-manager',
+        'IT Executive' => 'it-executive',
+        'Content Writers' => 'content-writers'
+
     );
     ?>
     <label for="team_member_designation">Role Category:</label>

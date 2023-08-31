@@ -276,6 +276,14 @@ function schedule_user_insertion_cron_job() {
     }
 }
 
+add_action('init', 'schedule_user_evaluation_insertion_cron_job');
+function schedule_user_evaluation_insertion_cron_job() {
+    if (!wp_next_scheduled('insert_team_member_evaluation_with_current_week_cron_hook')) {
+        $next_run = time();
+        wp_schedule_event($next_run, 'every_six_hour',  'insert_team_member_evaluation_with_current_week_cron_hook');
+    }
+}
+
 
 // get ranges between dates, Function to get all dates between two dates
 
@@ -617,6 +625,73 @@ function insert_team_member_with_current_week() {
 }
 
 }
+
+add_action( 'insert_team_member_evaluation_with_current_week_cron_hook', 'insert_team_member_evaluation_with_current_week' );
+function insert_team_member_evaluation_with_current_week() {
+ 
+    date_default_timezone_set('America/Los_Angeles');
+    $log_file_path = WP_CONTENT_DIR . '/jira_logs_cron.log';
+    $log_message = 'Users evaluation table insertion cron job triggered on ' . date('Y-m-d H:i:s') . "\n";
+    file_put_contents($log_file_path, $log_message, FILE_APPEND); 
+   // if (date('N') == 4) {
+    global $post;
+      $args = get_posts( array(
+		'post_type'   => 'team_member',
+        'posts_per_page' => -1
+	) );
+      
+    if ( $args ) {
+		foreach ( $args as $post ) : 
+
+            $post_id = get_the_ID();
+            $name = get_post_meta($post_id, '_team_member_name', true);
+            $designation = get_post_meta($post_id, '_team_member_designation', true);
+            $email = get_post_meta($post_id, '_team_member_email', true);
+            $webhr_id = get_post_meta($post_id, '_team_member_webhr_id', true);
+            $report_to = get_post_meta($post_id, '_team_member_report_to', true);
+            $current_week =  date('W');
+            $current_month=  date('m');
+            $current_year = date('Y');
+
+        
+            $data = array(
+                'post_id' => $post_id,
+                'user_name' => $name,
+                'user_designation' =>  $designation,
+                'user_email' => $email ,
+                'user_webhrID' => $webhr_id,
+                'user_report_to' => $report_to,
+                'week_number' => $current_week,
+                'month_number' => $current_month,
+                'year' => $current_year, 
+            );
+        
+            global $wpdb;
+            $table_name = $wpdb->prefix . 'team_members_evaluation';
+       
+            $existing_record = $wpdb->get_row(
+                $wpdb->prepare(
+                    "SELECT * FROM $table_name WHERE post_id = %d AND week_number = %s",
+                    $post_id,
+                    $current_week
+                )
+            );
+
+            if ($existing_record) {
+                // If an entry already exists, update the existing record
+                $wpdb->update($table_name, $data, array('post_id' => $post_id, 'week_number' => $current_week));
+            } else {
+                // If no entry exists, insert a new record
+                $wpdb->insert($table_name, $data);
+            }
+        endforeach;
+
+        wp_reset_postdata(); 
+   // }
+}
+
+}
+
 
 function user_hierarchy_chart_shortcode() {
 

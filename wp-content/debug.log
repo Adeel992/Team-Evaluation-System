@@ -432,3 +432,43 @@ Stack trace:
 #3 /Applications/XAMPP/xamppfiles/htdocs/teams/wp-admin/edit.php(10): require_once('/Applications/X...')
 #4 {main}
   thrown in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/class-wp-hook.php on line 308
+[30-Aug-2023 09:34:52 UTC] PHP Parse error:  syntax error, unexpected identifier "s", expecting ")" in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 676
+[30-Aug-2023 09:34:52 UTC] PHP Notice:  Function is_embed was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/functions.php on line 5905
+[30-Aug-2023 09:34:52 UTC] PHP Notice:  Function is_search was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/functions.php on line 5905
+[30-Aug-2023 09:35:25 UTC] PHP Notice:  Function wpdb::prepare was called <strong>incorrectly</strong>. The query argument of wpdb::prepare() must have a placeholder. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.9.0.) in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-includes/functions.php on line 5905
+[30-Aug-2023 09:35:25 UTC] PHP Warning:  Undefined variable $quality_overall in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 530
+[30-Aug-2023 09:35:25 UTC] PHP Warning:  Undefined variable $quality_overall in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 531
+[30-Aug-2023 09:35:25 UTC] PHP Warning:  Undefined variable $quality_overall in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 530
+[30-Aug-2023 09:35:25 UTC] PHP Warning:  Undefined variable $quality_overall in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 531
+[30-Aug-2023 09:35:25 UTC] PHP Warning:  Undefined variable $quality_overall in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 530
+[30-Aug-2023 09:35:25 UTC] PHP Warning:  Undefined variable $quality_overall in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 531
+[30-Aug-2023 09:35:25 UTC] PHP Warning:  Undefined variable $quality_overall in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 530
+[30-Aug-2023 09:35:25 UTC] PHP Warning:  Undefined variable $quality_overall in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 531
+[30-Aug-2023 09:35:25 UTC] PHP Warning:  Undefined variable $quality_overall in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 530
+[30-Aug-2023 09:35:25 UTC] PHP Warning:  Undefined variable $quality_overall in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 531
+[30-Aug-2023 09:35:25 UTC] PHP Warning:  Undefined variable $quality_overall in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 530
+[30-Aug-2023 09:35:25 UTC] PHP Warning:  Undefined variable $quality_overall in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 531
+[30-Aug-2023 09:35:25 UTC] PHP Warning:  Undefined variable $quality_overall in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 530
+[30-Aug-2023 09:35:25 UTC] PHP Warning:  Undefined variable $quality_overall in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 531
+[30-Aug-2023 09:35:25 UTC] PHP Warning:  Undefined variable $quality_overall in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 530
+[30-Aug-2023 09:35:25 UTC] PHP Warning:  Undefined variable $quality_overall in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 531
+[30-Aug-2023 09:35:25 UTC] PHP Warning:  Undefined variable $quality_overall in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 530
+[30-Aug-2023 09:35:25 UTC] PHP Warning:  Undefined variable $quality_overall in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 531
+[30-Aug-2023 09:35:25 UTC] PHP Warning:  Undefined variable $quality_overall in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 530
+[30-Aug-2023 09:35:25 UTC] PHP Warning:  Undefined variable $quality_overall in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 531
+[30-Aug-2023 09:35:25 UTC] PHP Warning:  Undefined variable $quality_overall in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 530
+[30-Aug-2023 09:35:25 UTC] PHP Warning:  Undefined variable $quality_overall in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 531
+[30-Aug-2023 09:35:25 UTC] PHP Warning:  Undefined variable $quality_overall in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 530
+[30-Aug-2023 09:35:25 UTC] PHP Warning:  Undefined variable $quality_overall in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 531
+[30-Aug-2023 09:35:25 UTC] PHP Warning:  Undefined variable $quality_overall in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 530
+[30-Aug-2023 09:35:25 UTC] PHP Warning:  Undefined variable $quality_overall in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 531
+[30-Aug-2023 09:35:25 UTC] PHP Warning:  Undefined variable $quality_overall in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 530
+[30-Aug-2023 09:35:25 UTC] PHP Warning:  Undefined variable $quality_overall in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 531
+[30-Aug-2023 09:35:25 UTC] PHP Warning:  Undefined variable $quality_overall in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 530
+[30-Aug-2023 09:35:25 UTC] PHP Warning:  Undefined variable $quality_overall in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 531
+[30-Aug-2023 09:35:25 UTC] PHP Warning:  Undefined variable $quality_overall in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 530
+[30-Aug-2023 09:35:25 UTC] PHP Warning:  Undefined variable $quality_overall in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 531
+[30-Aug-2023 09:35:25 UTC] PHP Warning:  Undefined variable $quality_overall in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 530
+[30-Aug-2023 09:35:25 UTC] PHP Warning:  Undefined variable $quality_overall in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 531
+[30-Aug-2023 09:35:25 UTC] PHP Warning:  Undefined variable $quality_overall in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 530
+[30-Aug-2023 09:35:25 UTC] PHP Warning:  Undefined variable $quality_overall in /Applications/XAMPP/xamppfiles/htdocs/teams/wp-content/plugins/teams/views_functions.php on line 531

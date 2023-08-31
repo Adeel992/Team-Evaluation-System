@@ -69,15 +69,21 @@ error_reporting( E_ALL );
                             $counter = 1;
                             // Loop through the results
                             global $wpdb;
-
-                            // Define the table name
-                            $table_name = $wpdb->prefix . 'team_members';
+                            $table_name_members = $wpdb->prefix . 'team_members';
+                            $table_name_evaluation = $wpdb->prefix . 'team_members_evaluation';
                             $current_user = wp_get_current_user();
-                            // Prepare and execute the SQL query
-                            $query = $wpdb->prepare( "SELECT * FROM $table_name ORDER BY week_number desc");
+                            $query = $wpdb->prepare(
+                                "SELECT tm.*, tme.evaluation_overall
+                                FROM $table_name_members AS tm
+                                LEFT JOIN $table_name_evaluation AS tme ON tm.user_webhrID = tme.user_webhrID AND tm.week_number = tme.week_number
+                                ORDER BY tm.week_number DESC"
+                            );                            
+                            
                             $results = $wpdb->get_results( $query );
+
                             if ( ! empty( $results ) ) {
                                 foreach ( $results as $result ) {
+
                                     // Access the values
                                     $name = $result->user_name;
                                     $email = $result->user_email;
@@ -93,7 +99,7 @@ error_reporting( E_ALL );
                                     $leaves_hours = $result->user_on_leaves;
                                     $jira_log_hours = $result->jira_work_logs;
                                     $public_holidays = $result->public_holidays;
-                                    
+                                    $evaluation_overall = $result->evaluation_overall;
                                 
                                     if($name && $user_webhr != 1851 && $user_webhr != 3636 && $user_webhr != 3153 && $user_webhr != 1005){
 
@@ -167,7 +173,7 @@ error_reporting( E_ALL );
                                                 <tr>
                                                     <td><?php echo $counter; ?></td>
                                                     <td><?php echo esc_html($name); ?></td>
-                                                    <td><?php echo esc_html($designation); ?></td>
+                                                    <td class="user-designation"><?php echo esc_html($designation); ?></td>
                                                     <td><?php echo esc_html($week); ?></td>
                                                     <td><span class="<?php echo $quantity_box_color; ?>"><?php echo ($quantity_value != "NA") ? esc_html($quantity_value) . "%" : "NA"; ?></span></td>
                                                     <td><span class="<?php echo $quality_box_color; ?>"  data-toggle="tooltip" data-placement="top" title="<?php echo esc_html($work_rating_comment); ?>"><?php echo ($quality_value != "NA") ? esc_html($quality_value) . "%" : "NA"; ?></span></td>
@@ -339,7 +345,7 @@ error_reporting( E_ALL );
                                         <tr>
                                             <td><?php echo $counter; ?></td>
                                             <td><?php echo esc_html($name); ?></td>
-                                            <td><?php echo esc_html($designation); ?></td>
+                                            <td class="user-designation"><?php echo esc_html($designation); ?></td>
                                             <td class="per-lb-month"><?php echo esc_html($month); ?></td>
 
                                             <td><span class="<?php echo $quantity_box_color; ?>"><?php echo ($quantity_value != "NA") ? esc_html($quantity_value) . "%" : "NA"; ?></span></td>
