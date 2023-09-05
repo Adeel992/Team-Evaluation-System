@@ -1,6 +1,6 @@
 jQuery(document).ready(function () {
   
-        jQuery('[data-toggle="tooltip"]').tooltip();
+    jQuery('[data-toggle="tooltip"]').tooltip();
      
 
     jQuery('.min-max-range').on('input', function() {
@@ -528,22 +528,25 @@ function updateQualityScore(rowId) {
         backlog_management, uat, post_production_support, design_iterations, design_reworks, design_quality, manuals_content,
         demo_videos, training_material, training_feedback_survey];
 
-    var nonEmptyNumericVariables = variables.map(function(value) {
-        var numericValue = parseFloat(value);
-        return isNaN(numericValue) ? 0 : numericValue;
-    }).filter(function(value) {
-        return value !== 0;
-    });
-    
-    var sumOfNonEmptyVariables = nonEmptyNumericVariables.reduce(function(sum, value) {
-        return sum + value;
-    }, 0);
-    
-    var numberOfNonEmptyVariables = nonEmptyNumericVariables.length;
+        var nonEmptyNumericVariables = variables.map(function(value) {
+            var numericValue = parseFloat(value);
+            return isNaN(numericValue) ? 0 : numericValue;
+        }).filter(function(value) {
+            return value !== 0;
+        });
+        
+        var sumOfNonEmptyVariables = nonEmptyNumericVariables.reduce(function(sum, value) {
+            return sum + value;
+        }, 0);
+        
+        var numberOfNonEmptyVariables = nonEmptyNumericVariables.length;
+        
+        var sum_value = numberOfNonEmptyVariables * 10;
+        
+        var qualityScore = sum_value === 0 ? 0 : (sumOfNonEmptyVariables / sum_value) * 100;
+        
+        qualityScore = Math.min(qualityScore, 100);
 
-    var sum_value = numberOfNonEmptyVariables * 10;
-    
-    var qualityScore = (sumOfNonEmptyVariables / sum_value) * 100;
     
     // console.log(sumOfNonEmptyVariables);
     // console.log(numberOfNonEmptyVariables);

@@ -298,7 +298,8 @@ a.nav-link {
     text-align: right;
 }
 span.work-rating-value {
-    margin-right: 40%;
+    display: inline-block;
+    width: 40%;
 }
 
 td.user-designation {

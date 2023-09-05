@@ -3,6 +3,7 @@
 // Enqueue DataTables scripts and stylesheets
 function team_members_enqueue_scripts() {
     wp_enqueue_script( 'jquery', );
+ //   wp_enqueue_script( 'jquery-ui','https://code.jquery.com/ui/1.12.1/jquery-ui.js', array( 'jquery' ), '1.12.1', true );
 
     wp_enqueue_style( 'bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css');
     wp_enqueue_script( 'popper','https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js');
@@ -27,7 +28,7 @@ function team_members_enqueue_scripts() {
     wp_enqueue_script( 'custom', plugin_dir_url( __FILE__ ) . 'js/custom.js', array( 'jquery' ), '1.0.0', true );
     wp_enqueue_style( 'style', plugin_dir_url( __FILE__ ) . 'css/style.css' , '1.0.0');
    
-    //wp_enqueue_script( 'jquery-ui','https://code.jquery.com/ui/1.12.1/jquery-ui.js', array( 'jquery' ), '1.12.1', true );
+    
 
 
 }
@@ -671,7 +672,7 @@ function insert_team_member_evaluation_with_current_week() {
        
             $existing_record = $wpdb->get_row(
                 $wpdb->prepare(
-                    "SELECT * FROM $table_name WHERE post_id = %d AND week_number = %s",
+                    "SELECT * FROM {$wpdb->prefix}team_members WHERE post_id = %d AND week_number = %s",
                     $post_id,
                     $current_week
                 )

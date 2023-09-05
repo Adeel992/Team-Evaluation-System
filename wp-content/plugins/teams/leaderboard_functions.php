@@ -244,7 +244,6 @@ error_reporting( E_ALL );
                             $results = $wpdb->get_results( $query );
                             if ( ! empty( $results ) ) {
                                 foreach ( $results as $result ) {
-                                    // Access the values
                                     $name = $result->user_name;
                                     $designation = $result->user_designation;
                                     $percentage = $result->user_lead_percentage;

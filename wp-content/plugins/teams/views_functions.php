@@ -215,8 +215,9 @@ function team_members_evaluate_page() {
                             <input type="number" id="team_member_week_<?php echo $post_id;?>" class="week-value-field" name="team_member_week_<?php echo $post_id;?>" value="<?php echo esc_html($week_number);?>" />
                     </td>
                     <td>
-                        <!-- dev ops  ratings -->
+                        
                         <?php  if($designation == "dev-ops"){?>
+                            <!-- dev ops  ratings -->
                         <div class="rating-fields">
                             <span class="work-rating-value server_down_incidents"><?php echo esc_html($server_down_incidents);?></span>
                             <span class="work-rating-value-field"> 
@@ -242,8 +243,9 @@ function team_members_evaluate_page() {
                         </div>
                         <?php } ?>
 
-                        <!-- development -->
+                       
                         <?php  if($designation == "development"){?>
+                             <!-- development -->
                         <div class="rating-fields">
                          <span class="work-rating-value code_quality_by_peer"><?php echo esc_html($code_quality_by_peer);?></span>
                             <span class="work-rating-value-field"> 
@@ -269,18 +271,6 @@ function team_members_evaluate_page() {
                         </div>
 
                         <div class="rating-fields">
-                          <span class="work-rating-value survey_results"><?php echo esc_html($survey_results);?></span>
-                            <span class="work-rating-value-field"> 
-                            <label>
-                            <input type="number" id="team_member_survey_results_<?php echo $post_id;?>" class="min-max-range" name="team_member_survey_results_<?php echo $post_id;?>" value="<?php echo esc_html($survey_results);?>" data-row="<?php echo $post_id;?>" placeholder="Survey Results" /></label></span>
-                            
-                            <span class="work-rating-comment"> <?php echo esc_html($survey_results_comment);?></span>
-                            <span class="work-rating-comment-field" >
-                            <label> 
-                            <input type="text" id="team_member_survey_results_comment_<?php echo $post_id;?>"  name="team_member_survey_results_comment_<?php  echo $post_id;?>" value="<?php echo esc_html($survey_results_comment);?>" placeholder="Comments" /></label></span>
-                        </div>
-
-                        <div class="rating-fields">
                         <span class="work-rating-value bugs_reported"><?php echo esc_html($bug_reported);?></span>
                             <span class="work-rating-value-field"> 
                             <label>
@@ -291,10 +281,23 @@ function team_members_evaluate_page() {
                             <label> 
                             <input type="text" id="team_member_bug_reported_comment_<?php echo $post_id;?>"  name="team_member_bug_reported_comment_<?php  echo $post_id;?>" value="<?php echo esc_html($bug_reported_comment);?>" placeholder="Comments" /></label></span>
                         </div>
+
+                        <div class="rating-fields">
+                          <span class="work-rating-value survey_results"><?php echo esc_html($survey_results);?></span>
+                            <span class="work-rating-value-field"> 
+                            <label>
+                            <input type="number" id="team_member_survey_results_<?php echo $post_id;?>" class="min-max-range" name="team_member_survey_results_<?php echo $post_id;?>" value="<?php echo esc_html($survey_results);?>" data-row="<?php echo $post_id;?>" placeholder="Survey Results" /></label></span>
+                            
+                            <span class="work-rating-comment"> <?php echo esc_html($survey_results_comment);?></span>
+                            <span class="work-rating-comment-field" >
+                            <label> 
+                            <input type="text" id="team_member_survey_results_comment_<?php echo $post_id;?>"  name="team_member_survey_results_comment_<?php  echo $post_id;?>" value="<?php echo esc_html($survey_results_comment);?>" placeholder="Comments" /></label></span>
+                        </div>
                         <?php } ?>
 
-                         <!-- QA -->
+                         
                          <?php  if($designation == "qa" || $designation == "qa-automation"){?>
+                            <!-- QA -->
                         <div class="rating-fields">
                             <span class="work-rating-value defects_reported"><?php echo esc_html($defects_reported);?></span>
                             <span class="work-rating-value-field"> 
@@ -332,8 +335,9 @@ function team_members_evaluate_page() {
                         </div>
                         <?php } ?>
 
-                        <!-- Product -->
+                        
                         <?php  if($designation == "product-management"){?>
+                            <!-- Product -->
                         <div class="rating-fields">
                             <span class="work-rating-value requirements_initiation"><?php echo esc_html($requirements_initiation);?></span>
                             <span class="work-rating-value-field"> 
@@ -408,8 +412,9 @@ function team_members_evaluate_page() {
                         </div>
                         <?php } ?>
 
-                           <!-- Design -->
+                           
                         <?php  if($designation == "design"){?>
+                            <!-- Design -->
                         <div class="rating-fields">
                             <span class="work-rating-value design_iterations"><?php echo esc_html($design_iterations);?></span>
                             <span class="work-rating-value-field"> 
@@ -460,8 +465,9 @@ function team_members_evaluate_page() {
 
                         <?php } ?>
 
-                        <!-- Implementation -->
+                        
                         <?php  if($designation == "implementation"){?>
+                            <!-- Implementation -->
                             <div class="rating-fields">
                                 <span class="work-rating-value manuals_content"><?php echo esc_html($manuals_content);?></span>
                                 <span class="work-rating-value-field"> 
@@ -508,9 +514,10 @@ function team_members_evaluate_page() {
                             </div>
                         <?php }?> 
 
-                        <!-- Unit head, project manager, sap, IT manager, IT exec, Content writers -->
+                        
                         <?php $allowed_designations = array("unit-head", "project-management", "sap", "it-manager", "it-executive", "content-writers");
                           if (in_array($designation, $allowed_designations)) {?>
+                          <!-- Unit head, project manager, sap, IT manager, IT exec, Content writers -->
                             <div class="rating-fields">
                             <span class="work-rating-value quality_of_work"><?php echo esc_html($quality_of_work);?></span>
                             <span class="work-rating-value-field"> 
@@ -524,7 +531,6 @@ function team_members_evaluate_page() {
                         </div>
                         <?php }?> 
                     </td>
-
                     <td>
           
                             <span class="quality-score" data-row="<?php echo $post_id;?>"><?php echo ($evaluation_overall != null) ? esc_html($evaluation_overall) . "%" : null;?> </span>
