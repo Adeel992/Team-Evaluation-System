@@ -284,7 +284,7 @@ error_reporting( E_ALL );
                                     } else {
                                 
                                         $quantity_value = ($work_hours != 0) ? $jira_log_hours / $work_hours * 100 : 0;
-                                        $values = $personality_overall * 100;
+                                        $values = $personality_overall;
                                         $overall_value =  ($quantity_value*25/100)+($quality_value*25/100)+($personality_overall*50/100);
                                       
 

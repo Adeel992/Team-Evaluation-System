@@ -484,8 +484,27 @@ function updatePersonalityScore(rowId) {
     var innovationValue = parseInt(jQuery('#team_member_innovation_' + rowId).val());
     var driveValue = parseInt(jQuery('#team_member_drive_' + rowId).val());
 
-    var total = integrityValue + respectValue + reliabilityValue + innovationValue + driveValue;
-    var personalityScore = (total / 50);
+    var variables = [integrityValue, respectValue, reliabilityValue, innovationValue,driveValue];
+
+        var nonEmptyNumericVariables = variables.map(function(value) {
+            var numericValue = parseFloat(value);
+            return isNaN(numericValue) ? 0 : numericValue;
+        }).filter(function(value) {
+            return value !== 0;
+        });
+        
+        var sumOfNonEmptyVariables = nonEmptyNumericVariables.reduce(function(sum, value) {
+            return sum + value;
+        }, 0);
+        
+        var numberOfNonEmptyVariables = nonEmptyNumericVariables.length;
+        
+        var sum_value = numberOfNonEmptyVariables * 10;
+        
+        var personalityScore = sum_value === 0 ? 0 : (sumOfNonEmptyVariables / sum_value) * 100;
+   
+
+    personalityScore = Math.min(personalityScore, 100);
 
 
     jQuery('.personality-score[data-row="' + rowId + '"]').text(personalityScore);

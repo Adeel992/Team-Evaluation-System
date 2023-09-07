@@ -867,7 +867,8 @@ function team_members_personality_evaluate_page() {
 
             <td>
           
-                <span class="personality-score" data-row="<?php echo $post_id;?>"><?php echo esc_html($personality_overall);?></span>
+                
+                <span class="personality-score" data-row="<?php echo $post_id;?>"><?php echo ($personality_overall != null) ? esc_html($personality_overall) . "%" : null;?> </span>
                 <input type="hidden" id="team_member_personality_overall_<?php echo $post_id;?>" class="personality_overall-field personality-score" name="team_member_personality_overall_<?php  echo $post_id;?>" value="<?php echo esc_html($personality_overall);?>" data-row="<?php echo $post_id;?>"/>
                
             </td>
