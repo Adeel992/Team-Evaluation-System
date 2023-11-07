@@ -452,9 +452,19 @@ if(is_admin() || !is_admin()){
             'edit_posts',
           //  'manage_options', // Capability required
             'team_member_hierarchy_chart', // Menu slug
-            'user_hierarchy_chart_shortcode' // Callback function to render the page
+            'new_org_chart' // Callback function to render the page
         );
 
+
+        add_submenu_page(
+            'edit.php?post_type=team_member', // Parent slug (edit.php?post_type=team_member)
+            'Team Attendence', // Page title
+            'Team Attendence', // Menu title
+            'edit_posts',
+          //  'manage_options', // Capability required
+            'team_member_attendence', // Menu slug
+            'fetch_attendence' // Callback function to render the page
+        );
         
     }
     add_action( 'admin_menu', 'team_members_admin_menu' );

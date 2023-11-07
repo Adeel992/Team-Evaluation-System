@@ -42,6 +42,20 @@ jQuery(document).ready(function () {
         "paging": false,
     });
 
+    jQuery('#weekly_hours').DataTable({
+     
+        order: [1, 'desc'],
+        
+    });
+
+    jQuery('#attendence_table_list').DataTable({
+        order: [0, 'asc'], 
+        info: false,
+        "lengthChange": false,
+        "pageLength": 5
+     });
+
+
     var lb_currentDate = moment();
     var lb_currentWeek = lb_currentDate.isoWeek();
     var lb_currentMonth = lb_currentDate.month() + 1;
@@ -740,13 +754,30 @@ jQuery('body').on('click', '.jira_logs', function(e) {
     });
   
 });
+function formatDate(date) {
+    var year = date.getFullYear();
+    var month = (date.getMonth() + 1).toString().padStart(2, '0');
+    var day = date.getDate().toString().padStart(2, '0');
+
+    return year + '-' + month + '-' + day;
+}
 
 jQuery('#public_holidays').datepicker({
     dateFormat: 'yy-mm-dd',
     changeMonth: true,
     changeYear: true,
-    multidate: true ,
-    autoclose: false
+    multidate: true,
+    autoclose: false,
+    beforeShowDay: function(date) {
+        var formattedDate = formatDate(date);
+
+        if (jQuery.inArray(formattedDate, dateHolidaysCSV) !== -1) {
+            return [false, 'disabled-date'];
+        }
+
+        return [true, ''];
+    }
+
 });
 jQuery('#clear_dates').on('click', function() {
     jQuery('#public_holidays').datepicker('setDate', null);
@@ -785,3 +816,84 @@ jQuery('body').on('click', '.delete-holiday', function(e) {
         },
     });
 });
+
+
+jQuery('body').on('click', '#fetch_sap_id', function(event) {
+    event.preventDefault();
+
+    var hrefValue = jQuery(this).attr('href');
+    var userEmail = jQuery(this).attr('user-email');
+    var user_name = jQuery(this).closest("tr").find("td:nth-child(2)").text();
+    var ajax_url = window.location.origin + '/' + window.location.pathname.split ('/') [1]+'/wp-admin/admin-ajax.php';
+    jQuery('.loading-spinner').show();
+     jQuery('#attendence_report').empty();
+    jQuery.ajax({
+        url: ajax_url, 
+        type: 'POST',
+        data: {
+            action: 'generate_attendence' ,
+            sap_id: hrefValue,
+            user_name: user_name,
+            user_email: userEmail
+        },
+        success: function(response) {
+            jQuery('.loading-spinner').hide();
+            jQuery('#attendence_report').html(response);
+            jQuery('#attendence_table').DataTable({
+                order: [0, 'desc'],  
+                info: false,
+            "lengthChange": false,
+        });
+            jQuery('html,body').animate({
+                scrollTop: jQuery("#attendence_report").offset().top},
+                'slow');
+                
+        },
+        error: function(xhr, status, error) {
+            console.error(error);
+            jQuery('.loading-spinner').hide();
+        },
+    });
+});
+
+jQuery('body').on('click', '#export-csv-button', function(event) {
+    
+    const fileName = jQuery('.user_att').text();
+   
+    const csv = [];
+   
+    const table = jQuery('#attendence_table').DataTable();
+    console.log(table);
+
+  
+    const headerRow = table.table().header().querySelectorAll('th');
+    const headerData = Array.from(headerRow).map(col => col.innerText);
+    csv.push(headerData.join(',')); 
+
+
+    for (let page = 0; page < table.page.info().pages; page++) {
+      
+        table.page(page).draw('page');
+
+  
+        const rows = table.rows({ page: 'current' }).nodes();
+
+
+        jQuery(rows).each(function() {
+            const cols = jQuery(this).find('td');
+            const rowData = Array.from(cols)
+                .map(col => col.innerText)
+                .join(',');
+            csv.push(rowData);
+        });
+    }
+
+  
+    const csvData = csv.join('\n');
+
+ 
+    const blob = new Blob([csvData], { type: 'text/csv;charset=utf-8' });
+  
+    saveAs(blob, `${fileName}.csv`);
+});
+

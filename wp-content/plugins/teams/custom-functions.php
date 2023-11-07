@@ -12,7 +12,6 @@ function team_members_enqueue_scripts() {
     wp_enqueue_script( 'datatables', 'https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js', array( 'jquery' ), '1.13.5', true );
     wp_enqueue_style( 'datatables', 'https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css', array(), '1.13.5' );
 
-
     wp_enqueue_style( 'font-awesome', plugin_dir_url( __FILE__ ) . 'assets/font-awesome/css/font-awesome.min.css', array(), '5.15.4' );
 
     wp_enqueue_style( 'datepicker', 'https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.10.0/css/bootstrap-datepicker.min.css' );
@@ -27,9 +26,9 @@ function team_members_enqueue_scripts() {
     
     wp_enqueue_script( 'custom', plugin_dir_url( __FILE__ ) . 'js/custom.js', array( 'jquery' ), '1.0.0', true );
     wp_enqueue_style( 'style', plugin_dir_url( __FILE__ ) . 'css/style.css' , '1.0.0');
-   
-    
 
+    wp_enqueue_script('filesaver' , 'https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js', array() );
+    
 
 }
 add_action( 'admin_enqueue_scripts', 'team_members_enqueue_scripts' );
@@ -385,14 +384,6 @@ function fetch_webhr_api_leaves_data() {
 add_action( 'update_jiralogs_cron_hook', 'update_new_jira' );
 
 function update_new_jira() {
-
-    // $current_date = date('j-m-Y');
-
-    // $file_name = 'jira_logs_csv_' . $current_date . '.csv';
-    
-    // $directory_path =  ABSPATH.'jira_logs/';
-
-    // $csv_file_path = $directory_path . $file_name;
     
     $directory_path = ABSPATH . 'jira_logs/';
     $files = scandir($directory_path);
@@ -739,22 +730,24 @@ WHERE
  
     
     ?>
-    <h2>Organogram</h2>
-    <div id="chart_div"></div>
-    <style>
-          #chart_div{
-            width: 100%; 
-            height: 100vh; 
-            margin: auto;
-            overflow:auto;
-          }
-        </style>
-    <script>
-    var chartData = <?php echo $chart_data_json; ?>;
-    google.charts.load('current', { 'packages': ['orgchart'] });
-    google.charts.setOnLoadCallback(drawChart);
+<h2>Organogram</h2>
+<div id="chart_div"></div>
+<style>
+#chart_div {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    overflow: auto;
+}
+</style>
+<script>
+var chartData = <?php echo $chart_data_json; ?>;
+google.charts.load('current', {
+    'packages': ['orgchart']
+});
+google.charts.setOnLoadCallback(drawChart);
 
-    function drawChart() {
+function drawChart() {
     const data = new google.visualization.DataTable();
     data.addColumn('string', 'Name');
     data.addColumn('string', 'Manager');
@@ -762,10 +755,11 @@ WHERE
     data.addRows(chartData);
 
     const chart = new google.visualization.OrgChart(document.getElementById('chart_div'));
-    chart.draw(data, { allowHtml: true });
-    }
-    
-    </script>
+    chart.draw(data, {
+        allowHtml: true
+    });
+}
+</script>
 <?php
 }
 
@@ -776,7 +770,7 @@ function delete_holiday_callback() {
         $table_name = $wpdb->prefix . 'team_members';
         $wpdb->query(
             $wpdb->prepare(
-                "UPDATE $table_name SET public_holidays = null WHERE week_number = %s",
+                "UPDATE $table_name SET public_holidays = null, date_holidays = null WHERE week_number = %s",
                 $holiday_id
             )
         );
@@ -789,3 +783,477 @@ function delete_holiday_callback() {
 
 add_action('wp_ajax_delete_holiday_callback', 'delete_holiday_callback');
 add_action('wp_ajax_nopriv_delete_holiday_callback', 'delete_holiday_callback');
+
+
+
+function update_sap_id() {
+    
+
+    $directory_path = ABSPATH . 'jira_logs/';
+
+    $files = 'development_sap_id.csv';
+    $csv_file_path = $directory_path . $files;
+
+    $csv_data = array_map('str_getcsv', file($csv_file_path));   
+
+    $headers = array_shift($csv_data);
+    $sap_id_index = array_search('SAP', $headers);
+    $web_hr_index = array_search('WebHR', $headers);
+
+
+    $sapData = [];
+    $webHRData = [];
+
+    foreach ($csv_data as $row) {
+      
+        $sap = $row[$sap_id_index];
+        $webHR = $row[$web_hr_index];
+
+     
+        $combinedData[] = [
+            'SAP' => $sap,
+            'WebHR' => $webHR,
+        ];
+    }
+
+//  echo '<pre>';
+//  print_r($combinedData);
+//  exit;
+    global $wpdb;
+    $table_name = $wpdb->prefix . 'team_members'; 
+
+    
+    foreach ($combinedData as $data) {
+        $sapID = $data['SAP'];
+        $webHRID = $data['WebHR'];
+
+       
+        $wpdb->update(
+            $table_name,
+            array('user_SAP_id' => $sapID),
+            array('user_webhrID' => $webHRID),
+            array('%s'),
+            array('%s')
+        );
+    }
+
+}
+
+
+
+
+function new_org_chart(){
+    $chart_data = array();
+
+    $query = new WP_Query( array(
+        'post_type'      => 'team_member',
+        'posts_per_page' => -1,
+    ) );
+    
+    while ( $query->have_posts() ) : $query->the_post();
+    
+        
+        $user_status = get_post_meta( get_the_ID(), '_team_member_status', true );
+    
+        
+       if( $user_status == 'Active'){
+            $name = get_post_meta( get_the_ID(), '_team_member_name', true );
+                $email = get_post_meta( get_the_ID(), '_team_member_email', true );
+                $report_to = get_post_meta( get_the_ID(), '_team_member_report_to', true );
+                $designation = get_post_meta( get_the_ID(), '_team_member_designation', true );
+                
+       }
+       
+
+        if ( $report_to == 'adeel.ahmed@graana.com') {
+            $report_to = 'None';
+        }
+
+        if ( $designation == 'None') {
+            $designation = '';
+        }
+    
+    
+        $node = array(
+            'id'    => $email,  
+            'pid'   => $report_to,
+            'name'  => $name,
+            'title' => $designation,
+            'email' => $email,
+        );
+        
+    
+        $chart_data[] = $node;
+    
+    endwhile;
+    
+
+    $chart_data_json = json_encode($chart_data);
+
+
+    ?>
+<script src="https://balkan.app/js/OrgChart.js"></script>
+<div id="tree"></div>
+<script>
+
+window.onload = function () {
+    var chart = new OrgChart(document.getElementById("tree"), { 
+        template: 'isla',
+        layout: OrgChart.mixed,
+        enableSearch: false,
+        nodeBinding: {
+    
+            field_0: "name",
+            field_1: "title"
+            
+        },
+        nodes: <?php echo $chart_data_json;?>
+    });
+  
+}
+
+</script>
+    <?php
+}
+
+function attendence_hours_by_week(){
+    $curl = curl_init();
+    $StartDate = '2023-08-01 00:00:00';
+    $EndDate = date('Y-m-d H:i:s', strtotime('today'));
+    $user_sap_id = $_POST['sap_id'];
+    $params = array(
+     //   "emp_code" => $user_sap_id,
+    //  "terminal_sn" => "CQZ7224560693",
+        "start_time" => $StartDate,
+        "end_time" => $EndDate,
+        "page" => 1,
+       "page_size" => 70000
+    );
+    $params = http_build_query($params);
+    
+     $username = 'imarat';
+     $password = 'Alpha4321';
+   
+    curl_setopt_array($curl, array(
+      CURLOPT_URL => 'http://115.186.173.206:8080/iclock/api/transactions/?'.$params,
+      CURLOPT_RETURNTRANSFER => true,
+      CURLOPT_ENCODING => '',
+      CURLOPT_MAXREDIRS => 10,
+      CURLOPT_TIMEOUT => 0,
+      CURLOPT_FOLLOWLOCATION => true,
+      CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+      CURLOPT_CUSTOMREQUEST => 'GET',
+      CURLOPT_HTTPHEADER => array(),
+      CURLOPT_USERPWD => "$username:$password",
+    ));
+    $response = curl_exec($curl);
+
+    curl_close($curl);
+
+    $dataArray = json_decode($response, true);
+    $punchTimesByEmpCode = [];
+
+    foreach ($dataArray['data'] as $item) {
+        $empCode = $item['emp_code'];
+        $punchTime = $item['punch_time'];
+        $area = $item['area_alias'];
+        
+    
+        if (!isset($punchTimesByEmpCode[$empCode])) {
+            $punchTimesByEmpCode[$empCode] = ['punch_times' => []];
+        }
+        $hour = intval(date('H', strtotime($punchTime)));
+        $date = date('Y-m-d', strtotime($punchTime));
+       
+        $weekNumber = date('W', strtotime($punchTime));
+
+        $timeOfDay = ($hour < 12) ? 'morning' : 'evening';
+
+    if (!isset($punchTimesByEmpCode[$empCode][$date])) {
+        $punchTimesByEmpCode[$empCode][$date] = [
+            'date' => $date,
+            'punch_times' => [],
+            'total_hours' => 0, 
+        ];
+    }
+
+    $punchTimesByEmpCode[$empCode][$date]['punch_times'][] = [
+        'time' => $punchTime,
+        'title' => $timeOfDay,
+        'area' => $area,
+    ];
+   
+        $punchTimes = $punchTimesByEmpCode[$empCode][$date]['punch_times'];
+        $morningPunchTime = strtotime($punchTimes[0]['time']);
+        $eveningPunchTime = strtotime(end($punchTimes)['time']);
+
+        $morningTimeFormatted = date("H:i:s", $morningPunchTime);
+        $eveningTimeFormatted = date("H:i:s", $eveningPunchTime);
+
+        $timeDifference = $eveningPunchTime - $morningPunchTime;
+        $totalHours = round($timeDifference / 3600, 2);
+        $punchTimesByEmpCode[$empCode][$date]['total_hours'] = $totalHours;
+
+                if (!isset($punchTimesByEmpCode[$empCode]['weekly_total_hours'][$weekNumber])) {
+                    $punchTimesByEmpCode[$empCode]['weekly_total_hours'][$weekNumber] = [
+                        'SAP_Id' =>  $empCode,
+                        'week' => $weekNumber,
+                        'total_hours_by_week' => 0,
+                        'area' => $area,
+                    ];
+                }
+
+                $punchTimesByEmpCode[$empCode]['weekly_total_hours'][$weekNumber]['total_hours_by_week'] += $totalHours;
+     }
+
+          
+            $weeklyData = [];
+            foreach ($punchTimesByEmpCode as $empCode => $employeeData) {
+                if (isset($employeeData['weekly_total_hours'])) {
+                    foreach ($employeeData['weekly_total_hours'] as $weekNumber => $weekData) {
+                        $weeklyData[] = $weekData;
+                    }
+                }
+            }
+            ?>
+ 
+        </div>
+    <?php
+    global $wpdb;
+    $table_name = $wpdb->prefix . 'team_members'; 
+
+    
+    foreach ($weeklyData as $data) {
+        $sapID = $data['SAP_Id'];
+        $week_number = $data['week'];
+        $total_hours_by_week = $data['total_hours_by_week'];
+
+        $wpdb->query(
+            $wpdb->prepare(
+                "UPDATE $table_name SET attendence_hours_by_week = %s WHERE user_SAP_Id = %s AND week_number = %s",
+                $total_hours_by_week,
+                $sapID,
+                $week_number
+            )
+        );
+    }
+
+}
+
+function generate_attendence($user_sap_id){
+    $curl = curl_init();
+    $StartDate = '2023-08-01 00:00:00';
+    $EndDate = date('Y-m-d H:i:s', strtotime('today'));
+    $user_sap_id = $_POST['sap_id'];
+    $user_name = $_POST['user_name'];
+    $user_email= $_POST['user_email'];
+    $params = array(
+        "emp_code" => $user_sap_id,
+    //  "terminal_sn" => "CQZ7224560693",
+        "start_time" => $StartDate,
+        "end_time" => $EndDate,
+        "page" => 1,
+       "page_size" => 70000
+    );
+    $params = http_build_query($params);
+    
+     $username = 'imarat';
+     $password = 'Alpha4321';
+   
+    curl_setopt_array($curl, array(
+      CURLOPT_URL => 'http://115.186.173.206:8080/iclock/api/transactions/?'.$params,
+      CURLOPT_RETURNTRANSFER => true,
+      CURLOPT_ENCODING => '',
+      CURLOPT_MAXREDIRS => 10,
+      CURLOPT_TIMEOUT => 0,
+      CURLOPT_FOLLOWLOCATION => true,
+      CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+      CURLOPT_CUSTOMREQUEST => 'GET',
+      CURLOPT_HTTPHEADER => array(),
+      CURLOPT_USERPWD => "$username:$password",
+    ));
+    $response = curl_exec($curl);
+
+    curl_close($curl);
+
+    $dataArray = json_decode($response, true);
+ 
+
+    $punchTimesByEmpCode = [];
+    ?>
+  
+    <div class="wrap">
+        <div class="d-flex justify-content-between">
+    <h2>Attendence record of <span class="user_att"><?php echo $user_name;?></span> (SAP ID: <?php echo $user_sap_id;?>)</h2>
+    <button id="export-csv-button" class="btn btn-info mb-2">Export to CSV</button>
+</div>
+  <table id="attendence_table" class="wp-list-table widefat fixed striped">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Week</th>
+                    <th>Punch Time In</th>
+                    <th>Punch Time Out</th>
+                    <th>Total Time </th>
+                    <th>Terminal</th>
+                  
+                </tr>
+            </thead>
+            <tbody>
+
+    <?php
+
+    foreach ($dataArray['data'] as $item) {
+        $empCode = $item['emp_code'];
+        $punchTime = $item['punch_time'];
+        $area = $item['area_alias'];
+        
+    
+        if (!isset($punchTimesByEmpCode[$empCode])) {
+            $punchTimesByEmpCode[$empCode] = ['punch_times' => []];
+        }
+        $hour = intval(date('H', strtotime($punchTime)));
+        $date = date('Y-m-d', strtotime($punchTime));
+       
+        $weekNumber = date('W', strtotime($punchTime));
+
+        $timeOfDay = ($hour < 12) ? 'morning' : 'evening';
+
+    if (!isset($punchTimesByEmpCode[$empCode][$date])) {
+        $punchTimesByEmpCode[$empCode][$date] = [
+            'date' => $date,
+            'punch_times' => [],
+            'total_hours' => 0, 
+        ];
+    }
+
+    $punchTimesByEmpCode[$empCode][$date]['punch_times'][] = [
+        'time' => $punchTime,
+        'title' => $timeOfDay,
+        'area' => $area,
+    ];
+   
+        $punchTimes = $punchTimesByEmpCode[$empCode][$date]['punch_times'];
+        $morningPunchTime = strtotime($punchTimes[0]['time']);
+        $eveningPunchTime = strtotime(end($punchTimes)['time']);
+
+        $morningTimeFormatted = date("H:i:s", $morningPunchTime);
+        $eveningTimeFormatted = date("H:i:s", $eveningPunchTime);
+
+        $timeDifference = $eveningPunchTime - $morningPunchTime;
+        $totalHours = round($timeDifference / 3600, 2);
+        $punchTimesByEmpCode[$empCode][$date]['total_hours'] = $totalHours;
+
+        if ($morningTimeFormatted > "09:50:00") {
+            $late= "late-punch";
+        }
+        else{
+            $late= "";
+        }
+       
+        if ($timeOfDay == 'evening') {
+            echo "<tr>";
+            echo "<td>" . $date. "</td>";
+            echo "<td>" . $weekNumber . "</td>";
+            echo "<td class=".$late.">" . $morningTimeFormatted."</td>";
+            echo "<td>" . $eveningTimeFormatted ."</td>";
+            echo "<td>" . $totalHours . "</td>";
+            echo "<td>" . $area . "</td>";
+            echo "</tr>";
+        }
+         
+     }
+     ?>
+            </tbody>
+        </table>
+        
+     <?php
+ 
+    wp_die();
+}
+add_action('wp_ajax_generate_attendence', 'generate_attendence');
+add_action('wp_ajax_nopriv_generate_attendence', 'generate_attendence');
+
+
+function fetch_attendence(){
+   
+    ?>
+    <div class="wrap">
+    <h1>Team Members Attendence </h1>
+    <p>Generate the attendence by clicking on get report.</p>
+       
+      
+        <table id="attendence_table_list" class="wp-list-table widefat fixed striped">
+            <thead>
+                <tr>
+                    <th>No. </th>
+                    <th>Name</th>
+                    <th>WebHR Id</th>
+                    <th>SAP Id</th>
+                    <th></th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+            <?php 
+            global $wpdb;
+
+            $current_user = wp_get_current_user();
+
+            $current_user_email = $current_user->user_email;
+        
+            $is_administrator = in_array('administrator', $current_user->roles);
+
+            $table_name = $wpdb->prefix . 'team_members';
+
+            if ($is_administrator) {
+            $query = $wpdb->prepare( "SELECT * FROM $table_name GROUP BY user_name");
+            }
+            else{
+            $query = $wpdb->prepare( "SELECT * FROM $table_name WHERE user_report_to = %s GROUP BY user_name", 
+            $current_user_email); 
+            }
+            $results = $wpdb->get_results( $query );
+          
+            if ( ! empty( $results ) ) {
+                $counter = 0;
+                foreach ( $results as $result ) {
+                    $counter++;
+                    $name = $result->user_name;
+                    $webhr_id = $result->user_webhrID;
+                    $sap_id = $result->user_SAP_Id;
+                    $user_email = $result->user_email;
+                   if($sap_id){
+                
+                    ?>
+
+                    <tr>
+                    <td><?php echo $counter;?></td>
+                        <td><?php echo $name;?></td>
+                        <td><?php echo esc_html($webhr_id);?></td>
+                        <td><?php echo esc_html( $sap_id ); ?></a></td>
+                        <td><a id="fetch_sap_id" href="<?php echo esc_html( $sap_id ); ?>" user-email="<?php echo esc_html($user_email );?>"><button class="btn btn-success">Get Report</button></a></td>
+                    </tr>
+                <?php 
+                }
+                } 
+                
+                }
+                
+
+           ?>
+            </tbody>
+        </table>
+      
+    </div>
+    <div class="table-container">
+        <div  class="loading-spinner text-center">
+        <img src="http://localhost/teams/wp-content/uploads/2023/10/loading-7528_256.gif"/>
+        </div>  
+        <div id="attendence_report" class="mt-5 att-text">
+       
+        </div>
+    </div>
+    <?php
+    
+}

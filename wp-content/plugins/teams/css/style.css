@@ -1,9 +1,10 @@
 a {
     color: #2271b1;
-    transition-property: border,background,color;
+    /*transition-property: border,background,color;*/
     transition-duration: .05s;
     transition-timing-function: ease-in-out;
-}
+} 
+
 .dataTables_wrapper .dataTables_length select{
     padding:0 15px !important;
 }
@@ -50,11 +51,11 @@ table.dataTable tbody th, table.dataTable tbody td {
     margin: 0 0 10px 0;
 }
 
-.dataTables_wrapper .dataTables_paginate {
+ .dataTables_wrapper .dataTables_paginate {
     float: none; 
     text-align: center;
-        display: none;
-}
+     /*   display: none;*/
+} 
 
 .dataTables_wrapper .dataTables_info {
     float: right;
@@ -109,7 +110,7 @@ table.dataTable tbody th, table.dataTable tbody td {
     display: none;
 }
 
-div#team-members-leaderboard_filter label:nth-child(1), div#team-members-evaluate-table_filter, div#team-members-personality-evaluate-table_filter , div#team-members-personality-leaderboard_filter{
+div#team-members-leaderboard_filter label:nth-child(1), div#team-members-evaluate-table_filter, div#team-members-personality-evaluate-table_filter , div#team-members-personality-leaderboard_filter, div#attendence_table_filter{
     display: none;
 }
 
@@ -294,7 +295,7 @@ a.nav-link {
     vertical-align: middle;
 }
 
-.holidays-table td:nth-child(3) {
+.holidays-table td:nth-child(4) {
     text-align: right;
 }
 span.work-rating-value {
@@ -305,3 +306,30 @@ span.work-rating-value {
 td.user-designation {
     text-transform: uppercase;
 }
+
+td.late-punch {
+   
+    color: red;
+ 
+}
+
+#fetch_sap_id button {
+    font-size: 12px;
+}
+ .loading-spinner{
+    display: none; 
+ }
+
+ .loading-spinner img{
+    width: 5%;
+    margin-top: 5%;
+ }
+
+ /* .table-container{
+    position: relative;
+ }
+ .att-text{
+    color: #c7c7c7;
+    text-align: center;
+    z-index: -1;
+ } */

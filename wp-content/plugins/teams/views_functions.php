@@ -1016,20 +1016,23 @@ function team_members_public_holiday(){
 
     if (isset($_POST['add_public_holidays'])) {
         $public_holidays = isset($_POST['public_holidays']) ? explode(',', $_POST['public_holidays'][0]) : array();
-
+        $holiday_days = implode(',', $public_holidays);
+       
         foreach ($public_holidays as $holiday) {
             $current_date = strtotime($holiday);
             $holiday_week = date('W', $current_date);
 
 
             $num_holidays = count($public_holidays);
+          
             $holiday_value = $num_holidays * 8;
-
+          
             $table_name = $wpdb->prefix . 'team_members';
             $wpdb->query(
                 $wpdb->prepare(
-                    "UPDATE $table_name SET public_holidays = %s WHERE week_number = %s",
+                    "UPDATE $table_name SET public_holidays = %s, date_holidays = %s WHERE week_number = %s",
                     $holiday_value,
+                    $holiday_days,
                     $holiday_week
                 )
             );
@@ -1058,18 +1061,21 @@ function team_members_public_holiday(){
                 <tr>
                     <th>Week Number</th>
                     <th>Public Holidays (8 hrs per holiday)</th>
-                    <th></th>
+                    <th>Days</th>
+                    <th>Options</th>
                 </tr>
             </thead>
             <tbody>
                 <?php
                 $table_name = $wpdb->prefix . 'team_members';
-                $results = $wpdb->get_results("SELECT week_number, public_holidays FROM $table_name GROUP BY week_number");
+                $results = $wpdb->get_results("SELECT week_number, public_holidays, date_holidays FROM $table_name GROUP BY week_number");
+                $date_holidays_array = array();
                 foreach ($results as $row) {
                  if($row->week_number ){
                     echo '<tr>';
                     echo '<td>' . $row->week_number . '</td>';
                     echo '<td>' . $row->public_holidays . '</td>';
+                    echo '<td>' . $row->date_holidays . '</td>';
                     $delete_icon = '';
                     if ($row->public_holidays !== null) {
                         $delete_icon = '<span class="dashicons dashicons-trash delete-holiday" data-holiday-id="' . $row->week_number . '"></span>';
@@ -1077,10 +1083,21 @@ function team_members_public_holiday(){
                     
                     echo '<td>' . $delete_icon . '</td>';
                     echo '</tr>';
+                    
+                    $date_holiday = $row->date_holidays;
+                    if (!is_null($date_holiday) && $date_holiday !== "") {
+                        $date_holidays_array[] = $date_holiday;
+                    }
                  }
                     
                 }
+                $date_holidays_csv = implode(',', $date_holidays_array);
+         
                 ?>
+                    <script>
+                       var dateHolidaysCSV = <?php echo json_encode($date_holidays_csv); ?>;
+                        console.log(dateHolidaysCSV);
+                    </script>
             </tbody>
         </table>
     </div>

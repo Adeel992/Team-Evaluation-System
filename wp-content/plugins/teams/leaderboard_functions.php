@@ -61,6 +61,7 @@ error_reporting( E_ALL );
                                 <th>Quantity</th>
                                 <th>Quality</th>
                                 <th>Overall</th>
+                             
                             </tr>
                         </thead>
                         <tbody>
@@ -100,6 +101,8 @@ error_reporting( E_ALL );
                                     $jira_log_hours = $result->jira_work_logs;
                                     $public_holidays = $result->public_holidays;
                                     $evaluation_overall = $result->evaluation_overall;
+                                    $sap_id = $result->user_SAP_Id;
+                                  
                                 
                                     if($name && $user_webhr != 1851 && $user_webhr != 3636 && $user_webhr != 3153 && $user_webhr != 1005){
 
@@ -135,7 +138,7 @@ error_reporting( E_ALL );
                                 
                                     
                     
-                                    $quantity_box_color = '';
+                                                $quantity_box_color = '';
                                                 $quality_box_color = '';
                                                 $overall_box_color = '';
                     
@@ -168,8 +171,9 @@ error_reporting( E_ALL );
                                                 } else {
                                                     $overall_box_color = "grey";
                                                 }
-                                
+                             
                                                 ?>
+                                                
                                                 <tr>
                                                     <td><?php echo $counter; ?></td>
                                                     <td><?php echo esc_html($name); ?></td>
@@ -178,7 +182,6 @@ error_reporting( E_ALL );
                                                     <td><span class="<?php echo $quantity_box_color; ?>"><?php echo ($quantity_value != "NA") ? esc_html($quantity_value) . "%" : "NA"; ?></span></td>
                                                     <td><span class="<?php echo $quality_box_color; ?>"  data-toggle="tooltip" data-placement="top" title="<?php echo esc_html($work_rating_comment); ?>"><?php echo ($quality_value != "NA") ? esc_html($quality_value) . "%" : "NA"; ?></span></td>
                                                     <td><span class="<?php echo $overall_box_color; ?>"><?php echo ($overall_value != "NA") ? esc_html($overall_value) . "%" : "NA"; ?></span></td> 
-                                                    
                                                 </tr>
                     
                                 <?php 
